@@ -1,371 +1,381 @@
-import { Product, Brand, StyleInspiration } from '@/types';
+import { Product, Brand } from '@/types';
 
-export const LUXURY_BRANDS: Brand[] = [
-  {
-    id: 'the-row',
-    name: 'The Row',
-    aesthetic: 'minimalist',
-    priceRange: 'luxury',
-    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=400&fit=crop',
-    description: 'Quiet luxury, impeccable tailoring. Investment pieces that last decades.',
-    website: 'https://therow.com'
-  },
-  {
-    id: 'toteme',
-    name: 'Totême',
-    aesthetic: 'minimalist',
-    priceRange: 'luxury',
-    image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=400&fit=crop',
-    description: 'Scandinavian minimalism with architectural silhouettes.',
-    website: 'https://toteme-studio.com'
-  },
-  {
-    id: 'cos',
-    name: 'COS',
-    aesthetic: 'minimalist',
-    priceRange: 'mid',
-    image: 'https://images.unsplash.com/photo-1578932750294-f5075e85f44a?w=400&h=400&fit=crop',
-    description: 'Modern, functional design with thoughtful details.',
-    website: 'https://cos.com'
-  },
-  {
-    id: 'acne-studios',
-    name: 'Acne Studios',
-    aesthetic: 'contemporary',
-    priceRange: 'luxury',
-    image: 'https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=400&h=400&fit=crop',
-    description: 'Swedish contemporary with playful proportions.',
-    website: 'https://acnestudios.com'
-  },
-  {
-    id: 'jil-sander',
-    name: 'Jil Sander',
-    aesthetic: 'minimalist',
-    priceRange: 'luxury',
-    image: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=400&h=400&fit=crop',
-    description: 'Purist luxury. The original minimalist.',
-    website: 'https://jilsander.com'
-  },
-  {
-    id: 'maison-margiela',
-    name: 'Maison Margiela',
-    aesthetic: 'avant-garde',
-    priceRange: 'luxury',
-    image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&h=400&fit=crop',
-    description: 'Deconstructed elegance and artisanal craft.',
-    website: 'https://maisonmargiela.com'
-  },
-  {
-    id: 'everlane',
-    name: 'Everlane',
-    aesthetic: 'minimalist',
-    priceRange: 'mid',
-    image: 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=400&fit=crop',
-    description: 'Transparent pricing, essential wardrobe building blocks.',
-    website: 'https://everlane.com'
-  },
-  {
-    id: 'ssense',
-    name: 'SSENSE Private Label',
-    aesthetic: 'streetwear-luxury',
-    priceRange: 'mid',
-    image: 'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=400&h=400&fit=crop',
-    description: 'Contemporary streetwear meets luxury sensibility.',
-    website: 'https://ssense.com'
-  },
-  {
-    id: 'auralee',
-    name: 'Auralee',
-    aesthetic: 'minimalist',
-    priceRange: 'luxury',
-    image: 'https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=400&h=400&fit=crop',
-    description: 'Japanese craftsmanship with luxurious materials.',
-    website: 'https://auralee.jp'
-  },
-  {
-    id: 'lemaire',
-    name: 'Lemaire',
-    aesthetic: 'romantic-minimalist',
-    priceRange: 'luxury',
-    image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=400&fit=crop',
-    description: 'Fluid silhouettes with Parisian nonchalance.',
-    website: 'https://lemaire.fr'
-  },
-  {
-    id: 'studio-nicholson',
-    name: 'Studio Nicholson',
-    aesthetic: 'minimalist',
-    priceRange: 'luxury',
-    image: 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop',
-    description: 'British tailoring precision with Japanese fabric sensibility.',
-    website: 'https://studionicholson.com'
-  },
-  {
-    id: 'our-legacy',
-    name: 'Our Legacy',
-    aesthetic: 'contemporary',
-    priceRange: 'mid',
-    image: 'https://images.unsplash.com/photo-1515347619252-60a6bf4fffce?w=400&h=400&fit=crop',
-    description: 'Swedish contemporary with subtle experimentation.',
-    website: 'https://ourlegacy.com'
-  }
+// Popular brands across ALL price ranges
+export const POPULAR_BRANDS: Brand[] = [
+  // Budget ($-$$)
+  { id: 'uniqlo', name: 'Uniqlo', priceRange: '$', aesthetic: 'basics' },
+  { id: 'zara', name: 'Zara', priceRange: '$$', aesthetic: 'trendy' },
+  { id: 'hm', name: 'H&M', priceRange: '$', aesthetic: 'fast-fashion' },
+  { id: 'muji', name: 'Muji', priceRange: '$$', aesthetic: 'minimalist' },
+  { id: 'target', name: 'Target', priceRange: '$', aesthetic: 'casual' },
+  
+  // Mid-Range ($$)
+  { id: 'everlane', name: 'Everlane', priceRange: '$$', aesthetic: 'transparent' },
+  { id: 'cos', name: 'COS', priceRange: '$$', aesthetic: 'minimalist' },
+  { id: 'aritzia', name: 'Aritzia', priceRange: '$$', aesthetic: 'contemporary' },
+  { id: 'reformation', name: 'Reformation', priceRange: '$$$', aesthetic: 'sustainable' },
+  { id: 'madewell', name: 'Madewell', priceRange: '$$', aesthetic: 'casual' },
+  { id: 'jcrew', name: 'J.Crew', priceRange: '$$', aesthetic: 'preppy' },
+  { id: 'banana-republic', name: 'Banana Republic', priceRange: '$$', aesthetic: 'business' },
+  
+  // Premium ($$$)
+  { id: 'nordstrom', name: 'Nordstrom', priceRange: '$$-$$$', aesthetic: 'department' },
+  { id: 'bloomingdales', name: 'Bloomingdale\'s', priceRange: '$$-$$$', aesthetic: 'department' },
+  { id: 'shopbop', name: 'Shopbop', priceRange: '$$-$$$', aesthetic: 'curated' },
+  { id: 'ssense', name: 'SSENSE', priceRange: '$$-$$$$', aesthetic: 'designer' },
+  
+  // Luxury ($$$$)
+  { id: 'net-a-porter', name: 'Net-a-Porter', priceRange: '$$$$', aesthetic: 'luxury' },
+  { id: 'matches', name: 'Matches Fashion', priceRange: '$$$$', aesthetic: 'luxury' },
+  { id: 'farfetch', name: 'Farfetch', priceRange: '$$-$$$$', aesthetic: 'boutique' },
+  { id: 'mr-porter', name: 'Mr Porter', priceRange: '$$$$', aesthetic: 'mens-luxury' },
+  { id: 'mytheresa', name: 'Mytheresa', priceRange: '$$$$', aesthetic: 'luxury' },
+  
+  // Athletic/Street
+  { id: 'nike', name: 'Nike', priceRange: '$$', aesthetic: 'athletic' },
+  { id: 'adidas', name: 'Adidas', priceRange: '$$', aesthetic: 'athletic' },
+  { id: 'lululemon', name: 'Lululemon', priceRange: '$$$', aesthetic: 'athleisure' },
+  { id: 'alo', name: 'Alo Yoga', priceRange: '$$$', aesthetic: 'athleisure' },
+  { id: 'outdoor-voices', name: 'Outdoor Voices', priceRange: '$$', aesthetic: 'active' },
+  
+  // Sustainable/Ethical
+  { id: 'patagonia', name: 'Patagonia', priceRange: '$$$', aesthetic: 'outdoor' },
+  { id: 'eileen-fisher', name: 'Eileen Fisher', priceRange: '$$$', aesthetic: 'sustainable' },
+  { id: 'kotn', name: 'Kotn', priceRange: '$$', aesthetic: 'ethical' },
+  { id: 'pact', name: 'Pact', priceRange: '$$', aesthetic: 'organic' },
 ];
 
+// Expanded style options
 export const STYLE_OPTIONS = [
-  { id: 'minimalist', label: 'Minimalist', description: 'Clean lines, neutral palettes, timeless', icon: '◯' },
-  { id: 'business', label: 'Business', description: 'Professional, tailored, polished', icon: '◆' },
-  { id: 'casual', label: 'Casual', description: 'Relaxed, comfortable, everyday', icon: '●' },
-  { id: 'luxury', label: 'Luxury', description: 'Premium materials, refined details', icon: '✦' },
-  { id: 'streetwear', label: 'Streetwear', description: 'Urban, bold, contemporary', icon: '▲' },
-  { id: 'avant-garde', label: 'Avant-Garde', description: 'Experimental, architectural, artistic', icon: '◐' },
-  { id: 'romantic', label: 'Romantic', description: 'Soft, flowing, feminine details', icon: '◇' },
-  { id: 'androgynous', label: 'Androgynous', description: 'Gender-fluid, versatile, modern', icon: '◎' }
+  { id: 'minimalist', label: 'Minimalist', description: 'Clean, simple, timeless', icon: '◯' },
+  { id: 'casual', label: 'Casual', description: 'Relaxed, comfortable', icon: '●' },
+  { id: 'business', label: 'Business', description: 'Professional, polished', icon: '◆' },
+  { id: 'trendy', label: 'Trendy', description: 'Fashion-forward, current', icon: '▲' },
+  { id: 'classic', label: 'Classic', description: 'Traditional, enduring', icon: '■' },
+  { id: 'bohemian', label: 'Bohemian', description: 'Free-spirited, artistic', icon: '✿' },
+  { id: 'athleisure', label: 'Athleisure', description: 'Sporty, comfortable', icon: '◎' },
+  { id: 'romantic', label: 'Romantic', description: 'Soft, feminine', icon: '♡' },
 ];
 
-export const INSPIRATION_BOARDS: StyleInspiration[] = [
-  {
-    id: 'quiet-luxury',
-    name: 'Quiet Luxury',
-    description: 'Understated elegance. Investment pieces that whisper wealth.',
-    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=800&h=600&fit=crop',
-    tags: ['minimalist', 'luxury', 'business'],
-    brands: ['the-row', 'toteme', 'jil-sander'],
-    products: ['toteme-camel-coat', 'the-row-straight-leg', 'auralee-cashmere']
-  },
-  {
-    id: 'scandi-minimal',
-    name: 'Scandi Minimal',
-    description: 'Functional beauty. Clean lines meet cozy textures.',
-    image: 'https://images.unsplash.com/photo-1578932750294-f5075e85f44a?w=800&h=600&fit=crop',
-    tags: ['minimalist', 'casual'],
-    brands: ['cos', 'toteme', 'studio-nicholson'],
-    products: ['cos-knit-sweater', 'toteme-ribbed-tee', 'studio-nicholson-trousers']
-  },
-  {
-    id: 'contemporary-edge',
-    name: 'Contemporary Edge',
-    description: 'Modern silhouettes with attitude. Street meets studio.',
-    image: 'https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?w=800&h=600&fit=crop',
-    tags: ['contemporary', 'streetwear'],
-    brands: ['acne-studios', 'our-legacy', 'ssense'],
-    products: ['acne-musubi-bag', 'our-legacy-camo-shirt', 'acne-studios-sneakers']
-  },
-  {
-    id: 'romantic-minimal',
-    name: 'Romantic Minimal',
-    description: 'Soft structure. Fluid lines with poetic sensibility.',
-    image: 'https://images.unsplash.com/photo-1549298916-b41d501d3772?w=800&h=600&fit=crop',
-    tags: ['romantic', 'minimalist', 'luxury'],
-    brands: ['lemaire', 'auralee', 'the-row'],
-    products: ['lemaire-croissant-bag', 'auralee-silk-shirt', 'lemaire-pleated-trousers']
-  },
-  {
-    id: 'avant-garde-artist',
-    name: 'Avant-Garde Artist',
-    description: 'Deconstructed elegance. Wearable art for the bold.',
-    image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=800&h=600&fit=crop',
-    tags: ['avant-garde', 'luxury', 'androgynous'],
-    brands: ['maison-margiela', 'acne-studios', 'our-legacy'],
-    products: ['margiela-tabis', 'margiela-deconstructed-blazer', 'acne-distressed-denim']
-  },
-  {
-    id: 'essentials-edit',
-    name: 'The Essentials Edit',
-    description: 'Curated basics. Quality over quantity capsule wardrobe.',
-    image: 'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=800&h=600&fit=crop',
-    tags: ['minimalist', 'casual', 'business'],
-    brands: ['everlane', 'cos', 'auralee'],
-    products: ['everlane-organic-cotton-crew', 'cos-relaxed-trousers', 'auralee-bright-tee']
-  }
-];
-
-// Curated product catalog (~180 items)
+// Diverse product catalog across price ranges
 export const CURATED_PRODUCTS: Product[] = [
-  // TOPS
+  // Budget Tops ($25-75)
   {
-    id: 'toteme-camel-coat',
-    name: 'Signature Wool-Cashmere Coat',
-    brand: 'Totême',
-    retailer: 'Totême',
-    price: 990,
-    category: 'outerwear',
+    id: 'uniqlo-airism-tee',
+    name: 'AIRism Cotton T-Shirt',
+    brand: 'Uniqlo',
+    price: 29,
+    category: 'tops',
+    gender: 'unisex',
+    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop',
+    productUrl: 'https://uniqlo.com/airism-tee',
+    scores: { minimalist: 85, casual: 90, business: 30, classic: 70, trendy: 40, bohemian: 20, athleisure: 60, romantic: 30 }
+  },
+  {
+    id: 'everlane-box-tee',
+    name: 'Organic Cotton Box-Cut Tee',
+    brand: 'Everlane',
+    price: 38,
+    category: 'tops',
     gender: 'womens',
-    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=400&fit=crop',
-    productUrl: 'https://toteme-studio.com/wool-cashmere-coat',
-    inStock: true,
-    sizes: ['XS', 'S', 'M', 'L'],
-    tags: ['outerwear', 'camel', 'wool', 'winter'],
-    scores: { minimalist: 98, business: 85, casual: 60, luxury: 95, streetwear: 30, avantgarde: 40, romantic: 50, androgynous: 60 }
+    image: 'https://images.unsplash.com/photo-1503342217505-b0a15ec3261c?w=400&h=400&fit=crop',
+    productUrl: 'https://everlane.com/box-cut-tee',
+    scores: { minimalist: 90, casual: 85, business: 35, classic: 75, trendy: 50, bohemian: 30, athleisure: 40, romantic: 35 }
+  },
+  {
+    id: 'zara-basic-shirt',
+    name: 'Basic Poplin Shirt',
+    brand: 'Zara',
+    price: 49,
+    category: 'tops',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1598032895397-b9472444bf93?w=400&h=400&fit=crop',
+    productUrl: 'https://zara.com/basic-shirt',
+    scores: { minimalist: 75, casual: 70, business: 80, classic: 85, trendy: 60, bohemian: 25, athleisure: 20, romantic: 40 }
   },
   {
     id: 'cos-knit-sweater',
-    name: 'Relaxed Merino Knit',
+    name: 'Relaxed Wool Sweater',
     brand: 'COS',
-    retailer: 'COS',
     price: 89,
     category: 'tops',
     gender: 'womens',
     image: 'https://images.unsplash.com/photo-1578932750294-f5075e85f44a?w=400&h=400&fit=crop',
-    productUrl: 'https://cos.com/relaxed-merino-knit',
-    inStock: true,
-    sizes: ['XS', 'S', 'M', 'L', 'XL'],
-    tags: ['knitwear', 'merino', 'relaxed', 'layering'],
-    scores: { minimalist: 92, business: 65, casual: 90, luxury: 70, streetwear: 40, avantgarde: 30, romantic: 55, androgynous: 70 }
+    productUrl: 'https://cos.com/wool-sweater',
+    scores: { minimalist: 95, casual: 80, business: 65, classic: 80, trendy: 45, bohemian: 35, athleisure: 30, romantic: 55 }
   },
+  
+  // Mid-Range Tops ($75-150)
   {
-    id: 'the-row-straight-leg',
-    name: 'Ginza Straight-Leg Trousers',
-    brand: 'The Row',
-    retailer: 'Net-a-Porter',
-    price: 990,
-    category: 'bottoms',
+    id: 'aritzia-babaton-blouse',
+    name: 'Babaton Silk Blouse',
+    brand: 'Aritzia',
+    price: 128,
+    category: 'tops',
     gender: 'womens',
-    image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=400&fit=crop',
-    productUrl: 'https://net-a-porter.com/the-row-ginza-trousers',
-    inStock: true,
-    sizes: ['0', '2', '4', '6', '8', '10'],
-    tags: ['trousers', 'straight-leg', 'tailored', 'wool'],
-    scores: { minimalist: 98, business: 95, casual: 40, luxury: 98, streetwear: 20, avantgarde: 35, romantic: 30, androgynous: 70 }
+    image: 'https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=400&h=400&fit=crop',
+    productUrl: 'https://aritzia.com/babaton-blouse',
+    scores: { minimalist: 70, casual: 60, business: 90, classic: 85, trendy: 70, bohemian: 40, athleisure: 20, romantic: 75 }
   },
   {
-    id: 'acne-musubi-bag',
-    name: 'Musubi Mini Leather Bag',
-    brand: 'Acne Studios',
-    retailer: 'SSENSE',
-    price: 680,
-    category: 'accessories',
-    gender: 'unisex',
-    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=400&fit=crop',
-    productUrl: 'https://ssense.com/acne-studios-musubi-bag',
-    inStock: true,
-    sizes: ['ONE SIZE'],
-    tags: ['bag', 'leather', 'knot', 'mini'],
-    scores: { minimalist: 80, business: 70, casual: 85, luxury: 88, streetwear: 90, avantgarde: 85, romantic: 40, androgynous: 75 }
-  },
-  {
-    id: 'margiela-tabis',
-    name: 'Tabi Ankle Boots',
-    brand: 'Maison Margiela',
-    retailer: 'Farfetch',
-    price: 1080,
-    category: 'shoes',
-    gender: 'womens',
-    image: 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop',
-    productUrl: 'https://farfetch.com/margiela-tabi-boots',
-    inStock: true,
-    sizes: ['36', '37', '38', '39', '40', '41'],
-    tags: ['boots', 'leather', 'split-toe', 'iconic'],
-    scores: { minimalist: 70, business: 65, casual: 80, luxury: 95, streetwear: 90, avantgarde: 98, romantic: 45, androgynous: 80 }
-  },
-  {
-    id: 'auralee-cashmere',
-    name: 'Super Fine Cashmere Turtleneck',
-    brand: 'Auralee',
-    retailer: 'Mr Porter',
-    price: 485,
+    id: 'reformation-cashmere',
+    name: 'Cashmere Crew Sweater',
+    brand: 'Reformation',
+    price: 168,
     category: 'tops',
     gender: 'womens',
     image: 'https://images.unsplash.com/photo-1571945153237-4929e783af4a?w=400&h=400&fit=crop',
-    productUrl: 'https://mrporter.com/auralee-cashmere-turtleneck',
-    inStock: true,
-    sizes: ['1', '2', '3', '4'],
-    tags: ['knitwear', 'cashmere', 'turtleneck', 'japanese'],
-    scores: { minimalist: 95, business: 80, casual: 75, luxury: 95, streetwear: 30, avantgarde: 40, romantic: 60, androgynous: 65 }
+    productUrl: 'https://reformation.com/cashmere',
+    scores: { minimalist: 80, casual: 85, business: 60, classic: 75, trendy: 65, bohemian: 50, athleisure: 35, romantic: 80 }
   },
   {
-    id: 'jil-sander-shirt',
-    name: 'Oversized Cotton-Poplin Shirt',
-    brand: 'Jil Sander',
-    retailer: 'Mytheresa',
-    price: 750,
+    id: 'lululemon-define-jacket',
+    name: 'Define Jacket',
+    brand: 'Lululemon',
+    price: 128,
+    category: 'outerwear',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop',
+    productUrl: 'https://lululemon.com/define-jacket',
+    scores: { minimalist: 60, casual: 85, business: 20, classic: 50, trendy: 75, bohemian: 15, athleisure: 100, romantic: 20 }
+  },
+  
+  // Premium/Luxury Tops ($150-500)
+  {
+    id: 'vince-cashmere',
+    name: 'Essential Cashmere Sweater',
+    brand: 'Vince',
+    price: 345,
     category: 'tops',
     gender: 'womens',
-    image: 'https://images.unsplash.com/photo-1598032895397-b9472444bf93?w=400&h=400&fit=crop',
-    productUrl: 'https://mytheresa.com/jil-sander-oversized-shirt',
-    inStock: true,
-    sizes: ['34', '36', '38', '40', '42'],
-    tags: ['shirt', 'cotton', 'oversized', 'tailored'],
-    scores: { minimalist: 98, business: 85, casual: 70, luxury: 92, streetwear: 45, avantgarde: 50, romantic: 40, androgynous: 80 }
-  },
-  {
-    id: 'lemaire-croissant-bag',
-    name: 'Croissant Small Leather Bag',
-    brand: 'Lemaire',
-    retailer: 'SSENSE',
-    price: 890,
-    category: 'accessories',
-    gender: 'unisex',
-    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=400&fit=crop',
-    productUrl: 'https://ssense.com/lemaire-croissant-bag',
-    inStock: true,
-    sizes: ['ONE SIZE'],
-    tags: ['bag', 'leather', 'croissant', 'crossbody'],
-    scores: { minimalist: 90, business: 70, casual: 85, luxury: 90, streetwear: 60, avantgarde: 70, romantic: 80, androgynous: 75 }
-  },
-  {
-    id: 'everlane-organic-cotton-crew',
-    name: 'The Organic Cotton Crew',
-    brand: 'Everlane',
-    retailer: 'Everlane',
-    price: 38,
-    category: 'tops',
-    gender: 'womens',
-    image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop',
-    productUrl: 'https://everlane.com/organic-cotton-crew',
-    inStock: true,
-    sizes: ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL'],
-    tags: ['t-shirt', 'cotton', 'basic', 'essential'],
-    scores: { minimalist: 88, business: 45, casual: 95, luxury: 40, streetwear: 50, avantgarde: 20, romantic: 30, androgynous: 70 }
+    image: 'https://images.unsplash.com/photo-1516762689617-e1cffcef479d?w=400&h=400&fit=crop',
+    productUrl: 'https://vince.com/cashmere',
+    scores: { minimalist: 95, casual: 80, business: 85, classic: 90, trendy: 40, bohemian: 30, athleisure: 25, romantic: 70 }
   },
   {
     id: 'toteme-ribbed-tee',
     name: 'Ribbed Modal T-Shirt',
     brand: 'Totême',
-    retailer: 'Totême',
     price: 150,
     category: 'tops',
     gender: 'womens',
     image: 'https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400&h=400&fit=crop',
-    productUrl: 'https://toteme-studio.com/ribbed-modal-tee',
-    inStock: true,
-    sizes: ['XS', 'S', 'M', 'L'],
-    tags: ['t-shirt', 'modal', 'ribbed', 'layering'],
-    scores: { minimalist: 95, business: 55, casual: 90, luxury: 75, streetwear: 35, avantgarde: 30, romantic: 50, androgynous: 65 }
+    productUrl: 'https://toteme-studio.com/ribbed-tee',
+    scores: { minimalist: 98, casual: 85, business: 50, classic: 80, trendy: 55, bohemian: 25, athleisure: 35, romantic: 50 }
   },
   {
-    id: 'studio-nicholson-trousers',
-    name: 'Volume Pleat Trousers',
-    brand: 'Studio Nicholson',
-    retailer: 'Matches Fashion',
-    price: 395,
+    id: 'the-row-shirt',
+    name: 'Silk Charmeuse Shirt',
+    brand: 'The Row',
+    price: 890,
+    category: 'tops',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1598032895397-b9472444bf93?w=400&h=400&fit=crop',
+    productUrl: 'https://therow.com/silk-shirt',
+    scores: { minimalist: 100, casual: 60, business: 95, classic: 90, trendy: 30, bohemian: 25, athleisure: 10, romantic: 60 }
+  },
+  
+  // Bottoms - Budget
+  {
+    id: 'uniqlo-wide-pants',
+    name: 'Wide Fit Pleated Pants',
+    brand: 'Uniqlo',
+    price: 49,
+    category: 'bottoms',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=400&fit=crop',
+    productUrl: 'https://uniqlo.com/wide-pants',
+    scores: { minimalist: 80, casual: 85, business: 60, classic: 75, trendy: 70, bohemian: 45, athleisure: 40, romantic: 35 }
+  },
+  {
+    id: 'everlane-jeans',
+    name: 'The Way-High Jean',
+    brand: 'Everlane',
+    price: 98,
+    category: 'bottoms',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=400&h=400&fit=crop',
+    productUrl: 'https://everlane.com/way-high-jean',
+    scores: { minimalist: 75, casual: 90, business: 25, classic: 80, trendy: 80, bohemian: 40, athleisure: 30, romantic: 30 }
+  },
+  {
+    id: 'zara-tailored-trousers',
+    name: 'Tailored Straight Trousers',
+    brand: 'Zara',
+    price: 69,
+    category: 'bottoms',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=400&fit=crop',
+    productUrl: 'https://zara.com/tailored-trousers',
+    scores: { minimalist: 70, casual: 65, business: 85, classic: 80, trendy: 75, bohemian: 25, athleisure: 20, romantic: 35 }
+  },
+  
+  // Bottoms - Mid/Premium
+  {
+    id: 'aritzia-effortless-pant',
+    name: 'Effortless Pant',
+    brand: 'Aritzia',
+    price: 148,
     category: 'bottoms',
     gender: 'womens',
     image: 'https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?w=400&h=400&fit=crop',
-    productUrl: 'https://matchesfashion.com/studio-nicholson-trousers',
-    inStock: true,
-    sizes: ['UK6', 'UK8', 'UK10', 'UK12', 'UK14'],
-    tags: ['trousers', 'pleated', 'volume', 'japanese-wool'],
-    scores: { minimalist: 95, business: 75, casual: 80, luxury: 85, streetwear: 50, avantgarde: 65, romantic: 45, androgynous: 80 }
+    productUrl: 'https://aritzia.com/effortless-pant',
+    scores: { minimalist: 85, casual: 80, business: 90, classic: 85, trendy: 70, bohemian: 30, athleisure: 35, romantic: 40 }
   },
   {
-    id: 'our-legacy-camo-shirt',
-    name: 'Camo Print Box Shirt',
-    brand: 'Our Legacy',
-    retailer: 'END.',
-    price: 245,
-    category: 'tops',
-    gender: 'unisex',
-    image: 'https://images.unsplash.com/photo-1515347619252-60a6bf4fffce?w=400&h=400&fit=crop',
-    productUrl: 'https://endclothing.com/our-legacy-camo-shirt',
-    inStock: true,
-    sizes: ['44', '46', '48', '50', '52', '54'],
-    tags: ['shirt', 'camo', 'boxy', 'print'],
-    scores: { minimalist: 60, business: 30, casual: 90, luxury: 55, streetwear: 85, avantgarde: 70, romantic: 25, androgynous: 85 }
+    id: 'agolde-jeans',
+    name: '90s Pinch Waist Jeans',
+    brand: 'Agolde',
+    price: 188,
+    category: 'bottoms',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop',
+    productUrl: 'https://agolde.com/90s-jeans',
+    scores: { minimalist: 70, casual: 95, business: 20, classic: 75, trendy: 95, bohemian: 50, athleisure: 25, romantic: 35 }
   },
-  // More products truncated for brevity - add ~168 more following same pattern
+  {
+    id: 'the-row-ginza-pants',
+    name: 'Ginza Straight Pants',
+    brand: 'The Row',
+    price: 990,
+    category: 'bottoms',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=400&fit=crop',
+    productUrl: 'https://therow.com/ginza-pants',
+    scores: { minimalist: 100, casual: 50, business: 95, classic: 90, trendy: 40, bohemian: 20, athleisure: 10, romantic: 35 }
+  },
+  
+  // Dresses
+  {
+    id: 'reformation-dress',
+    name: 'Juliette Dress',
+    brand: 'Reformation',
+    price: 248,
+    category: 'dresses',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=400&fit=crop',
+    productUrl: 'https://reformation.com/juliette-dress',
+    scores: { minimalist: 60, casual: 70, business: 50, classic: 70, trendy: 85, bohemian: 80, athleisure: 15, romantic: 95 }
+  },
+  {
+    id: 'zara-slip-dress',
+    name: 'Satin Slip Dress',
+    brand: 'Zara',
+    price: 59,
+    category: 'dresses',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400&h=400&fit=crop',
+    productUrl: 'https://zara.com/slip-dress',
+    scores: { minimalist: 75, casual: 65, business: 40, classic: 75, trendy: 80, bohemian: 60, athleisure: 20, romantic: 85 }
+  },
+  
+  // Shoes - All ranges
+  {
+    id: 'nike-air-force',
+    name: 'Air Force 1',
+    brand: 'Nike',
+    price: 110,
+    category: 'shoes',
+    gender: 'unisex',
+    image: 'https://images.unsplash.com/photo-1600269452121-4f2416e55c28?w=400&h=400&fit=crop',
+    productUrl: 'https://nike.com/air-force-1',
+    scores: { minimalist: 70, casual: 100, business: 10, classic: 90, trendy: 85, bohemian: 30, athleisure: 90, romantic: 15 }
+  },
+  {
+    id: 'everlane-day-glove',
+    name: 'The Day Glove',
+    brand: 'Everlane',
+    price: 165,
+    category: 'shoes',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&h=400&fit=crop',
+    productUrl: 'https://everlane.com/day-glove',
+    scores: { minimalist: 90, casual: 80, business: 85, classic: 85, trendy: 50, bohemian: 40, athleisure: 30, romantic: 60 }
+  },
+  {
+    id: 'margiela-tabi',
+    name: 'Tabi Ankle Boots',
+    brand: 'Maison Margiela',
+    price: 1080,
+    category: 'shoes',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop',
+    productUrl: 'https://farfetch.com/margiela-tabi',
+    scores: { minimalist: 75, casual: 70, business: 60, classic: 60, trendy: 95, bohemian: 45, athleisure: 20, romantic: 40 }
+  },
+  {
+    id: 'manolo-blahnik',
+    name: 'Hangisi Pump',
+    brand: 'Manolo Blahnik',
+    price: 995,
+    category: 'shoes',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=400&h=400&fit=crop',
+    productUrl: 'https://manoloblahnik.com/hangisi',
+    scores: { minimalist: 70, casual: 30, business: 95, classic: 95, trendy: 60, bohemian: 35, athleisure: 5, romantic: 90 }
+  },
+  
+  // Accessories
+  {
+    id: 'muji-tote',
+    name: 'Canvas Tote Bag',
+    brand: 'Muji',
+    price: 25,
+    category: 'accessories',
+    gender: 'unisex',
+    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=400&fit=crop',
+    productUrl: 'https://muji.com/canvas-tote',
+    scores: { minimalist: 95, casual: 90, business: 40, classic: 80, trendy: 30, bohemian: 50, athleisure: 40, romantic: 25 }
+  },
+  {
+    id: 'lemaire-croissant',
+    name: 'Croissant Bag',
+    brand: 'Lemaire',
+    price: 890,
+    category: 'accessories',
+    gender: 'unisex',
+    image: 'https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=400&fit=crop',
+    productUrl: 'https://lemaire.fr/croissant',
+    scores: { minimalist: 95, casual: 85, business: 70, classic: 75, trendy: 80, bohemian: 55, athleisure: 30, romantic: 75 }
+  },
+  
+  // Outerwear
+  {
+    id: 'uniqlo-ultra-light',
+    name: 'Ultra Light Down Jacket',
+    brand: 'Uniqlo',
+    price: 69,
+    category: 'outerwear',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400&h=400&fit=crop',
+    productUrl: 'https://uniqlo.com/ultra-light-down',
+    scores: { minimalist: 80, casual: 90, business: 30, classic: 75, trendy: 50, bohemian: 25, athleisure: 60, romantic: 20 }
+  },
+  {
+    id: 'toteme-coat',
+    name: 'Signature Wool Coat',
+    brand: 'Totême',
+    price: 990,
+    category: 'outerwear',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=400&h=400&fit=crop',
+    productUrl: 'https://toteme-studio.com/wool-coat',
+    scores: { minimalist: 98, casual: 60, business: 85, classic: 90, trendy: 40, bohemian: 25, athleisure: 15, romantic: 50 }
+  },
+  {
+    id: 'patagonia-fleece',
+    name: 'Retro Pile Fleece',
+    brand: 'Patagonia',
+    price: 139,
+    category: 'outerwear',
+    gender: 'womens',
+    image: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop',
+    productUrl: 'https://patagonia.com/retro-pile',
+    scores: { minimalist: 40, casual: 95, business: 10, classic: 60, trendy: 70, bohemian: 60, athleisure: 85, romantic: 20 }
+  },
 ];
 
-// Matching engine - deterministic scoring
+// FIXED matching algorithm
 export function matchProducts(
   products: Product[],
   preferences: {
@@ -377,88 +387,112 @@ export function matchProducts(
     strictBrands: boolean;
   }
 ): Product[] {
-  let scored = products.map(product => {
-    // Base score
-    let score = 0;
-    
-    // Style matching (weighted heavily)
-    if (preferences.styles.length > 0) {
-      const styleScore = preferences.styles.reduce((acc, style) => {
-        return acc + (product.scores[style as keyof typeof product.scores] || 50);
-      }, 0) / preferences.styles.length;
-      score += styleScore * 0.5; // 50% weight
+  // Filter by category AND gender first
+  let filtered = products.filter(product => {
+    // Gender filter
+    if (preferences.gender && product.gender !== 'unisex' && product.gender !== preferences.gender) {
+      return false;
     }
     
-    // Brand matching
-    if (preferences.brands.length > 0) {
-      const brandMatch = preferences.brands.includes(product.brand.toLowerCase().replace(/\s+/g, '-'));
-      if (preferences.strictBrands && !brandMatch) {
-        return { ...product, matchScore: -1 }; // Filter out
-      }
-      if (brandMatch) {
-        score += 30; // 30% weight for brand match
-      }
-    }
-    
-    // Budget proximity (prefer items at 70-100% of budget, not way under)
-    const budgetRatio = product.price / preferences.budget;
-    if (budgetRatio <= 1) {
-      score += (budgetRatio * 20); // Up to 20% for max budget utilization
-    }
-    
-    // Gender match
-    if (preferences.gender && product.gender !== preferences.gender && product.gender !== 'unisex') {
-      return { ...product, matchScore: -1 }; // Filter out
-    }
-    
-    // Category match
+    // Category filter (MUST match at least one selected category)
     if (preferences.categories.length > 0) {
-      const categoryMatch = preferences.categories.includes(product.category);
-      if (!categoryMatch) {
-        return { ...product, matchScore: -1 }; // Filter out
+      if (!preferences.categories.includes(product.category)) {
+        return false;
       }
-      score += 15; // Bonus for category match
+    }
+    
+    // Brand filter (only if strict mode)
+    if (preferences.strictBrands && preferences.brands.length > 0) {
+      const brandMatch = preferences.brands.some(b => 
+        product.brand.toLowerCase().replace(/\s+/g, '-') === b
+      );
+      if (!brandMatch) return false;
+    }
+    
+    return true;
+  });
+  
+  // Score remaining products
+  let scored = filtered.map(product => {
+    let score = 50; // Base score
+    
+    // Style matching (0-40 points)
+    if (preferences.styles.length > 0) {
+      const styleScores = preferences.styles.map(style => 
+        product.scores[style as keyof typeof product.scores] || 0
+      );
+      const avgStyleScore = styleScores.reduce((a, b) => a + b, 0) / styleScores.length;
+      score += (avgStyleScore / 100) * 40;
+    }
+    
+    // Budget matching (0-30 points)
+    // Prefer items within budget, but don't penalize too harshly
+    if (product.price <= preferences.budget) {
+      score += 30; // Full points for within budget
+    } else if (product.price <= preferences.budget * 1.2) {
+      score += 15; // Half points for slightly over
+    }
+    
+    // Brand preference bonus (0-20 points) - NOT a filter, just bonus
+    if (preferences.brands.length > 0 && !preferences.strictBrands) {
+      const brandMatch = preferences.brands.some(b => 
+        product.brand.toLowerCase().replace(/\s+/g, '-') === b
+      );
+      if (brandMatch) {
+        score += 20;
+      }
+    }
+    
+    // Price-to-budget ratio bonus (prefer items that use budget well)
+    if (product.price <= preferences.budget) {
+      const ratio = product.price / preferences.budget;
+      score += ratio * 10; // Up to 10 bonus points for good value
     }
     
     return { ...product, matchScore: Math.round(score) };
   });
   
-  // Filter out rejected items and sort by score
-  return scored
-    .filter((p: Product & { matchScore: number }) => p.matchScore > 0)
-    .sort((a: Product & { matchScore: number }, b: Product & { matchScore: number }) => b.matchScore - a.matchScore) as Product[];
+  // Sort by score descending
+  scored.sort((a, b) => (b as any).matchScore - (a as any).matchScore);
+  
+  // Return top matches (minimum threshold of 40)
+  return scored.filter((p: any) => p.matchScore >= 40) as Product[];
 }
 
-// Generate explanation for why items were selected
 export function generateMatchExplanation(
   product: Product,
   preferences: { styles: string[]; brands: string[] }
 ): string {
   const reasons: string[] = [];
   
-  // Check style alignment
-  const topStyles = preferences.styles
-    .filter(s => product.scores[s as keyof typeof product.scores] > 70)
-    .slice(0, 2);
-  if (topStyles.length > 0) {
-    reasons.push(`Perfect for ${topStyles.join(' and ')} style`);
+  // Top matching styles
+  if (preferences.styles.length > 0) {
+    const styleScores = preferences.styles.map(style => ({
+      style,
+      score: product.scores[style as keyof typeof product.scores] || 0
+    }));
+    styleScores.sort((a, b) => b.score - a.score);
+    
+    const topStyle = styleScores[0];
+    if (topStyle.score >= 70) {
+      reasons.push(`Perfect for ${topStyle.style} style`);
+    } else if (topStyle.score >= 50) {
+      reasons.push(`Good for ${topStyle.style} looks`);
+    }
   }
   
-  // Check brand match
-  if (preferences.brands.includes(product.brand.toLowerCase().replace(/\s+/g, '-'))) {
-    reasons.push(`From your preferred brand ${product.brand}`);
+  // Brand mention
+  if (preferences.brands.length > 0) {
+    const brandMatch = preferences.brands.some(b => 
+      product.brand.toLowerCase().replace(/\s+/g, '-') === b
+    );
+    if (brandMatch) {
+      reasons.push(`From your preferred brand`);
+    }
   }
   
-  // Quality/fabric notes
-  if (product.tags.includes('cashmere')) reasons.push('Luxurious cashmere fabric');
-  if (product.tags.includes('wool')) reasons.push('Premium wool construction');
-  if (product.tags.includes('silk')) reasons.push('Elegant silk material');
+  // Category
+  reasons.push(`${product.category} category match`);
   
-  // Versatility
-  const versatilityScore = Object.values(product.scores).filter(s => s > 60).length;
-  if (versatilityScore >= 4) {
-    reasons.push('Highly versatile across occasions');
-  }
-  
-  return reasons[0] || 'Curated for your preferences';
+  return reasons[0] || 'Matches your preferences';
 }
