@@ -1,4 +1,4 @@
-import { Product, Brand } from '@/types';
+import { Product, Brand, FeedbackModel } from '@/types';
 
 // Popular brands across ALL price ranges
 export const POPULAR_BRANDS: Brand[] = [
@@ -57,8 +57,87 @@ export const STYLE_OPTIONS = [
   { id: 'romantic', label: 'Romantic', description: 'Soft, feminine', icon: '♡' },
 ];
 
+type RawProduct = Omit<Product, 'store' | 'metadata'>;
+
+const STORE_PROFILE_BY_BRAND: Record<string, Product['store']> = {
+  uniqlo: { id: 'uniqlo', name: 'Uniqlo', capability: 'add_to_cart' },
+  zara: { id: 'zara', name: 'Zara', capability: 'add_to_cart' },
+  hm: { id: 'hm', name: 'H&M', capability: 'add_to_cart' },
+  everlane: { id: 'everlane', name: 'Everlane', capability: 'prefill' },
+  cos: { id: 'cos', name: 'COS', capability: 'add_to_cart' },
+  aritzia: { id: 'aritzia', name: 'Aritzia', capability: 'add_to_cart' },
+  reformation: { id: 'reformation', name: 'Reformation', capability: 'deep_link' },
+  lululemon: { id: 'lululemon', name: 'Lululemon', capability: 'add_to_cart' },
+  vince: { id: 'vince', name: 'Vince', capability: 'deep_link' },
+  toteme: { id: 'toteme', name: 'Toteme', capability: 'deep_link' },
+  'the-row': { id: 'the-row', name: 'The Row', capability: 'deep_link' },
+  agolde: { id: 'agolde', name: 'Agolde', capability: 'deep_link' },
+  nike: { id: 'nike', name: 'Nike', capability: 'add_to_cart' },
+  patagonia: { id: 'patagonia', name: 'Patagonia', capability: 'add_to_cart' },
+  default: { id: 'multi-brand', name: 'Retail Partner', capability: 'deep_link' }
+};
+
+const BRIGHT_COLOR_KEYWORDS = ['neon', 'lime', 'yellow', 'orange', 'hot pink', 'red', 'bright', 'fuchsia', 'electric'];
+const SYNTHETIC_MATERIALS = ['polyester', 'nylon', 'acrylic'];
+const LOGO_HEAVY_BRANDS = new Set(['nike', 'adidas', 'zara']);
+
+function normalizeKey(value: string): string {
+  return value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+}
+
+function inferMetadata(product: RawProduct): Product['metadata'] {
+  const name = product.name.toLowerCase();
+  const categoryOccasions: Record<string, string[]> = {
+    dresses: ['date-night', 'event'],
+    outerwear: ['everyday', 'travel', 'work'],
+    shoes: ['everyday', 'travel'],
+    tops: ['everyday', 'work'],
+    bottoms: ['everyday', 'work'],
+    accessories: ['everyday', 'event']
+  };
+  const materialTags = ['cotton', 'wool', 'cashmere', 'silk', 'linen', 'denim', 'leather', 'polyester', 'nylon']
+    .filter(tag => name.includes(tag));
+  const fitTags = [
+    name.includes('oversized') || name.includes('wide') ? 'relaxed' : '',
+    name.includes('slim') || name.includes('tailored') ? 'slim' : '',
+    name.includes('straight') ? 'straight' : '',
+    name.includes('box') ? 'boxy' : ''
+  ].filter(Boolean) as string[];
+  const silhouetteTags = [
+    name.includes('cropped') ? 'cropped' : '',
+    name.includes('wide') ? 'wide-leg' : '',
+    name.includes('midi') ? 'midi' : '',
+    name.includes('maxi') ? 'maxi' : '',
+    name.includes('structured') ? 'structured' : ''
+  ].filter(Boolean) as string[];
+  const occasionTags = categoryOccasions[product.category] || ['everyday'];
+  const brandKey = normalizeKey(product.brand);
+  const logoLevel: Product['metadata']['logoLevel'] = LOGO_HEAVY_BRANDS.has(brandKey) ? 'high' : 'low';
+
+  return {
+    materialTags: materialTags.length > 0 ? materialTags : ['cotton'],
+    fitTags: fitTags.length > 0 ? fitTags : ['regular'],
+    silhouetteTags: silhouetteTags.length > 0 ? silhouetteTags : ['classic'],
+    occasionTags,
+    logoLevel
+  };
+}
+
+function enrichProduct(product: RawProduct): Product {
+  const brandKey = normalizeKey(product.brand);
+  const store = STORE_PROFILE_BY_BRAND[brandKey] || STORE_PROFILE_BY_BRAND.default;
+  return {
+    ...product,
+    store: {
+      ...store,
+      id: store.id || brandKey
+    },
+    metadata: inferMetadata(product)
+  };
+}
+
 // Diverse product catalog across price ranges
-export const CURATED_PRODUCTS: Product[] = [
+const RAW_CURATED_PRODUCTS: RawProduct[] = [
   // Budget Tops ($25-75)
   {
     id: 'uniqlo-airism-tee',
@@ -375,6 +454,8 @@ export const CURATED_PRODUCTS: Product[] = [
   },
 ];
 
+export const CURATED_PRODUCTS: Product[] = RAW_CURATED_PRODUCTS.map(enrichProduct);
+
 // FIXED matching algorithm
 export function matchProducts(
   products: Product[],
@@ -387,6 +468,9 @@ export function matchProducts(
     strictBrands: boolean;
     occasion?: string;
     sizes?: Record<string, string>;
+    maxStores?: number;
+    negatives?: Array<'no-bright-colors' | 'no-slim-fit'>;
+    feedbackModel?: FeedbackModel;
   }
 ): Product[] {
   const occasionStyleBoost: Record<string, string[]> = {
@@ -419,6 +503,15 @@ export function matchProducts(
       );
       if (!brandMatch) return false;
     }
+
+    if (preferences.negatives?.includes('no-bright-colors')) {
+      const nameLower = product.name.toLowerCase();
+      if (BRIGHT_COLOR_KEYWORDS.some(color => nameLower.includes(color))) return false;
+    }
+
+    if (preferences.negatives?.includes('no-slim-fit') && product.metadata.fitTags.includes('slim')) {
+      return false;
+    }
     
     return true;
   });
@@ -434,6 +527,9 @@ export function matchProducts(
       );
       const avgStyleScore = styleScores.reduce((a, b) => a + b, 0) / styleScores.length;
       score += (avgStyleScore / 100) * 35;
+      if (avgStyleScore < 45) {
+        score -= 18;
+      }
     }
 
     // Occasion-aware boost (0-15 points)
@@ -466,6 +562,20 @@ export function matchProducts(
       }
     }
 
+    // Adaptive feedback boosts from user behavior.
+    const feedback = preferences.feedbackModel;
+    if (feedback) {
+      const topStyles = Object.entries(product.scores)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 2)
+        .map(entry => entry[0]);
+      const styleBoost = topStyles.reduce((acc, style) => acc + (feedback.styleAffinity?.[style] || 0), 0);
+      const brandBoost = feedback.brandAffinity?.[normalizeKey(product.brand)] || 0;
+      const storeBoost = feedback.storeAffinity?.[product.store.id] || 0;
+      const categoryBoost = feedback.categoryAffinity?.[product.category] || 0;
+      score += styleBoost + brandBoost + storeBoost + categoryBoost;
+    }
+
     return { ...product, matchScore: Math.round(score) };
   });
   
@@ -473,7 +583,8 @@ export function matchProducts(
   scored.sort((a, b) => (b as any).matchScore - (a as any).matchScore);
 
   // Preserve category coverage first, then fill with best remaining matches.
-  const highConfidence = scored.filter((p: any) => p.matchScore >= 40) as Product[];
+  const minScore = preferences.styles.length > 0 ? 50 : 40;
+  const highConfidence = scored.filter((p: any) => p.matchScore >= minScore) as Product[];
   const diversified: Product[] = [];
   const used = new Set<string>();
 
@@ -492,7 +603,23 @@ export function matchProducts(
     }
   });
 
-  return diversified;
+  const maxStores = Math.max(1, preferences.maxStores ?? 3);
+  const limitedStores: Product[] = [];
+  const selectedStores = new Set<string>();
+
+  diversified.forEach(product => {
+    const storeKey = product.store.id;
+    if (selectedStores.has(storeKey)) {
+      limitedStores.push(product);
+      return;
+    }
+    if (selectedStores.size < maxStores) {
+      selectedStores.add(storeKey);
+      limitedStores.push(product);
+    }
+  });
+
+  return limitedStores;
 }
 
 export function generateMatchExplanation(

@@ -8,6 +8,18 @@ export interface Product {
   image: string;
   productUrl: string;
   scores: Record<string, number>;
+  store: {
+    id: string;
+    name: string;
+    capability: 'prefill' | 'add_to_cart' | 'deep_link';
+  };
+  metadata: {
+    materialTags: string[];
+    fitTags: string[];
+    silhouetteTags: string[];
+    occasionTags: string[];
+    logoLevel: 'low' | 'medium' | 'high';
+  };
   matchScore?: number;
 }
 
@@ -28,4 +40,12 @@ export interface UserPreferences {
   mode: 'pure' | 'mix';
   occasion?: 'everyday' | 'work' | 'date-night' | 'event' | 'travel' | 'workout' | '';
   sizes?: Record<string, string>;
+  negatives?: Array<'no-bright-colors' | 'no-slim-fit'>;
+}
+
+export interface FeedbackModel {
+  styleAffinity?: Record<string, number>;
+  brandAffinity?: Record<string, number>;
+  storeAffinity?: Record<string, number>;
+  categoryAffinity?: Record<string, number>;
 }

@@ -16,15 +16,24 @@ import {
   Zap,
   Bot,
   GalleryVerticalEnd,
-  Loader2
+  Loader2,
+  ChevronDown,
+  ChevronUp,
+  CheckCircle2
 } from 'lucide-react';
-import type { Product, UserPreferences } from '@/types';
+import type { Product, UserPreferences, FeedbackModel } from '@/types';
 
 type Step = 'landing' | 'preferences' | 'occasion' | 'brands' | 'results';
 
 type CategoryId = 'tops' | 'bottoms' | 'outerwear' | 'shoes' | 'accessories' | 'dresses';
 type SizeCategory = 'tops' | 'bottoms' | 'outerwear' | 'shoes' | 'dresses';
 type Occasion = 'everyday' | 'work' | 'date-night' | 'event' | 'travel' | 'workout';
+
+type RerankCandidate = {
+  id: string;
+  text: string;
+  ruleScore: number;
+};
 
 const FALLBACK_IMAGE = 'https://images.unsplash.com/photo-1520975943522-8e2f1d3b9d2f?w=400&h=400&fit=crop';
 
@@ -68,11 +77,20 @@ const BUDGET_PRESETS = [
   { value: 200, label: 'Around $200' }
 ];
 
+const NEGATIVE_OPTIONS: Array<{
+  id: 'no-bright-colors' | 'no-slim-fit';
+  label: string;
+}> = [
+  { id: 'no-bright-colors', label: 'No bright colors' },
+  { id: 'no-slim-fit', label: 'Avoid slim fit' }
+];
+
 const INSPIRATION_BOARDS = [
   {
     id: 'city-minimal',
     title: 'City Minimal',
     description: 'Clean silhouettes, quiet neutrals, polished basics.',
+    image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&h=500&fit=crop',
     styles: ['minimalist', 'classic'],
     categories: ['tops', 'bottoms', 'outerwear', 'shoes'],
     brands: ['cos', 'everlane'],
@@ -84,6 +102,7 @@ const INSPIRATION_BOARDS = [
     id: 'off-duty',
     title: 'Off-Duty Sport',
     description: 'Athleisure-driven layers with casual comfort.',
+    image: 'https://images.unsplash.com/photo-1483721310020-03333e577078?w=800&h=500&fit=crop',
     styles: ['athleisure', 'casual'],
     categories: ['tops', 'bottoms', 'shoes', 'outerwear'],
     brands: ['nike', 'lululemon'],
@@ -95,6 +114,7 @@ const INSPIRATION_BOARDS = [
     id: 'modern-romantic',
     title: 'Modern Romantic',
     description: 'Soft textures and dress-forward styling.',
+    image: 'https://images.unsplash.com/photo-1464863979621-258859e62245?w=800&h=500&fit=crop',
     styles: ['romantic', 'trendy'],
     categories: ['dresses', 'shoes', 'accessories', 'outerwear'],
     brands: ['reformation', 'shopbop'],
@@ -107,6 +127,12 @@ const INSPIRATION_BOARDS = [
 export default function Home() {
   const [step, setStep] = useState<Step>('landing');
   const [skipBrands, setSkipBrands] = useState(false);
+  const [showAllBrands, setShowAllBrands] = useState(false);
+  const [brandSearch, setBrandSearch] = useState('');
+  const [isMember, setIsMember] = useState(false);
+  const [memberPreset, setMemberPreset] = useState<UserPreferences | null>(null);
+  const [feedbackModel, setFeedbackModel] = useState<FeedbackModel>({});
+  const [storeProgress, setStoreProgress] = useState<Record<string, boolean>>({});
   const [scanStepIndex, setScanStepIndex] = useState(0);
 
   const [preferences, setPreferences] = useState<UserPreferences>({
@@ -118,7 +144,8 @@ export default function Home() {
     strictBrands: false,
     mode: 'pure',
     occasion: '',
-    sizes: {}
+    sizes: {},
+    negatives: []
   });
 
   const [isGenerating, setIsGenerating] = useState(false);
@@ -139,8 +166,88 @@ export default function Home() {
   };
 
   useEffect(() => {
+    const savedMemberProfile = window.localStorage.getItem('sa_member_profile');
+    if (savedMemberProfile) {
+      try {
+        const parsed = JSON.parse(savedMemberProfile) as UserPreferences;
+        setMemberPreset(parsed);
+        setIsMember(true);
+      } catch {
+        window.localStorage.removeItem('sa_member_profile');
+      }
+    }
+    const savedEvents = window.localStorage.getItem('sa_feedback_events');
+    if (savedEvents) {
+      try {
+        const parsedEvents = JSON.parse(savedEvents) as Array<{
+          productId: string;
+          brand: string;
+          storeId: string;
+          category: string;
+          topStyles: string[];
+          type: 'view' | 'save' | 'purchase' | 'handoff-open';
+          ts: number;
+        }>;
+        setFeedbackModel(buildFeedbackModel(parsedEvents));
+      } catch {
+        window.localStorage.removeItem('sa_feedback_events');
+      }
+    }
     return () => clearGenerationTimers();
   }, []);
+
+  const buildFeedbackModel = (events: Array<{
+    productId: string;
+    brand: string;
+    storeId: string;
+    category: string;
+    topStyles: string[];
+    type: 'view' | 'save' | 'purchase' | 'handoff-open';
+    ts: number;
+  }>): FeedbackModel => {
+    const typeWeight: Record<string, number> = {
+      view: 0.2,
+      save: 1.2,
+      purchase: 2.5,
+      'handoff-open': 0.8
+    };
+    const model: FeedbackModel = {
+      styleAffinity: {},
+      brandAffinity: {},
+      storeAffinity: {},
+      categoryAffinity: {}
+    };
+    events.forEach(event => {
+      const weight = typeWeight[event.type] || 0;
+      model.brandAffinity![event.brand] = (model.brandAffinity![event.brand] || 0) + weight;
+      model.storeAffinity![event.storeId] = (model.storeAffinity![event.storeId] || 0) + weight;
+      model.categoryAffinity![event.category] = (model.categoryAffinity![event.category] || 0) + weight;
+      event.topStyles.forEach(style => {
+        model.styleAffinity![style] = (model.styleAffinity![style] || 0) + weight;
+      });
+    });
+    return model;
+  };
+
+  const trackInteraction = (product: Product, type: 'view' | 'save' | 'purchase' | 'handoff-open') => {
+    const nextEvent = {
+      productId: product.id,
+      brand: product.brand.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+      storeId: product.store.id,
+      category: product.category,
+      topStyles: Object.entries(product.scores)
+        .sort((a, b) => b[1] - a[1])
+        .slice(0, 2)
+        .map(entry => entry[0]),
+      type,
+      ts: Date.now()
+    };
+    const saved = window.localStorage.getItem('sa_feedback_events');
+    const existing = saved ? JSON.parse(saved) : [];
+    const events = [nextEvent, ...existing].slice(0, 400);
+    window.localStorage.setItem('sa_feedback_events', JSON.stringify(events));
+    setFeedbackModel(buildFeedbackModel(events));
+  };
 
   const sizeRequiredCategories = useMemo(() => {
     return preferences.categories.filter((cat): cat is SizeCategory => cat in SIZE_OPTIONS);
@@ -180,6 +287,73 @@ export default function Home() {
     }));
   };
 
+  const buildUserTasteText = (snapshot: UserPreferences): string => {
+    const parts = [
+      `gender: ${snapshot.gender || 'any'}`,
+      `categories: ${snapshot.categories.join(', ') || 'any'}`,
+      `styles: ${snapshot.styles.join(', ') || 'any'}`,
+      `occasion: ${snapshot.occasion || 'any'}`,
+      `budget: ${snapshot.budget}`,
+      `brands: ${snapshot.brands.join(', ') || 'none'}`,
+      `negatives: ${(snapshot.negatives || []).join(', ') || 'none'}`
+    ];
+    return parts.join(' | ');
+  };
+
+  const buildProductRerankText = (product: Product): string => {
+    const topStyleTags = Object.entries(product.scores)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 3)
+      .map(([style]) => style)
+      .join(', ');
+
+    return [
+      `name: ${product.name}`,
+      `brand: ${product.brand}`,
+      `store: ${product.store.name}`,
+      `category: ${product.category}`,
+      `price: ${product.price}`,
+      `styles: ${topStyleTags}`,
+      `occasion_tags: ${product.metadata.occasionTags.join(', ')}`,
+      `fit_tags: ${product.metadata.fitTags.join(', ')}`,
+      `silhouette_tags: ${product.metadata.silhouetteTags.join(', ')}`
+    ].join(' | ');
+  };
+
+  const rerankCandidates = async (candidates: Product[], snapshot: UserPreferences): Promise<Product[]> => {
+    if (candidates.length <= 1) return candidates;
+
+    const payload: {
+      userText: string;
+      candidates: RerankCandidate[];
+    } = {
+      userText: buildUserTasteText(snapshot),
+      candidates: candidates.map(product => ({
+        id: product.id,
+        text: buildProductRerankText(product),
+        ruleScore: product.matchScore || 0
+      }))
+    };
+
+    try {
+      const response = await fetch('/api/rerank', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      if (!response.ok) return candidates;
+      const data = await response.json() as { orderedIds?: string[] };
+      if (!data.orderedIds || data.orderedIds.length === 0) return candidates;
+      const map = new Map(candidates.map(candidate => [candidate.id, candidate]));
+      const ordered = data.orderedIds
+        .map(id => map.get(id))
+        .filter((item): item is Product => Boolean(item));
+      return ordered.length > 0 ? ordered : candidates;
+    } catch {
+      return candidates;
+    }
+  };
+
   const runGeneration = (snapshot: UserPreferences) => {
     clearGenerationTimers();
     setIsGenerating(true);
@@ -190,21 +364,32 @@ export default function Home() {
     }, 850);
 
     scanTimeoutRef.current = window.setTimeout(() => {
-      const matched = matchProducts(CURATED_PRODUCTS, {
-        styles: snapshot.styles,
-        brands: snapshot.brands,
-        budget: snapshot.budget,
-        gender: snapshot.gender,
-        categories: snapshot.categories,
-        strictBrands: snapshot.strictBrands && snapshot.brands.length > 0,
-        occasion: snapshot.occasion,
-        sizes: snapshot.sizes || {}
-      });
+      void (async () => {
+        const matched = matchProducts(CURATED_PRODUCTS, {
+          styles: snapshot.styles,
+          brands: snapshot.brands,
+          budget: snapshot.budget,
+          gender: snapshot.gender,
+          categories: snapshot.categories,
+          strictBrands: snapshot.strictBrands && snapshot.brands.length > 0,
+          occasion: snapshot.occasion,
+          sizes: snapshot.sizes || {},
+          maxStores: 3,
+          negatives: snapshot.negatives || [],
+          feedbackModel
+        });
 
-      setResults(matched.slice(0, 8));
-      setIsGenerating(false);
-      clearGenerationTimers();
-      setStep('results');
+        const preRerank = matched.slice(0, 30);
+        const reranked = await rerankCandidates(preRerank, snapshot);
+
+        setResults(reranked.slice(0, 8));
+        setIsGenerating(false);
+        clearGenerationTimers();
+        window.localStorage.setItem('sa_member_profile', JSON.stringify(snapshot));
+        setMemberPreset(snapshot);
+        setIsMember(true);
+        setStep('results');
+      })();
     }, 4300);
   };
 
@@ -257,6 +442,12 @@ export default function Home() {
     handleGenerate(starter);
   };
 
+  const openMemberPrecurated = () => {
+    if (!memberPreset) return;
+    setPreferences(memberPreset);
+    handleGenerate(memberPreset);
+  };
+
   const budgetSignal = useMemo(() => {
     if (preferences.budget < 50) {
       return { label: 'Under $50', hint: 'Fewer options, mostly basics and sale-driven picks.' };
@@ -270,6 +461,46 @@ export default function Home() {
     return { label: '$200+', hint: 'Curated options, including premium and luxury pieces.' };
   }, [preferences.budget]);
 
+  const filteredBrands = useMemo(() => {
+    const query = brandSearch.trim().toLowerCase();
+    if (!query) return POPULAR_BRANDS;
+    return POPULAR_BRANDS.filter(brand => brand.name.toLowerCase().includes(query));
+  }, [brandSearch]);
+
+  const visibleBrands = useMemo(() => {
+    return showAllBrands ? filteredBrands : filteredBrands.slice(0, 10);
+  }, [filteredBrands, showAllBrands]);
+
+  const checkoutGroups = useMemo(() => {
+    const byStore = new Map<string, { store: Product['store']; items: Product[]; subtotal: number }>();
+    results.forEach(product => {
+      const existing = byStore.get(product.store.id);
+      if (existing) {
+        existing.items.push(product);
+        existing.subtotal += product.price;
+      } else {
+        byStore.set(product.store.id, { store: product.store, items: [product], subtotal: product.price });
+      }
+    });
+    return Array.from(byStore.values()).sort((a, b) => b.subtotal - a.subtotal);
+  }, [results]);
+
+  const openStoreHandoff = (group: { store: Product['store']; items: Product[]; subtotal: number }) => {
+    group.items.forEach((item, index) => {
+      window.setTimeout(() => {
+        window.open(item.productUrl, '_blank', 'noopener,noreferrer');
+      }, index * 180);
+      trackInteraction(item, 'handoff-open');
+    });
+    setStoreProgress(prev => ({ ...prev, [group.store.id]: true }));
+  };
+
+  const openAllStoreHandoffs = () => {
+    checkoutGroups.forEach((group, idx) => {
+      window.setTimeout(() => openStoreHandoff(group), idx * 600);
+    });
+  };
+
   const canProceed = useMemo(() => {
     if (step === 'preferences') {
       return !!preferences.gender && preferences.categories.length > 0 && missingSizeCategories.length === 0 && preferences.styles.length > 0;
@@ -281,9 +512,7 @@ export default function Home() {
   const nextStep = () => {
     const steps: Step[] = ['landing', 'preferences', 'occasion', 'brands', 'results'];
     const currentIdx = steps.indexOf(step);
-    if (step === 'occasion' && skipBrands) {
-      handleGenerate();
-    } else if (currentIdx < steps.length - 1) {
+    if (currentIdx < steps.length - 1) {
       setStep(steps[currentIdx + 1]);
     }
   };
@@ -388,6 +617,10 @@ export default function Home() {
                   <div className="grid md:grid-cols-3 gap-4">
                     {INSPIRATION_BOARDS.map(board => (
                       <div key={board.id} className="rounded-xl border border-surface-hover bg-surface/50 p-5 space-y-4">
+                        <div className="relative rounded-lg overflow-hidden border border-surface-hover">
+                          <img src={board.image} alt={board.title} className="w-full h-28 object-cover" />
+                          <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-background/20 to-transparent" />
+                        </div>
                         <div>
                           <h4 className="font-medium mb-1">{board.title}</h4>
                           <p className="text-sm text-muted">{board.description}</p>
@@ -409,6 +642,45 @@ export default function Home() {
                             Instant Match
                           </button>
                         </div>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+
+                <section className="glass-panel p-6 md:p-8">
+                  <div className="flex items-center justify-between mb-5 gap-4 flex-wrap">
+                    <div>
+                      <h3 className="text-xl font-semibold">Member Pre-Curated Carts</h3>
+                      <p className="text-sm text-muted">
+                        {isMember
+                          ? 'Ready from your previous preferences so next checkout is faster.'
+                          : 'Unlock by completing one match. Your next session starts from your saved taste.'}
+                      </p>
+                    </div>
+                    {isMember ? (
+                      <button onClick={openMemberPrecurated} className="luxury-button px-5 py-3 text-sm">
+                        Open My Saved Cart
+                      </button>
+                    ) : (
+                      <button onClick={() => setStep('preferences')} className="px-5 py-3 rounded-full border border-surface-hover text-sm">
+                        Start to Unlock
+                      </button>
+                    )}
+                  </div>
+                  <div className="grid md:grid-cols-3 gap-4">
+                    {demoProducts.slice(0, 3).map((product, index) => (
+                      <div key={`member-${product.id}`} className="relative rounded-xl overflow-hidden border border-surface-hover">
+                        <img src={product.image} alt={product.name} className="w-full h-40 object-cover" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/35 to-transparent" />
+                        <div className="absolute bottom-0 left-0 right-0 p-3">
+                          <p className="text-xs text-accent uppercase tracking-wider">Saved Look {index + 1}</p>
+                          <p className="text-sm">{product.name}</p>
+                        </div>
+                        {!isMember && (
+                          <div className="absolute inset-0 flex items-center justify-center bg-background/50 backdrop-blur-[2px]">
+                            <p className="text-xs uppercase tracking-[0.2em] text-accent">Members Only</p>
+                          </div>
+                        )}
                       </div>
                     ))}
                   </div>
@@ -540,6 +812,39 @@ export default function Home() {
                         >
                           <span className="text-2xl mb-2 block">{style.icon}</span>
                           <h4 className="font-medium text-sm">{style.label}</h4>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                <div className="space-y-4">
+                  <p className="text-sm text-muted">Avoid in recommendations</p>
+                  <div className="flex flex-wrap gap-2">
+                    {NEGATIVE_OPTIONS.map(option => {
+                      const selected = preferences.negatives?.includes(option.id) || false;
+                      return (
+                        <button
+                          key={option.id}
+                          onClick={() =>
+                            setPreferences(prev => {
+                              const current = prev.negatives || [];
+                              return {
+                                ...prev,
+                                negatives: selected
+                                  ? current.filter(item => item !== option.id)
+                                  : [...current, option.id]
+                              };
+                            })
+                          }
+                          className={cn(
+                            'px-3 py-2 rounded-full text-sm border transition-colors',
+                            selected
+                              ? 'border-accent bg-accent/10 text-foreground'
+                              : 'border-surface-hover hover:border-accent/30 text-muted'
+                          )}
+                        >
+                          {option.label}
                         </button>
                       );
                     })}
@@ -678,16 +983,6 @@ export default function Home() {
                   })}
                 </div>
 
-                <label className="flex items-center gap-3 justify-center text-sm text-muted cursor-pointer">
-                  <input
-                    type="checkbox"
-                    checked={skipBrands}
-                    onChange={e => setSkipBrands(e.target.checked)}
-                    className="rounded border-surface-hover"
-                  />
-                  Skip brand step and generate immediately
-                </label>
-
                 <div className="flex justify-between">
                   <button onClick={prevStep} className="flex items-center gap-2 text-muted hover:text-foreground">
                     <ArrowLeft className="w-4 h-4" />
@@ -698,7 +993,7 @@ export default function Home() {
                     disabled={!canProceed}
                     className={cn('luxury-button flex items-center gap-2', !canProceed && 'opacity-50 cursor-not-allowed')}
                   >
-                    {skipBrands ? 'Generate Cart' : 'Continue'}
+                    Continue
                     <ArrowRight className="w-4 h-4" />
                   </button>
                 </div>
@@ -716,37 +1011,79 @@ export default function Home() {
                 <div className="text-center">
                   <span className="text-sm text-muted uppercase tracking-wider">Step 3 of 3</span>
                   <h2 className="text-3xl font-semibold mt-2 mb-3">Preferred brands (optional)</h2>
-                  <p className="text-muted">Leave blank for broader discovery, or choose favorites.</p>
+                  <p className="text-muted">Choose up to a few favorites or skip this step for faster matching.</p>
                 </div>
 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
-                  {POPULAR_BRANDS.map(brand => {
-                    const isSelected = preferences.brands.includes(brand.id);
-                    return (
-                      <button
-                        key={brand.id}
-                        onClick={() => {
-                          if (isSelected) {
-                            setPreferences(prev => ({ ...prev, brands: prev.brands.filter(b => b !== brand.id) }));
-                          } else {
-                            setPreferences(prev => ({ ...prev, brands: [...prev.brands, brand.id] }));
-                          }
-                        }}
-                        className={cn(
-                          'p-3 rounded-xl border text-left transition-all',
-                          isSelected
-                            ? 'border-accent bg-accent/10'
-                            : 'border-surface-hover hover:border-accent/30 bg-surface/30'
-                        )}
-                      >
-                        <span className="font-medium text-sm">{brand.name}</span>
-                        <span className="block text-xs text-muted mt-1">{brand.priceRange}</span>
-                      </button>
-                    );
-                  })}
+                <div className="glass-panel p-5 space-y-4">
+                  <div className="flex items-center justify-between gap-3 flex-wrap">
+                    <div className="relative flex-1 min-w-[220px]">
+                      <Search className="w-4 h-4 text-muted absolute left-3 top-1/2 -translate-y-1/2" />
+                      <input
+                        value={brandSearch}
+                        onChange={e => setBrandSearch(e.target.value)}
+                        placeholder="Search brands"
+                        className="w-full bg-surface/40 border border-surface-hover rounded-full py-2.5 pl-9 pr-4 text-sm focus:outline-none focus:border-accent/50"
+                      />
+                    </div>
+                    <label className="flex items-center gap-2 text-sm text-muted cursor-pointer">
+                      <input
+                        type="checkbox"
+                        checked={skipBrands}
+                        onChange={e => setSkipBrands(e.target.checked)}
+                        className="rounded border-surface-hover"
+                      />
+                      Skip brands
+                    </label>
+                  </div>
+
+                  <div className="grid grid-cols-2 md:grid-cols-5 gap-3">
+                    {visibleBrands.map(brand => {
+                      const isSelected = preferences.brands.includes(brand.id);
+                      return (
+                        <button
+                          key={brand.id}
+                          onClick={() => {
+                            if (isSelected) {
+                              setPreferences(prev => ({ ...prev, brands: prev.brands.filter(b => b !== brand.id) }));
+                            } else {
+                              setPreferences(prev => ({ ...prev, brands: [...prev.brands, brand.id] }));
+                            }
+                          }}
+                          className={cn(
+                            'p-3 rounded-xl border text-left transition-all',
+                            isSelected
+                              ? 'border-accent bg-accent/10'
+                              : 'border-surface-hover hover:border-accent/30 bg-surface/30'
+                          )}
+                        >
+                          <span className="font-medium text-sm">{brand.name}</span>
+                          <span className="block text-xs text-muted mt-1">{brand.priceRange}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+
+                  {filteredBrands.length > 10 && (
+                    <button
+                      onClick={() => setShowAllBrands(prev => !prev)}
+                      className="text-sm text-accent inline-flex items-center gap-2"
+                    >
+                      {showAllBrands ? (
+                        <>
+                          Show fewer brands
+                          <ChevronUp className="w-4 h-4" />
+                        </>
+                      ) : (
+                        <>
+                          Show all brands ({filteredBrands.length})
+                          <ChevronDown className="w-4 h-4" />
+                        </>
+                      )}
+                    </button>
+                  )}
                 </div>
 
-                {preferences.brands.length > 0 && (
+                {preferences.brands.length > 0 && !skipBrands && (
                   <div className="text-center">
                     <p className="text-sm text-accent mb-2">
                       {preferences.brands.length} brand{preferences.brands.length > 1 ? 's' : ''} selected
@@ -769,7 +1106,15 @@ export default function Home() {
                     Back
                   </button>
                   <button
-                    onClick={() => handleGenerate()}
+                    onClick={() => {
+                      if (skipBrands) {
+                        const withoutBrands: UserPreferences = { ...preferences, brands: [], strictBrands: false };
+                        setPreferences(withoutBrands);
+                        handleGenerate(withoutBrands);
+                        return;
+                      }
+                      handleGenerate();
+                    }}
                     disabled={isGenerating}
                     className={cn('luxury-button flex items-center gap-2', isGenerating && 'opacity-50 cursor-not-allowed')}
                   >
@@ -846,13 +1191,23 @@ export default function Home() {
                                   href={product.productUrl}
                                   target="_blank"
                                   rel="noopener noreferrer"
+                                  onClick={() => trackInteraction(product, 'view')}
                                   className="flex items-center gap-1 text-sm text-accent hover:underline"
                                 >
                                   View Item
                                   <ExternalLink className="w-3 h-3" />
                                 </a>
-                                <button className="p-2 rounded-full hover:bg-surface transition-colors ml-auto">
+                                <button
+                                  onClick={() => trackInteraction(product, 'save')}
+                                  className="p-2 rounded-full hover:bg-surface transition-colors ml-auto"
+                                >
                                   <Heart className="w-4 h-4 text-muted" />
+                                </button>
+                                <button
+                                  onClick={() => trackInteraction(product, 'purchase')}
+                                  className="text-xs px-2 py-1 rounded-full border border-surface-hover hover:border-accent/40"
+                                >
+                                  Bought
                                 </button>
                               </div>
                             </div>
@@ -862,6 +1217,37 @@ export default function Home() {
                     </div>
 
                     <div className="glass-panel p-6">
+                      {checkoutGroups.length > 0 && (
+                        <div className="mb-6">
+                          <div className="flex items-center justify-between flex-wrap gap-3 mb-3">
+                            <p className="text-sm text-muted">Retailer Handoff Plan (checkout at retailer sites)</p>
+                            <button onClick={openAllStoreHandoffs} className="luxury-button px-4 py-2 text-sm">
+                              Open All Store Carts
+                            </button>
+                          </div>
+                          <div className="space-y-3">
+                            {checkoutGroups.map(group => (
+                              <div key={group.store.id} className="border border-surface-hover rounded-xl p-3 bg-surface/30">
+                                <div className="flex items-center justify-between gap-3 flex-wrap">
+                                  <div>
+                                    <p className="font-medium">{group.store.name}</p>
+                                    <p className="text-xs text-muted">
+                                      {group.items.length} item{group.items.length > 1 ? 's' : ''} · {formatPrice(group.subtotal)}
+                                    </p>
+                                  </div>
+                                  <button
+                                    onClick={() => openStoreHandoff(group)}
+                                    className="px-4 py-2 rounded-full border border-surface-hover hover:border-accent/40 text-sm inline-flex items-center gap-2"
+                                  >
+                                    {storeProgress[group.store.id] ? <CheckCircle2 className="w-4 h-4 text-accent" /> : null}
+                                    Open {group.store.capability === 'prefill' ? 'Prefill Cart' : 'Store Items'}
+                                  </button>
+                                </div>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      )}
                       <div className="flex items-center justify-between flex-wrap gap-4">
                         <div>
                           <p className="text-sm text-muted mb-1">Cart Total</p>
@@ -876,7 +1262,7 @@ export default function Home() {
                           >
                             Start New Search
                           </button>
-                          <button className="luxury-button">Proceed to Checkout</button>
+                          <button onClick={openAllStoreHandoffs} className="luxury-button">Proceed to Retailer Checkout</button>
                         </div>
                       </div>
                     </div>

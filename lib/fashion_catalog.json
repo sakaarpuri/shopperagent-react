@@ -29,7 +29,7 @@
         {
           "id": "gm003762uc001",
           "name": "Giorgio Armani & Kith &Kin Milano Crepe Collarless Jacket - Black",
-          "price": "€3,700.00",
+          "price": "\u20ac3,700.00",
           "category": "Jackets",
           "url": "/products/gm003762uc001",
           "style_tags": [
@@ -40,12 +40,17 @@
             "layering",
             "structured",
             "outerwear"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gm003802uc001",
           "name": "Giorgio Armani & Kith &Kin Milano Crepe Flat Front Trouser - Black",
-          "price": "€1,500.00",
+          "price": "\u20ac1,500.00",
           "category": "Pants",
           "url": "/products/gm003802uc001",
           "style_tags": [
@@ -55,12 +60,17 @@
             "premium",
             "bottoms",
             "structured"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gm003293uc001",
           "name": "Giorgio Armani & Kith &Kin Milano Crepe Entrepreneur Shirt - Black",
-          "price": "€2,200.00",
+          "price": "\u20ac2,200.00",
           "category": "Shirts",
           "url": "/products/gm003293uc001",
           "style_tags": [
@@ -71,12 +81,17 @@
             "professional",
             "structured",
             "versatile"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm011179-260",
           "name": "&Kin Combo Leather Avari Moto Jacket - Hickory",
-          "price": "€2,300.00",
+          "price": "\u20ac2,300.00",
           "category": "Jackets",
           "url": "/products/khm011179-260",
           "style_tags": [
@@ -90,12 +105,17 @@
             "edgy",
             "bold",
             "classic"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm011166-301",
           "name": "Kith Washed Suede Rossi Moto Jacket - Flagstaff",
-          "price": "€1,750.00",
+          "price": "\u20ac1,750.00",
           "category": "Jackets",
           "url": "/products/khm011166-301",
           "style_tags": [
@@ -108,12 +128,17 @@
             "outerwear",
             "bohemian",
             "classic"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm011163-302",
           "name": "Kith Pebbled Leather Jett Blouson Jacket - Stadium",
-          "price": "€1,450.00",
+          "price": "\u20ac1,450.00",
           "category": "Jackets",
           "url": "/products/khm011163-302",
           "style_tags": [
@@ -127,12 +152,17 @@
             "edgy",
             "bold",
             "classic"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm011148-416",
           "name": "Kith Gabriel Denim Jacket - Dark Indigo",
-          "price": "€455.00",
+          "price": "\u20ac455.00",
           "category": "Jackets",
           "url": "/products/khm011148-416",
           "style_tags": [
@@ -146,12 +176,17 @@
             "casual",
             "classic",
             "versatile"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm034733-001",
           "name": "Kith Pegasus Vintage Tee - Black",
-          "price": "€81.00",
+          "price": "\u20ac81.00",
           "category": "T-Shirts",
           "url": "/products/khm034733-001",
           "style_tags": [
@@ -166,12 +201,17 @@
             "classic",
             "unique",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm034534-001",
           "name": "Kith Quinn Tee - Black",
-          "price": "€90.00",
+          "price": "\u20ac90.00",
           "category": "T-Shirts",
           "url": "/products/khm034534-001",
           "style_tags": [
@@ -183,12 +223,17 @@
             "basic",
             "comfortable",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm034932-001",
           "name": "Kith Signature Rose Jones Tee - Black",
-          "price": "€81.00",
+          "price": "\u20ac81.00",
           "category": "T-Shirts",
           "url": "/products/khm034932-001",
           "style_tags": [
@@ -200,12 +245,17 @@
             "basic",
             "comfortable",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm034518-302",
           "name": "Kith Nelson Crewneck - Stadium",
-          "price": "€215.00",
+          "price": "\u20ac215.00",
           "category": "Sweatshirts",
           "url": "/products/khm034518-302",
           "style_tags": [
@@ -216,12 +266,17 @@
             "casual",
             "cozy",
             "comfortable"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm034516-001",
           "name": "Kith Rib Neck Cropped Camden Hoodie - Black",
-          "price": "€255.00",
+          "price": "\u20ac255.00",
           "category": "Hoodies",
           "url": "/products/khm034516-001",
           "style_tags": [
@@ -233,12 +288,17 @@
             "comfortable",
             "youthful",
             "cozy"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm061203-001",
           "name": "Kith Parker Sweatpant - Black",
-          "price": "€200.00",
+          "price": "\u20ac200.00",
           "category": "Pants",
           "url": "/products/khm061203-001",
           "style_tags": [
@@ -252,12 +312,17 @@
             "cozy",
             "comfortable",
             "loungewear"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm061200-001",
           "name": "Kith Curtis Short - Black",
-          "price": "€175.00",
+          "price": "\u20ac175.00",
           "category": "Shorts",
           "url": "/products/khm061200-001",
           "style_tags": [
@@ -268,12 +333,17 @@
             "casual",
             "summer",
             "comfortable"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm040268-001",
           "name": "Kith Monogram Leather Explorer Traveler K40 Duffle Bag - Black",
-          "price": "€685.00",
+          "price": "\u20ac685.00",
           "category": "Accessories",
           "url": "/products/khm040268-001",
           "style_tags": [
@@ -286,12 +356,17 @@
             "edgy",
             "bold",
             "classic"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm051519-5114",
           "name": "&Kin Wool Denim Dawson Bucket Hat - Blue Navy",
-          "price": "€180.00",
+          "price": "\u20ac180.00",
           "category": "Accessories",
           "url": "/products/khm051519-5114",
           "style_tags": [
@@ -305,12 +380,17 @@
             "classic",
             "versatile",
             "retro"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm051522-5114",
           "name": "&Kin & '47 for NY Yankees Wool Denim Franchise LS Cap",
-          "price": "€145.00",
+          "price": "\u20ac145.00",
           "category": "Accessories",
           "url": "/products/khm051522-5114",
           "style_tags": [
@@ -324,12 +404,17 @@
             "classic",
             "versatile",
             "sporty"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "sl45451000",
           "name": "Kith for Salomon XT-Voyager 2 - Black",
-          "price": "€235.00",
+          "price": "\u20ac235.00",
           "category": "Shoes",
           "url": "/products/sl45451000",
           "style_tags": [
@@ -339,12 +424,17 @@
             "premium",
             "practical",
             "everyday"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "mp5150618",
           "name": "Kith for Mephisto Match Sneaker - Orange",
-          "price": "€490.00",
+          "price": "\u20ac490.00",
           "category": "Shoes",
           "url": "/products/mp5150618",
           "style_tags": [
@@ -354,12 +444,17 @@
             "premium",
             "practical",
             "everyday"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm120031-001",
           "name": "Kith Moto Racer Sunglasses - Black",
-          "price": "€260.00",
+          "price": "\u20ac260.00",
           "category": "Accessories",
           "url": "/products/khm120031-001",
           "style_tags": [
@@ -372,7 +467,12 @@
             "stylish",
             "summer",
             "essential"
-          ]
+          ],
+          "store": {
+            "id": "kith",
+            "name": "Kith",
+            "capability": "deep_link"
+          }
         }
       ]
     },
@@ -398,7 +498,12 @@
             "smooth",
             "versatile",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-everyday-seamless-washed-sports-bra-red-ss26",
@@ -416,7 +521,12 @@
             "intimate",
             "feminine",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-lift-seamless-leggings-red-ss26",
@@ -434,7 +544,12 @@
             "smooth",
             "versatile",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-lift-seamless-shorts-red-ss26",
@@ -451,7 +566,12 @@
             "comfortable",
             "smooth",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-power-t-shirt-black-aw25-3",
@@ -467,7 +587,12 @@
             "basic",
             "comfortable",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-power-cut-off-tank-black-aw25",
@@ -484,7 +609,12 @@
             "layering",
             "basic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-straight-leg-pumper-pants-black",
@@ -500,7 +630,12 @@
             "bottoms",
             "structured",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-element-baselayer-t-shirt",
@@ -516,7 +651,12 @@
             "intimate",
             "feminine",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-power-straight-leg-pant-grey",
@@ -532,7 +672,12 @@
             "bottoms",
             "structured",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-everyday-seamless-washed-shorts-red",
@@ -549,7 +694,12 @@
             "comfortable",
             "smooth",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-lift-seamless-tank-shelf-red",
@@ -568,7 +718,12 @@
             "layering",
             "basic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-power-t-shirt-red-ss26",
@@ -584,7 +739,12 @@
             "basic",
             "comfortable",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-indigo-loopback-cargo-nelson",
@@ -606,7 +766,12 @@
             "comfortable",
             "loungewear",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-denim-huron-jacket",
@@ -625,7 +790,12 @@
             "classic",
             "versatile",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-rib-neck-cropped-camden",
@@ -644,7 +814,12 @@
             "youthful",
             "cozy",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-quinn-crewneck-sandrift",
@@ -660,7 +835,12 @@
             "cozy",
             "comfortable",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-lucero-knit-hoodie",
@@ -677,7 +857,12 @@
             "comfortable",
             "cozy",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-wagner-soccer-sweater",
@@ -695,7 +880,12 @@
             "layering",
             "classic",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshaw-knit-moto-jacket",
@@ -712,7 +902,12 @@
             "structured",
             "outerwear",
             "luxe"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "gymshark-terry-polo",
@@ -733,7 +928,12 @@
             "preppy",
             "smart-casual",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "gymshark",
+            "name": "Gymshark",
+            "capability": "deep_link"
+          }
         }
       ]
     },
@@ -761,11 +961,16 @@
             "sporty",
             "streetwear",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "cloudform-21-capri-jumpsuit-black",
-          "name": "CloudForm 21″ Capri Jumpsuit - Black",
+          "name": "CloudForm 21\u2033 Capri Jumpsuit - Black",
           "price": "$54.00",
           "category": "Jumpsuits",
           "url": "/products/cloudform-21-capri-jumpsuit-black",
@@ -781,7 +986,12 @@
             "sporty",
             "streetwear",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "after-hours-low-rise-baggy-jeans-dark-wash",
@@ -802,7 +1012,12 @@
             "streetwear",
             "retro",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "bohemian-goddess-chiffon-tiered-ruffle-maxi-ivory",
@@ -823,7 +1038,12 @@
             "flowy",
             "romantic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "spring-fantasy-mesh-bodysuit-multi-color",
@@ -842,7 +1062,12 @@
             "sporty",
             "versatile",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "olivia-printed-one-shoulder-pant-set-olive",
@@ -857,7 +1082,12 @@
             "feminine",
             "bold",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "kenna-bandage-midi-dress-blush",
@@ -878,7 +1108,12 @@
             "professional",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "running-the-game-zip-front-short-set-charcoal",
@@ -896,7 +1131,12 @@
             "summer",
             "comfortable",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "nova-cotton-tshirt-bra-leopard",
@@ -913,7 +1153,12 @@
             "intimate",
             "sporty",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "fully-booked-sweater-maxi-shirt-dress-olive",
@@ -932,11 +1177,16 @@
             "elegant",
             "boho",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "prostretch-25-v-seam-high-rise-legging-black",
-          "name": "ProStretch 25″ High Rise Legging - Black",
+          "name": "ProStretch 25\u2033 High Rise Legging - Black",
           "price": "$44.00",
           "category": "Leggings",
           "url": "/products/prostretch-25-v-seam-high-rise-legging-black",
@@ -952,11 +1202,16 @@
             "flattering",
             "versatile",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "seamlesslift-32-flare-jumpsuit-black",
-          "name": "SeamlessLift 32″ Flare Jumpsuit - Black",
+          "name": "SeamlessLift 32\u2033 Flare Jumpsuit - Black",
           "price": "$64.00",
           "category": "Jumpsuits",
           "url": "/products/seamlesslift-32-flare-jumpsuit-black",
@@ -972,7 +1227,12 @@
             "versatile",
             "elegant",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "blakely-cut-out-backless-maxi-dress-black",
@@ -991,7 +1251,12 @@
             "elegant",
             "boho",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "merida-denim-strapless-pant-set-dark-denim",
@@ -1009,7 +1274,12 @@
             "classic",
             "versatile",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "still-going-strong-ripped-baggy-wide-leg-jeans",
@@ -1030,7 +1300,12 @@
             "streetwear",
             "retro",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "toy-story-woody-and-jessie-tee-white",
@@ -1048,7 +1323,12 @@
             "basic",
             "comfortable",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "kayla-sleeveless-bandage-mini-dress-black",
@@ -1067,7 +1347,12 @@
             "fitted",
             "youthful",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "envy-me-lace-up-satin-corset-cream",
@@ -1086,7 +1371,12 @@
             "elegant",
             "romantic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "cloudform-short-sleeve-full-zip-jacket-black",
@@ -1107,7 +1397,12 @@
             "summer",
             "comfortable",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "caillat-bead-embellished-flats-beige",
@@ -1124,7 +1419,12 @@
             "practical",
             "everyday",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "fashionnova",
+            "name": "Fashion Nova",
+            "capability": "deep_link"
+          }
         }
       ]
     },
@@ -1148,7 +1448,12 @@
             "sporty",
             "performance",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "mens-tree-runner-nz-spice",
@@ -1163,7 +1468,12 @@
             "minimalist",
             "everyday",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "mens-cruiser-terralux-anthracite",
@@ -1178,7 +1488,12 @@
             "minimalist",
             "everyday",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-breezer-point-warm-white",
@@ -1194,7 +1509,12 @@
             "feminine",
             "professional",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "mens-dasher-nz-relay-ochre",
@@ -1210,7 +1530,12 @@
             "sporty",
             "performance",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "mens-cruiser-slip-on-canvas-auburn",
@@ -1228,7 +1553,12 @@
             "feminine",
             "luxe",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "mens-varsity-terralux-toasted-coconut",
@@ -1243,7 +1573,12 @@
             "minimalist",
             "everyday",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "mens-cruiser-canvas-warm-white",
@@ -1258,7 +1593,12 @@
             "minimalist",
             "everyday",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-varsity-cruiser",
@@ -1273,7 +1613,12 @@
             "minimalist",
             "everyday",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "mens-varsity-parchment",
@@ -1288,7 +1633,12 @@
             "minimalist",
             "everyday",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-breezer-point-natural-black",
@@ -1304,7 +1654,12 @@
             "feminine",
             "professional",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-varsity-light-burnt-olive",
@@ -1319,7 +1674,12 @@
             "minimalist",
             "everyday",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "mens-runner-nz-terralux-light-grey",
@@ -1335,7 +1695,12 @@
             "sporty",
             "performance",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-tree-breezer-spice",
@@ -1351,7 +1716,12 @@
             "feminine",
             "professional",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "mens-allbirds-flip-flop-mid-yellow",
@@ -1366,7 +1736,12 @@
             "minimalist",
             "summer",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-dasher-nz-mid-yellow",
@@ -1382,7 +1757,12 @@
             "sporty",
             "performance",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "sl45451000",
@@ -1398,7 +1778,12 @@
             "practical",
             "everyday",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "mp5150618",
@@ -1414,7 +1799,12 @@
             "practical",
             "everyday",
             "luxe"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm120031-001",
@@ -1433,7 +1823,12 @@
             "summer",
             "essential",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "khm10117-001",
@@ -1452,7 +1847,12 @@
             "elegant",
             "professional",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "allbirds",
+            "name": "Allbirds",
+            "capability": "deep_link"
+          }
         }
       ]
     },
@@ -1465,7 +1865,7 @@
         {
           "id": "womens-striped-boatneck-sweater-cotton-true-navy-bone",
           "name": "Striped Boatneck Sweater in Everyday Cotton",
-          "price": "€110.70",
+          "price": "\u20ac110.70",
           "category": "Sweaters",
           "url": "/products/womens-striped-boatneck-sweater-cotton-true-navy-bone",
           "style_tags": [
@@ -1477,12 +1877,17 @@
             "warm",
             "layering",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-cashmere-slim-crew-sweater-hunter-green",
           "name": "Cashmere Slim Crew Sweater",
-          "price": "€153.94",
+          "price": "\u20ac153.94",
           "category": "Sweaters",
           "url": "/products/womens-cashmere-slim-crew-sweater-hunter-green",
           "style_tags": [
@@ -1495,12 +1900,17 @@
             "layering",
             "luxe",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-drapey-twill-trench-coat-khaki",
           "name": "Drapey Twill Trench",
-          "price": "€257.71",
+          "price": "\u20ac257.71",
           "category": "Outerwear",
           "url": "/products/womens-drapey-twill-trench-coat-khaki",
           "style_tags": [
@@ -1512,12 +1922,17 @@
             "structured",
             "timeless",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-shrunken-top-in-washable-silk-hunter-green",
           "name": "Shrunken Top in Washable Silk",
-          "price": "€145.29",
+          "price": "\u20ac145.29",
           "category": "Tops",
           "url": "/products/womens-shrunken-top-in-washable-silk-hunter-green",
           "style_tags": [
@@ -1531,12 +1946,17 @@
             "luxe",
             "elegant",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-way-high-a-line-denim-short-bright-white",
           "name": "Way-High A-Line Denim Short",
-          "price": "€84.75",
+          "price": "\u20ac84.75",
           "category": "Shorts",
           "url": "/products/womens-way-high-a-line-denim-short-bright-white",
           "style_tags": [
@@ -1549,12 +1969,17 @@
             "comfortable",
             "versatile",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-italian-leather-ballet-flat-juniper",
           "name": "Made in Italy Ballet Flat",
-          "price": "€249.06",
+          "price": "\u20ac249.06",
           "category": "Shoes",
           "url": "/products/womens-italian-leather-ballet-flat-juniper",
           "style_tags": [
@@ -1565,12 +1990,17 @@
             "practical",
             "everyday",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-double-knit-crew-in-cotton-merino",
           "name": "Double Knit Crew in Cotton Merino",
-          "price": "€110.70",
+          "price": "\u20ac110.70",
           "category": "Sweaters",
           "url": "/products/womens-double-knit-crew-in-cotton-merino-bone-cream-sand-light-camel",
           "style_tags": [
@@ -1582,12 +2012,17 @@
             "warm",
             "layering",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-ribbed-v-neck-vest-cotton-hunter-green",
           "name": "Ribbed V-Neck Vest in Everyday Cotton",
-          "price": "€84.75",
+          "price": "\u20ac84.75",
           "category": "Tops",
           "url": "/products/womens-ribbed-v-neck-vest-cotton-hunter-green",
           "style_tags": [
@@ -1602,12 +2037,17 @@
             "textured",
             "casual",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-seamed-balloon-pant-olive-night",
           "name": "Seamed Balloon Pant",
-          "price": "€127.99",
+          "price": "\u20ac127.99",
           "category": "Pants",
           "url": "/products/womens-seamed-balloon-pant-olive-night",
           "style_tags": [
@@ -1618,12 +2058,17 @@
             "bottoms",
             "structured",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-short-anorak-imperial-blue",
           "name": "The Short Anorak",
-          "price": "€153.94",
+          "price": "\u20ac153.94",
           "category": "Outerwear",
           "url": "/products/womens-short-anorak-imperial-blue",
           "style_tags": [
@@ -1637,12 +2082,17 @@
             "summer",
             "comfortable",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-halter-dress-in-ultrasoft-cotton-birch",
           "name": "Halter Dress in Ultrasoft Cotton",
-          "price": "€127.99",
+          "price": "\u20ac127.99",
           "category": "Dresses",
           "url": "/products/womens-halter-dress-in-ultrasoft-cotton-birch",
           "style_tags": [
@@ -1654,12 +2104,17 @@
             "dressy",
             "versatile",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-field-jacket-oak-brown",
           "name": "Field Jacket",
-          "price": "€171.23",
+          "price": "\u20ac171.23",
           "category": "Outerwear",
           "url": "/products/womens-field-jacket-oak-brown",
           "style_tags": [
@@ -1670,12 +2125,17 @@
             "layering",
             "structured",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-way-high-jean-2-medium-indigo",
           "name": "The Way-High Jean 2.0",
-          "price": "€89.94",
+          "price": "\u20ac89.94",
           "category": "Jeans",
           "url": "/products/womens-way-high-jean-2-medium-indigo",
           "style_tags": [
@@ -1686,12 +2146,17 @@
             "casual",
             "versatile",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-pique-boxy-polo",
           "name": "Pique Boxy Polo",
-          "price": "€67.46",
+          "price": "\u20ac67.46",
           "category": "Tops",
           "url": "/products/womens-pique-boxy-polo-pomegranate-rose-blue",
           "style_tags": [
@@ -1705,12 +2170,17 @@
             "preppy",
             "smart-casual",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-cashmere-boxy-crew-sweater-lilac-crush",
           "name": "The Boxy Crew in Cashmere",
-          "price": "€197.17",
+          "price": "\u20ac197.17",
           "category": "Sweaters",
           "url": "/products/womens-cashmere-boxy-crew-sweater-lilac-crush",
           "style_tags": [
@@ -1723,12 +2193,17 @@
             "layering",
             "luxe",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-balloon-sleeve-top-in-cotton-silk-black",
           "name": "Balloon Sleeve Top in Cotton Silk",
-          "price": "€119.34",
+          "price": "\u20ac119.34",
           "category": "Tops",
           "url": "/products/womens-balloon-sleeve-top-in-cotton-silk-black",
           "style_tags": [
@@ -1742,12 +2217,17 @@
             "luxe",
             "elegant",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-cropped-boxy-denim-shirt-light-indigo",
           "name": "Cropped Boxy Denim Shirt",
-          "price": "€84.75",
+          "price": "\u20ac84.75",
           "category": "Tops",
           "url": "/products/womens-cropped-boxy-denim-shirt-light-indigo",
           "style_tags": [
@@ -1762,12 +2242,17 @@
             "trendy",
             "youthful",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-organic-cotton-crew-sweater-skywriting",
           "name": "The Boxy Sweater in Everyday Cotton",
-          "price": "€93.40",
+          "price": "\u20ac93.40",
           "category": "Sweaters",
           "url": "/products/womens-organic-cotton-crew-sweater-skywriting",
           "style_tags": [
@@ -1779,12 +2264,17 @@
             "warm",
             "layering",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "womens-everyday-shirt-in-silky-cotton",
           "name": "Everyday Shirt in Silky Cotton",
-          "price": "€84.75",
+          "price": "\u20ac84.75",
           "category": "Tops",
           "url": "/products/womens-everyday-shirt-in-silky-cotton-estateblue-openair-white",
           "style_tags": [
@@ -1798,7 +2288,12 @@
             "luxe",
             "elegant",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "everlane",
+            "name": "Everlane",
+            "capability": "deep_link"
+          }
         }
       ]
     },
@@ -1820,7 +2315,12 @@
             "comfortable",
             "active",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "U600878-ACC-JGY_FrostedBeanie_",
@@ -1840,7 +2340,12 @@
             "winter",
             "streetwear",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "W302060-HLM-DKY_CloudKnitCami_",
@@ -1857,7 +2362,12 @@
             "feminine",
             "layering",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "W302060-HLM-GRS_CloudKnitCami_",
@@ -1874,7 +2384,12 @@
             "feminine",
             "layering",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "W701354-HMJ-DBA_CloudKnitWideL",
@@ -1891,7 +2406,12 @@
             "relaxed",
             "retro",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "W701354-HMJ-GRS_CloudKnitWideL",
@@ -1908,7 +2428,12 @@
             "relaxed",
             "retro",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "W702061-HLM-GRS_CloudKnit3.5in",
@@ -1923,7 +2448,12 @@
             "active",
             "summer",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "W702061-HLM-DKY_CloudKnit3.5in",
@@ -1938,7 +2468,12 @@
             "active",
             "summer",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "W302064-HLM-GRS_CloudKnitBoxyS",
@@ -1954,7 +2489,12 @@
             "active",
             "summer",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "W302064-HLM-DKY_CloudKnitBoxyS",
@@ -1970,7 +2510,12 @@
             "active",
             "summer",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "M300066-HLM-GRS_CloudKnitShort",
@@ -1986,7 +2531,12 @@
             "active",
             "summer",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "M300066-HLM-DKY_CloudKnitShort",
@@ -2002,7 +2552,12 @@
             "active",
             "summer",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "M701566-HMJ-GRS_CloudKnit7inSh",
@@ -2018,7 +2573,12 @@
             "active",
             "summer",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "M701566-HMJ-DKY_CloudKnit7inSh",
@@ -2034,7 +2594,12 @@
             "active",
             "summer",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "CloudKnitCami-Charcoal",
@@ -2051,7 +2616,12 @@
             "feminine",
             "layering",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "W702044-TDN-SAL_DesertPant_Sal",
@@ -2065,7 +2635,12 @@
             "comfortable",
             "active",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "W702390-WTS-JCF_LightSpeedMini",
@@ -2083,7 +2658,12 @@
             "night-out",
             "youthful",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "W401433-WTS-JCF_ExerciseDress_",
@@ -2100,7 +2680,12 @@
             "dressy",
             "versatile",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "U602082-PCN-CRI_OVRecAnkleSock",
@@ -2116,7 +2701,12 @@
             "styling",
             "finishing-touch",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "U602082-PCN-CNS_OVRecAnkleSock",
@@ -2132,7 +2722,12 @@
             "styling",
             "finishing-touch",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "outdoor-voices",
+            "name": "Outdoor Voices",
+            "capability": "deep_link"
+          }
         }
       ]
     },
@@ -2158,7 +2753,12 @@
             "comfortable",
             "basic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_Misty_Breezes_5.5__Texture",
@@ -2173,7 +2773,12 @@
             "summer",
             "retro",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_Secret_Agents_5.5__Texture",
@@ -2188,7 +2793,12 @@
             "summer",
             "retro",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_Secret_Agents_5.5__Texture",
@@ -2206,7 +2816,12 @@
             "comfortable",
             "basic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_Misty_Breezes_5.5__Texture",
@@ -2221,14 +2836,19 @@
             "summer",
             "retro",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Wild_20Flower_20Wonder_20_28Pe",
           "name": "The Wild Flower Wonder (Performance Polo )",
           "price": "$30.00",
           "category": "Bottoms",
-          "material": "a lightweight, performance-enhancing fabric that’s anti-bacterial, moisture wick",
+          "material": "a lightweight, performance-enhancing fabric that\u2019s anti-bacterial, moisture wick",
           "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Wild_20Flower_20Wonder_20_28Performance_20Polo_202.0_29_582241-61_OF.webp?v=1771454442",
           "style_tags": [
             "casual",
@@ -2240,7 +2860,12 @@
             "classic",
             "smart-casual",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_Even_Keel_Quilted_Quarter-",
@@ -2262,7 +2887,12 @@
             "classic",
             "texture",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Cherry_Blossoms_8.0__Everywear",
@@ -2278,7 +2908,12 @@
             "summer",
             "retro",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_malibusunrise",
@@ -2300,7 +2935,12 @@
             "cozy",
             "comfortable",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "BeachBum_T-Shirt__OB_502222-10",
@@ -2316,7 +2956,12 @@
             "summer",
             "retro",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Ice_Cap_High-Pile_Hoodie__5452",
@@ -2338,14 +2983,19 @@
             "comfortable",
             "sporty",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_Lil_Sittin_Under_Sea_Toddl",
           "name": "The Lil Sittin' Under The Sea (Toddler Performance Polo)",
           "price": "$20.00",
           "category": "Tops",
-          "material": "a lightweight, ultra-stretchy fabric that’s anti-bacterial, moisture wicking, an",
+          "material": "a lightweight, ultra-stretchy fabric that\u2019s anti-bacterial, moisture wicking, an",
           "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Lil_Sittin_Under_Sea_Toddler_Performance_Polo__420251-35_OF.webp?v=1762272668",
           "style_tags": [
             "casual",
@@ -2360,7 +3010,12 @@
             "classic",
             "smart-casual",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Squad_Goal_Low-Pile_Quarter-Zi",
@@ -2378,7 +3033,12 @@
             "structured",
             "professional",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_Havana_Night_Non_Pocket_T-",
@@ -2394,7 +3054,12 @@
             "summer",
             "retro",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_Bahamians_4__Classic_Swim_",
@@ -2413,7 +3078,12 @@
             "comfortable",
             "basic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_The_Hidden_Golds_Tearaway_",
@@ -2431,7 +3101,12 @@
             "beach",
             "sexy",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "517223-02_Northwesterner_4798",
@@ -2452,7 +3127,12 @@
             "classic",
             "unique",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_Floral_Estate_Resort_Weave",
@@ -2467,7 +3147,12 @@
             "summer",
             "retro",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_Bahamians_7__Classic_Lined",
@@ -2486,7 +3171,12 @@
             "comfortable",
             "basic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "PDP_Navy_Swimmer_Trucker_Hat__",
@@ -2504,7 +3194,12 @@
             "beach",
             "sexy",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "chubbies",
+            "name": "Chubbies",
+            "capability": "deep_link"
+          }
         }
       ]
     },
@@ -2530,7 +3225,12 @@
             "feminine",
             "layering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Black_Rainbow_xequals_No_Fly_6",
@@ -2547,7 +3247,12 @@
             "feminine",
             "layering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Black_Rainbow_xequals_4.5_1",
@@ -2565,7 +3270,12 @@
             "feminine",
             "layering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Rainbow_Logo_9in_Boxer",
@@ -2583,7 +3293,12 @@
             "feminine",
             "layering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Rainbow_Logo_6in_Packing_1",
@@ -2600,7 +3315,12 @@
             "feminine",
             "layering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Rainbow_Logo_No_Fly_6in",
@@ -2617,7 +3337,12 @@
             "feminine",
             "layering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Rainbow_Logo_6in_Fly_1",
@@ -2634,7 +3359,12 @@
             "feminine",
             "layering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Rainbow_Logo_4.5in_Boxer",
@@ -2652,7 +3382,12 @@
             "feminine",
             "layering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Scoop_Soft_Bra_1",
@@ -2672,7 +3407,12 @@
             "intimate",
             "sporty",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Royal_Swim_6in_Racerback_Unisu",
@@ -2690,7 +3430,12 @@
             "sexy",
             "bold",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Head_Over_Eels_Swim_7in_Board_",
@@ -2706,14 +3451,19 @@
             "inclusive",
             "summer",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Head_Over_Eels_Swim_Tank_1",
           "name": "Swim Tank - Head Over Eels",
           "price": "$105.00",
           "category": "Tops",
-          "material": "recycled Bahia, so it’s super durable and moisture wicking, as well as a sun pro",
+          "material": "recycled Bahia, so it\u2019s super durable and moisture wicking, as well as a sun pro",
           "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Head_Over_Eels_Swim_Tank_1.jpg?v=1760387341",
           "style_tags": [
             "gender-neutral",
@@ -2726,7 +3476,12 @@
             "summer",
             "basic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Royal_Swim_Sport_Top_1",
@@ -2744,7 +3499,12 @@
             "feminine",
             "layering",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Black_Swim_High_Waisted_Hipste",
@@ -2759,7 +3519,12 @@
             "comfortable",
             "inclusive",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Under_The_Surface_Swim_6in_Rac",
@@ -2777,7 +3542,12 @@
             "sexy",
             "bold",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Black_x__Shine_Tucking_Hipster",
@@ -2794,7 +3564,12 @@
             "intimate",
             "basic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Misty_Blue_Straight_Up_Soft_Br",
@@ -2814,7 +3589,12 @@
             "intimate",
             "sporty",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "Misty_Blue_Longline_Scoop_Bra_",
@@ -2834,7 +3614,12 @@
             "intimate",
             "sporty",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "2337380021_Swim_Tropadelic_6in",
@@ -2853,14 +3638,19 @@
             "sexy",
             "bold",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "2337300001_Swim_Black_Novelty_",
           "name": "Swim 2.5\" High Waisted Board Shortie - Black Novelty",
           "price": "$115.00",
           "category": "Bottoms",
-          "material": "UV 50 UPF Sun Protection 92% Recycled Polyester, 8% Spandex, OEKO-TEX®-certified",
+          "material": "UV 50 UPF Sun Protection 92% Recycled Polyester, 8% Spandex, OEKO-TEX\u00ae-certified",
           "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/2337300001_Swim_Black_Novelty_3.5in_Board_Short_On_Fig_1.jpg?v=1742490504",
           "style_tags": [
             "gender-neutral",
@@ -2869,7 +3659,12 @@
             "inclusive",
             "summer",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "tomboyx",
+            "name": "TomboyX",
+            "capability": "deep_link"
+          }
         }
       ]
     },
@@ -2895,7 +3690,12 @@
             "versatile",
             "layering",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1310507MBL_0",
@@ -2912,7 +3712,12 @@
             "romantic",
             "flattering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1310507PMBL_0",
@@ -2929,7 +3734,12 @@
             "romantic",
             "flattering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1310507VBK_0",
@@ -2946,7 +3756,12 @@
             "romantic",
             "flattering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1310507PVBK_0",
@@ -2963,7 +3778,12 @@
             "romantic",
             "flattering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1310507LBL_0",
@@ -2980,7 +3800,12 @@
             "romantic",
             "flattering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1310507PLBL_0",
@@ -2997,7 +3822,12 @@
             "romantic",
             "flattering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1310507DBL_0",
@@ -3014,7 +3844,12 @@
             "romantic",
             "flattering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1310507PDBL_0",
@@ -3031,7 +3866,12 @@
             "romantic",
             "flattering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1310507BLK_0",
@@ -3048,7 +3888,12 @@
             "romantic",
             "flattering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1310507PBLK_0",
@@ -3065,7 +3910,12 @@
             "romantic",
             "flattering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1310507ABK_0",
@@ -3082,7 +3932,12 @@
             "romantic",
             "flattering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1310507PABK_0",
@@ -3099,7 +3954,12 @@
             "romantic",
             "flattering",
             "premium"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1319631WHT_0",
@@ -3120,7 +3980,12 @@
             "summer",
             "breezy",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1319631BLK_0",
@@ -3141,7 +4006,12 @@
             "summer",
             "breezy",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1319631NVY_0",
@@ -3162,7 +4032,12 @@
             "summer",
             "breezy",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1319631OLV_0",
@@ -3183,7 +4058,12 @@
             "summer",
             "breezy",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1319631GRY_0",
@@ -3204,7 +4084,12 @@
             "summer",
             "breezy",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1319631BRN_0",
@@ -3225,7 +4110,12 @@
             "summer",
             "breezy",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "1319631BLU_0",
@@ -3246,7 +4136,12 @@
             "summer",
             "breezy",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "reformation",
+            "name": "Reformation",
+            "capability": "deep_link"
+          }
         }
       ]
     },
@@ -3273,7 +4168,12 @@
             "structured",
             "professional",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "w51432r-suit-up-trouser-black",
@@ -3289,7 +4189,12 @@
             "yoga",
             "premium",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "w3893r-pinstripe-daylight-butt",
@@ -3308,7 +4213,12 @@
             "feminine",
             "layering",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "w6453r-pinstripe-daylight-boxe",
@@ -3327,7 +4237,12 @@
             "summer",
             "comfortable",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "w9680r-airbrush-heart-throb-br",
@@ -3347,7 +4262,12 @@
             "layering",
             "intimate",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "w51298r-airbrush-high-waist-he",
@@ -3365,7 +4285,12 @@
             "comfortable",
             "versatile",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "u3041rg-accolade-full-zip-hood",
@@ -3388,7 +4313,12 @@
             "cozy",
             "comfortable",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "u5012rg-accolade-straight-leg-",
@@ -3408,7 +4338,12 @@
             "comfortable",
             "loungewear",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "w9918r-airbrush-better-togethe",
@@ -3428,7 +4363,12 @@
             "layering",
             "intimate",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "w54309r-airbrush-high-waist-be",
@@ -3446,7 +4386,12 @@
             "comfortable",
             "versatile",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "w3937r-cropped-sway-crew-neck-",
@@ -3468,7 +4413,12 @@
             "youthful",
             "casual",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "w51304r-sway-bootcut-sweatpant",
@@ -3488,7 +4438,12 @@
             "comfortable",
             "loungewear",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "w4708r-fast-lane-puffer-vest",
@@ -3510,7 +4465,12 @@
             "casual",
             "winter",
             "trendy"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "w5766r-airlift-legging",
@@ -3528,7 +4488,12 @@
             "comfortable",
             "versatile",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "w9884r-alosoft-sincere-bra",
@@ -3548,7 +4513,12 @@
             "layering",
             "intimate",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "double-take-short-sleeve",
@@ -3570,7 +4540,12 @@
             "summer",
             "comfortable",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "double-take-short",
@@ -3589,7 +4564,12 @@
             "summer",
             "comfortable",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "takeaway-track-pullover",
@@ -3608,7 +4588,12 @@
             "feminine",
             "layering",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "repetition-pant",
@@ -3624,7 +4609,12 @@
             "yoga",
             "premium",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "conquer-reform-long-sleeve",
@@ -3643,7 +4633,12 @@
             "feminine",
             "layering",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "alo-yoga",
+            "name": "Alo Yoga",
+            "capability": "deep_link"
+          }
         }
       ]
     },
@@ -3666,7 +4661,12 @@
             "performance",
             "classic",
             "luxe"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQES_072760",
@@ -3681,7 +4681,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQMS_076023",
@@ -3696,7 +4701,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQDS_074028",
@@ -3711,7 +4721,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQGS_072761",
@@ -3726,7 +4741,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQHS_072756",
@@ -3741,7 +4761,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQIS_045797",
@@ -3756,7 +4781,12 @@
             "performance",
             "classic",
             "luxe"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5CUXS_072757",
@@ -3771,7 +4801,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQKS_072756",
@@ -3786,7 +4821,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQLS_072757",
@@ -3801,7 +4841,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQNS_072761",
@@ -3816,7 +4861,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW4AWGS_0001",
@@ -3834,7 +4884,12 @@
             "structured",
             "professional",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW4AWHS_0001",
@@ -3855,7 +4910,12 @@
             "youthful",
             "casual",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQPS_0001",
@@ -3870,7 +4930,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQQS_0001",
@@ -3885,7 +4950,12 @@
             "performance",
             "classic",
             "luxe"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQRS_0001",
@@ -3900,7 +4970,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQSS_072757",
@@ -3915,7 +4990,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQTS_074857",
@@ -3930,7 +5010,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQUS_072761",
@@ -3945,7 +5030,12 @@
             "performance",
             "classic",
             "affordable"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         },
         {
           "id": "LW5DQVS_0001",
@@ -3959,7 +5049,12 @@
             "premium",
             "performance",
             "classic"
-          ]
+          ],
+          "store": {
+            "id": "lululemon",
+            "name": "Lululemon",
+            "capability": "deep_link"
+          }
         }
       ]
     }
