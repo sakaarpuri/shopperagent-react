@@ -23,7 +23,7 @@ import {
 } from 'lucide-react';
 import type { Product, UserPreferences, FeedbackModel } from '@/types';
 
-type Step = 'landing' | 'preferences' | 'occasion' | 'brands' | 'results';
+type Step = 'landing' | 'preferences' | 'brands' | 'results';
 
 type CategoryId = 'tops' | 'bottoms' | 'outerwear' | 'shoes' | 'accessories' | 'dresses';
 type SizeCategory = 'tops' | 'bottoms' | 'outerwear' | 'shoes' | 'dresses';
@@ -53,15 +53,6 @@ const SIZE_OPTIONS: Record<SizeCategory, string[]> = {
   shoes: ['6', '7', '8', '9', '10', '11', '12'],
   dresses: ['XS', 'S', 'M', 'L', 'XL']
 };
-
-const OCCASIONS: Array<{ id: Occasion; label: string; hint: string }> = [
-  { id: 'everyday', label: 'Everyday', hint: 'Versatile staples' },
-  { id: 'work', label: 'Work', hint: 'Polished and practical' },
-  { id: 'date-night', label: 'Date Night', hint: 'Elevated and expressive' },
-  { id: 'event', label: 'Event', hint: 'Statement-ready looks' },
-  { id: 'travel', label: 'Travel', hint: 'Comfort + mix-and-match' },
-  { id: 'workout', label: 'Workout', hint: 'Performance first' }
-];
 
 const SCAN_STAGES = [
   'Parsing your preferences',
@@ -431,6 +422,13 @@ export default function Home() {
     handleGenerate(memberPreset);
   };
 
+  const beginGuidedMatching = () => {
+    if (memberPreset) {
+      setPreferences(memberPreset);
+    }
+    setStep('preferences');
+  };
+
   const budgetSignal = useMemo(() => {
     if (preferences.budget < 50) {
       return { label: 'Under $50', hint: 'Fewer options, mostly basics and sale-driven picks.' };
@@ -488,12 +486,11 @@ export default function Home() {
     if (step === 'preferences') {
       return !!preferences.gender && preferences.categories.length > 0 && missingSizeCategories.length === 0 && preferences.styles.length > 0;
     }
-    if (step === 'occasion') return !!preferences.occasion;
     return true;
   }, [step, preferences, missingSizeCategories]);
 
   const nextStep = () => {
-    const steps: Step[] = ['landing', 'preferences', 'occasion', 'brands', 'results'];
+    const steps: Step[] = ['landing', 'preferences', 'brands', 'results'];
     const currentIdx = steps.indexOf(step);
     if (currentIdx < steps.length - 1) {
       setStep(steps[currentIdx + 1]);
@@ -501,7 +498,7 @@ export default function Home() {
   };
 
   const prevStep = () => {
-    const steps: Step[] = ['landing', 'preferences', 'occasion', 'brands', 'results'];
+    const steps: Step[] = ['landing', 'preferences', 'brands', 'results'];
     const currentIdx = steps.indexOf(step);
     if (currentIdx > 0) {
       setStep(steps[currentIdx - 1]);
@@ -575,7 +572,7 @@ export default function Home() {
                       initial={{ opacity: 0, y: 30 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.35 }}
-                      onClick={() => setStep('preferences')}
+                      onClick={beginGuidedMatching}
                       className="luxury-button flex items-center gap-3 text-lg px-10 py-5"
                     >
                       <Zap className="w-5 h-5" />
@@ -638,7 +635,7 @@ export default function Home() {
                         Open My Saved Cart
                       </button>
                     ) : (
-                      <button onClick={() => setStep('preferences')} className="px-5 py-3 rounded-full border border-surface-hover text-sm">
+                      <button onClick={beginGuidedMatching} className="px-5 py-3 rounded-full border border-surface-hover text-sm">
                         Start to Unlock
                       </button>
                     )}
@@ -674,7 +671,7 @@ export default function Home() {
                 className="space-y-8 max-w-4xl mx-auto"
               >
                 <div className="text-center">
-                  <span className="text-sm text-muted uppercase tracking-wider">Step 1 of 3</span>
+                  <span className="text-sm text-muted uppercase tracking-wider">Step 1 of 2</span>
                   <h2 className="text-3xl font-semibold mt-2 mb-3">Set your core preferences</h2>
                   <p className="text-muted">Gender, product categories, style taste, sizes, and budget in one place.</p>
                 </div>
@@ -894,58 +891,6 @@ export default function Home() {
               </motion.div>
             )}
 
-            {step === 'occasion' && (
-              <motion.div
-                key="occasion"
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                className="space-y-8 max-w-3xl mx-auto"
-              >
-                <div className="text-center">
-                  <span className="text-sm text-muted uppercase tracking-wider">Step 2 of 3</span>
-                  <h2 className="text-3xl font-semibold mt-2 mb-3">Pick your mood or occasion</h2>
-                  <p className="text-muted">This sets context, while your taste was captured in preferences.</p>
-                </div>
-
-                <div className="grid md:grid-cols-3 gap-3">
-                  {OCCASIONS.map(item => {
-                    const selected = preferences.occasion === item.id;
-                    return (
-                      <button
-                        key={item.id}
-                        onClick={() => setPreferences(prev => ({ ...prev, occasion: item.id }))}
-                        className={cn(
-                          'p-4 rounded-xl border text-left transition-all',
-                          selected
-                            ? 'border-accent bg-accent/10'
-                            : 'border-surface-hover hover:border-accent/30 bg-surface/30'
-                        )}
-                      >
-                        <p className="font-medium">{item.label}</p>
-                        <p className="text-xs text-muted mt-1">{item.hint}</p>
-                      </button>
-                    );
-                  })}
-                </div>
-
-                <div className="flex justify-between">
-                  <button onClick={prevStep} className="flex items-center gap-2 text-muted hover:text-foreground">
-                    <ArrowLeft className="w-4 h-4" />
-                    Back
-                  </button>
-                  <button
-                    onClick={nextStep}
-                    disabled={!canProceed}
-                    className={cn('luxury-button flex items-center gap-2', !canProceed && 'opacity-50 cursor-not-allowed')}
-                  >
-                    Continue
-                    <ArrowRight className="w-4 h-4" />
-                  </button>
-                </div>
-              </motion.div>
-            )}
-
             {step === 'brands' && (
               <motion.div
                 key="brands"
@@ -955,7 +900,7 @@ export default function Home() {
                 className="space-y-8 max-w-4xl mx-auto"
               >
                 <div className="text-center">
-                  <span className="text-sm text-muted uppercase tracking-wider">Step 3 of 3</span>
+                  <span className="text-sm text-muted uppercase tracking-wider">Step 2 of 2</span>
                   <h2 className="text-3xl font-semibold mt-2 mb-3">Preferred brands (optional)</h2>
                   <p className="text-muted">Choose up to a few favorites or skip this step for faster matching.</p>
                 </div>
