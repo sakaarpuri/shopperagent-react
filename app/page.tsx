@@ -575,8 +575,7 @@ export default function Home() {
                     transition={{ delay: 0.2 }}
                     className="text-5xl md:text-6xl font-semibold tracking-tight mb-6"
                   >
-                    Your AI Shops<br />
-                    <span className="text-gradient">With Better Matching</span>
+                    AI AGENT that shops clothes for you.
                   </motion.h1>
 
                   <motion.p
@@ -585,7 +584,7 @@ export default function Home() {
                     transition={{ delay: 0.3 }}
                     className="text-xl text-muted mb-8 max-w-3xl"
                   >
-                    Guided preferences, inspiration boards, and scan-time transparency for higher-quality matches.
+                    Save Hours of searching. Guided preferences, inspiration boards, and scan-time transparency for higher-quality matches.
                   </motion.p>
 
                   <div className="flex flex-wrap items-center justify-center gap-4">
