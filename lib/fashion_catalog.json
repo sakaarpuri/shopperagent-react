@@ -16,7 +16,8 @@
       "Alo Yoga",
       "Lululemon"
     ],
-    "updated_at": "2026-02-19"
+    "updated_at": "2026-02-19",
+    "has_style_tags": true
   },
   "stores": [
     {
@@ -30,140 +31,348 @@
           "name": "Giorgio Armani & Kith &Kin Milano Crepe Collarless Jacket - Black",
           "price": "€3,700.00",
           "category": "Jackets",
-          "url": "/products/gm003762uc001"
+          "url": "/products/gm003762uc001",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "layering",
+            "structured",
+            "outerwear"
+          ]
         },
         {
           "id": "gm003802uc001",
           "name": "Giorgio Armani & Kith &Kin Milano Crepe Flat Front Trouser - Black",
           "price": "€1,500.00",
           "category": "Pants",
-          "url": "/products/gm003802uc001"
+          "url": "/products/gm003802uc001",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "bottoms",
+            "structured"
+          ]
         },
         {
           "id": "gm003293uc001",
           "name": "Giorgio Armani & Kith &Kin Milano Crepe Entrepreneur Shirt - Black",
           "price": "€2,200.00",
           "category": "Shirts",
-          "url": "/products/gm003293uc001"
+          "url": "/products/gm003293uc001",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "professional",
+            "structured",
+            "versatile"
+          ]
         },
         {
           "id": "khm011179-260",
           "name": "&Kin Combo Leather Avari Moto Jacket - Hickory",
           "price": "€2,300.00",
           "category": "Jackets",
-          "url": "/products/khm011179-260"
+          "url": "/products/khm011179-260",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "layering",
+            "structured",
+            "outerwear",
+            "edgy",
+            "bold",
+            "classic"
+          ]
         },
         {
           "id": "khm011166-301",
           "name": "Kith Washed Suede Rossi Moto Jacket - Flagstaff",
           "price": "€1,750.00",
           "category": "Jackets",
-          "url": "/products/khm011166-301"
+          "url": "/products/khm011166-301",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "layering",
+            "structured",
+            "outerwear",
+            "bohemian",
+            "classic"
+          ]
         },
         {
           "id": "khm011163-302",
           "name": "Kith Pebbled Leather Jett Blouson Jacket - Stadium",
           "price": "€1,450.00",
           "category": "Jackets",
-          "url": "/products/khm011163-302"
+          "url": "/products/khm011163-302",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "layering",
+            "structured",
+            "outerwear",
+            "edgy",
+            "bold",
+            "classic"
+          ]
         },
         {
           "id": "khm011148-416",
           "name": "Kith Gabriel Denim Jacket - Dark Indigo",
           "price": "€455.00",
           "category": "Jackets",
-          "url": "/products/khm011148-416"
+          "url": "/products/khm011148-416",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "layering",
+            "structured",
+            "outerwear",
+            "casual",
+            "classic",
+            "versatile"
+          ]
         },
         {
           "id": "khm034733-001",
           "name": "Kith Pegasus Vintage Tee - Black",
           "price": "€81.00",
           "category": "T-Shirts",
-          "url": "/products/khm034733-001"
+          "url": "/products/khm034733-001",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "casual",
+            "basic",
+            "comfortable",
+            "retro",
+            "classic",
+            "unique",
+            "affordable"
+          ]
         },
         {
           "id": "khm034534-001",
           "name": "Kith Quinn Tee - Black",
           "price": "€90.00",
           "category": "T-Shirts",
-          "url": "/products/khm034534-001"
+          "url": "/products/khm034534-001",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "casual",
+            "basic",
+            "comfortable",
+            "affordable"
+          ]
         },
         {
           "id": "khm034932-001",
           "name": "Kith Signature Rose Jones Tee - Black",
           "price": "€81.00",
           "category": "T-Shirts",
-          "url": "/products/khm034932-001"
+          "url": "/products/khm034932-001",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "casual",
+            "basic",
+            "comfortable",
+            "affordable"
+          ]
         },
         {
           "id": "khm034518-302",
           "name": "Kith Nelson Crewneck - Stadium",
           "price": "€215.00",
           "category": "Sweatshirts",
-          "url": "/products/khm034518-302"
+          "url": "/products/khm034518-302",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "casual",
+            "cozy",
+            "comfortable"
+          ]
         },
         {
           "id": "khm034516-001",
           "name": "Kith Rib Neck Cropped Camden Hoodie - Black",
           "price": "€255.00",
           "category": "Hoodies",
-          "url": "/products/khm034516-001"
+          "url": "/products/khm034516-001",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "casual",
+            "comfortable",
+            "youthful",
+            "cozy"
+          ]
         },
         {
           "id": "khm061203-001",
           "name": "Kith Parker Sweatpant - Black",
           "price": "€200.00",
           "category": "Pants",
-          "url": "/products/khm061203-001"
+          "url": "/products/khm061203-001",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "bottoms",
+            "structured",
+            "casual",
+            "cozy",
+            "comfortable",
+            "loungewear"
+          ]
         },
         {
           "id": "khm061200-001",
           "name": "Kith Curtis Short - Black",
           "price": "€175.00",
           "category": "Shorts",
-          "url": "/products/khm061200-001"
+          "url": "/products/khm061200-001",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "casual",
+            "summer",
+            "comfortable"
+          ]
         },
         {
           "id": "khm040268-001",
           "name": "Kith Monogram Leather Explorer Traveler K40 Duffle Bag - Black",
           "price": "€685.00",
           "category": "Accessories",
-          "url": "/products/khm040268-001"
+          "url": "/products/khm040268-001",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "styling",
+            "finishing-touch",
+            "edgy",
+            "bold",
+            "classic"
+          ]
         },
         {
           "id": "khm051519-5114",
           "name": "&Kin Wool Denim Dawson Bucket Hat - Blue Navy",
           "price": "€180.00",
           "category": "Accessories",
-          "url": "/products/khm051519-5114"
+          "url": "/products/khm051519-5114",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "styling",
+            "finishing-touch",
+            "casual",
+            "classic",
+            "versatile",
+            "retro"
+          ]
         },
         {
           "id": "khm051522-5114",
           "name": "&Kin & '47 for NY Yankees Wool Denim Franchise LS Cap",
           "price": "€145.00",
           "category": "Accessories",
-          "url": "/products/khm051522-5114"
+          "url": "/products/khm051522-5114",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "styling",
+            "finishing-touch",
+            "casual",
+            "classic",
+            "versatile",
+            "sporty"
+          ]
         },
         {
           "id": "sl45451000",
           "name": "Kith for Salomon XT-Voyager 2 - Black",
           "price": "€235.00",
           "category": "Shoes",
-          "url": "/products/sl45451000"
+          "url": "/products/sl45451000",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "practical",
+            "everyday"
+          ]
         },
         {
           "id": "mp5150618",
           "name": "Kith for Mephisto Match Sneaker - Orange",
           "price": "€490.00",
           "category": "Shoes",
-          "url": "/products/mp5150618"
+          "url": "/products/mp5150618",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "practical",
+            "everyday"
+          ]
         },
         {
           "id": "khm120031-001",
           "name": "Kith Moto Racer Sunglasses - Black",
           "price": "€260.00",
           "category": "Accessories",
-          "url": "/products/khm120031-001"
+          "url": "/products/khm120031-001",
+          "style_tags": [
+            "streetwear",
+            "luxe",
+            "trendy",
+            "premium",
+            "styling",
+            "finishing-touch",
+            "stylish",
+            "summer",
+            "essential"
+          ]
         }
       ]
     },
@@ -178,140 +387,353 @@
           "name": "Everyday Seamless Washed Legging 2.0 - Red Wash",
           "price": "$40.00",
           "category": "Leggings",
-          "url": "/products/gymshark-everyday-seamless-washed-legging-leggings-red-ss26"
+          "url": "/products/gymshark-everyday-seamless-washed-legging-leggings-red-ss26",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "comfortable",
+            "stretchy",
+            "smooth",
+            "versatile",
+            "affordable"
+          ]
         },
         {
           "id": "gymshark-everyday-seamless-washed-sports-bra-red-ss26",
           "name": "Everyday Seamless Washed Sports Bra - Red Wash",
           "price": "$28.00",
           "category": "Sports Bras",
-          "url": "/products/gymshark-everyday-seamless-washed-sports-bra-sports-bras-red-ss26"
+          "url": "/products/gymshark-everyday-seamless-washed-sports-bra-sports-bras-red-ss26",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "smooth",
+            "comfortable",
+            "intimate",
+            "feminine",
+            "affordable"
+          ]
         },
         {
           "id": "gymshark-lift-seamless-leggings-red-ss26",
           "name": "Lift Seamless Leggings - Carmine Red",
           "price": "$60.00",
           "category": "Leggings",
-          "url": "/products/gymshark-lift-seamless-leggings-leggings-red-ss26"
+          "url": "/products/gymshark-lift-seamless-leggings-leggings-red-ss26",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "comfortable",
+            "stretchy",
+            "smooth",
+            "versatile",
+            "affordable"
+          ]
         },
         {
           "id": "gymshark-lift-seamless-shorts-red-ss26",
           "name": "Lift Seamless Shorts - Carmine Red",
           "price": "$46.00",
           "category": "Shorts",
-          "url": "/products/gymshark-lift-seamless-shorts-shorts-red-ss26"
+          "url": "/products/gymshark-lift-seamless-shorts-shorts-red-ss26",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "summer",
+            "comfortable",
+            "smooth",
+            "affordable"
+          ]
         },
         {
           "id": "gymshark-power-t-shirt-black-aw25-3",
           "name": "Power T-Shirt - Black/Conditioning Red",
           "price": "$36.00",
           "category": "T-Shirts",
-          "url": "/products/gymshark-power-t-shirt-ss-tops-black-aw25-3"
+          "url": "/products/gymshark-power-t-shirt-ss-tops-black-aw25-3",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "basic",
+            "comfortable",
+            "affordable"
+          ]
         },
         {
           "id": "gymshark-power-cut-off-tank-black-aw25",
           "name": "Power Cut Off Tank - Black/Conditioning Red",
           "price": "$30.00",
           "category": "Tanks",
-          "url": "/products/gymshark-power-cut-off-tank-sleeveless-tops-black-aw25-1"
+          "url": "/products/gymshark-power-cut-off-tank-sleeveless-tops-black-aw25-1",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "summer",
+            "layering",
+            "basic",
+            "affordable"
+          ]
         },
         {
           "id": "gymshark-straight-leg-pumper-pants-black",
           "name": "Straight Leg Pumper Pants - Black/Onyx Grey",
           "price": "$66.00",
           "category": "Pants",
-          "url": "/products/gymshark-straight-leg-pumper-pants-pants-black-ss26"
+          "url": "/products/gymshark-straight-leg-pumper-pants-pants-black-ss26",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "bottoms",
+            "structured",
+            "affordable"
+          ]
         },
         {
           "id": "gymshark-element-baselayer-t-shirt",
           "name": "Element Baselayer T-Shirt - Black/Brand Blue",
           "price": "$28.00",
           "category": "Baselayer",
-          "url": "/products/gymshark-element-baselayer-t-shirt-ss-tops"
+          "url": "/products/gymshark-element-baselayer-t-shirt-ss-tops",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "intimate",
+            "feminine",
+            "affordable"
+          ]
         },
         {
           "id": "gymshark-power-straight-leg-pant-grey",
           "name": "Power Straight Leg Pants - Charcoal Core Marl/Sets Red",
           "price": "$52.00",
           "category": "Pants",
-          "url": "/products/gymshark-power-straight-leg-pant-pants-grey-ss26"
+          "url": "/products/gymshark-power-straight-leg-pant-pants-grey-ss26",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "bottoms",
+            "structured",
+            "affordable"
+          ]
         },
         {
           "id": "gymshark-everyday-seamless-washed-shorts-red",
           "name": "Everyday Seamless Washed Shorts 2.0 - Red Wash",
           "price": "$30.00",
           "category": "Shorts",
-          "url": "/products/gymshark-everyday-seamless-washed-shorts-shorts-red-ss26"
+          "url": "/products/gymshark-everyday-seamless-washed-shorts-shorts-red-ss26",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "summer",
+            "comfortable",
+            "smooth",
+            "affordable"
+          ]
         },
         {
           "id": "gymshark-lift-seamless-tank-shelf-red",
           "name": "Lift Seamless Tank with Shelf - Carmine Red",
           "price": "$44.00",
           "category": "Tanks",
-          "url": "/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-red-ss26"
+          "url": "/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-red-ss26",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "smooth",
+            "comfortable",
+            "summer",
+            "layering",
+            "basic",
+            "affordable"
+          ]
         },
         {
           "id": "gymshark-power-t-shirt-red-ss26",
           "name": "Power T-Shirt - GS Impact Burgundy",
           "price": "$36.00",
           "category": "T-Shirts",
-          "url": "/products/gymshark-power-t-shirt-ss-tops-red-ss26"
+          "url": "/products/gymshark-power-t-shirt-ss-tops-red-ss26",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "basic",
+            "comfortable",
+            "affordable"
+          ]
         },
         {
           "id": "gymshark-indigo-loopback-cargo-nelson",
           "name": "Indigo Loopback Cargo Nelson Sweatpant - Dark Indigo",
           "price": "$255.00",
           "category": "Pants",
-          "url": "/products/khm061193-416"
+          "url": "/products/khm061193-416",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "bottoms",
+            "structured",
+            "utilitarian",
+            "trendy",
+            "streetwear",
+            "cozy",
+            "comfortable",
+            "loungewear",
+            "premium"
+          ]
         },
         {
           "id": "gymshark-denim-huron-jacket",
           "name": "Denim Huron Jacket - Light Indigo",
           "price": "$285.00",
           "category": "Jackets",
-          "url": "/products/khm011171-5110"
+          "url": "/products/khm011171-5110",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "layering",
+            "structured",
+            "outerwear",
+            "classic",
+            "versatile",
+            "premium"
+          ]
         },
         {
           "id": "gymshark-rib-neck-cropped-camden",
           "name": "Rib Neck Cropped Camden Hoodie - Light Heather Grey",
           "price": "$255.00",
           "category": "Hoodies",
-          "url": "/products/khm034516-002"
+          "url": "/products/khm034516-002",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "streetwear",
+            "comfortable",
+            "trendy",
+            "youthful",
+            "cozy",
+            "premium"
+          ]
         },
         {
           "id": "gymshark-quinn-crewneck-sandrift",
           "name": "Kith Quinn Crewneck - Sandrift",
           "price": "$180.00",
           "category": "Sweatshirts",
-          "url": "/products/khm034526-104"
+          "url": "/products/khm034526-104",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "cozy",
+            "comfortable",
+            "premium"
+          ]
         },
         {
           "id": "gymshark-lucero-knit-hoodie",
           "name": "Kith Lucero Knit Hoodie - Sandrift",
           "price": "$265.00",
           "category": "Hoodies",
-          "url": "/products/khm034465-104"
+          "url": "/products/khm034465-104",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "streetwear",
+            "comfortable",
+            "cozy",
+            "premium"
+          ]
         },
         {
           "id": "gymshark-wagner-soccer-sweater",
           "name": "Kith Wagner Long Sleeve Soccer Sweater - Current",
           "price": "$255.00",
           "category": "Sweaters",
-          "url": "/products/khm034464-412"
+          "url": "/products/khm034464-412",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "cozy",
+            "warm",
+            "layering",
+            "classic",
+            "premium"
+          ]
         },
         {
           "id": "gymshaw-knit-moto-jacket",
           "name": "Kith Knit Moto Full Zip Jacket - Current",
           "price": "$320.00",
           "category": "Jackets",
-          "url": "/products/khm034462-412"
+          "url": "/products/khm034462-412",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "layering",
+            "structured",
+            "outerwear",
+            "luxe"
+          ]
         },
         {
           "id": "gymshark-terry-polo",
           "name": "Kith Lightweight Terry Polo Sweatshirt - Vintage Heather Grey",
           "price": "$93.40",
           "category": "Sweatshirts",
-          "url": "/products/khm034929-002"
+          "url": "/products/khm034929-002",
+          "style_tags": [
+            "sporty",
+            "athletic",
+            "performance",
+            "casual",
+            "cozy",
+            "comfortable",
+            "retro",
+            "classic",
+            "unique",
+            "preppy",
+            "smart-casual",
+            "affordable"
+          ]
         }
       ]
     },
@@ -326,140 +748,383 @@
           "name": "Kacey Deep V-Neck Capri Jumpsuit - Olive",
           "price": "$35.99",
           "category": "Jumpsuits",
-          "url": "/products/kacey-deep-v-neck-capri-jumpsuit-olive"
+          "url": "/products/kacey-deep-v-neck-capri-jumpsuit-olive",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "versatile",
+            "elegant",
+            "casual",
+            "sporty",
+            "streetwear",
+            "affordable"
+          ]
         },
         {
           "id": "cloudform-21-capri-jumpsuit-black",
           "name": "CloudForm 21″ Capri Jumpsuit - Black",
           "price": "$54.00",
           "category": "Jumpsuits",
-          "url": "/products/cloudform-21-capri-jumpsuit-black"
+          "url": "/products/cloudform-21-capri-jumpsuit-black",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "versatile",
+            "elegant",
+            "casual",
+            "sporty",
+            "streetwear",
+            "affordable"
+          ]
         },
         {
           "id": "after-hours-low-rise-baggy-jeans-dark-wash",
           "name": "After Hours Low Rise Baggy Jeans - Dark Wash",
           "price": "$24.00",
           "category": "Jeans",
-          "url": "/products/after-hours-low-rise-baggy-jeans-dark-wash"
+          "url": "/products/after-hours-low-rise-baggy-jeans-dark-wash",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "casual",
+            "classic",
+            "versatile",
+            "relaxed",
+            "streetwear",
+            "retro",
+            "affordable"
+          ]
         },
         {
           "id": "bohemian-goddess-chiffon-tiered-ruffle-maxi-ivory",
           "name": "Bohemian Goddess Chiffon Tiered Ruffle Maxi - Ivory",
           "price": "$23.99",
           "category": "Dresses",
-          "url": "/products/bohemian-goddess-chiffon-tiered-ruffle-maxi-40-ivory"
+          "url": "/products/bohemian-goddess-chiffon-tiered-ruffle-maxi-40-ivory",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "dressy",
+            "versatile",
+            "elegant",
+            "boho",
+            "flowy",
+            "romantic",
+            "affordable"
+          ]
         },
         {
           "id": "spring-fantasy-mesh-bodysuit-multi-color",
           "name": "Spring Fantasy Mesh Bodysuit - Multi Color",
           "price": "$21.99",
           "category": "Bodysuits",
-          "url": "/products/spring-fantasy-mesh-bodysuit-multi-color"
+          "url": "/products/spring-fantasy-mesh-bodysuit-multi-color",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "fitted",
+            "layering",
+            "sporty",
+            "versatile",
+            "affordable"
+          ]
         },
         {
           "id": "olivia-printed-one-shoulder-pant-set-olive",
           "name": "Olivia Printed One Shoulder Pant Set - Olive/combo",
           "price": "$47.99",
           "category": "Sets",
-          "url": "/products/olivia-printed-one-shoulder-pant-set-olive-combo"
+          "url": "/products/olivia-printed-one-shoulder-pant-set-olive-combo",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "affordable"
+          ]
         },
         {
           "id": "kenna-bandage-midi-dress-blush",
           "name": "Kenna Bandage Midi Dress - Blush",
           "price": "$34.99",
           "category": "Dresses",
-          "url": "/products/kenna-bandage-midi-dress-blush"
+          "url": "/products/kenna-bandage-midi-dress-blush",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "dressy",
+            "versatile",
+            "fitted",
+            "elegant",
+            "professional",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "running-the-game-zip-front-short-set-charcoal",
           "name": "Running The Game Zip Front Short Set - Charcoal",
           "price": "$31.99",
           "category": "Sets",
-          "url": "/products/running-the-game-zip-front-short-set-charcoal"
+          "url": "/products/running-the-game-zip-front-short-set-charcoal",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "casual",
+            "summer",
+            "comfortable",
+            "affordable"
+          ]
         },
         {
           "id": "nova-cotton-tshirt-bra-leopard",
           "name": "Nova Cotton TShirt Bra - Leopard",
           "price": "$9.00",
           "category": "Lingerie",
-          "url": "/products/nova-cotton-tshirt-bra-leopard"
+          "url": "/products/nova-cotton-tshirt-bra-leopard",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "intimate",
+            "sporty",
+            "affordable"
+          ]
         },
         {
           "id": "fully-booked-sweater-maxi-shirt-dress-olive",
           "name": "Fully Booked Sweater Maxi Shirt Dress - Olive/combo",
           "price": "$41.99",
           "category": "Dresses",
-          "url": "/products/fully-booked-sweater-maxi-shirt-dress-olive-combo"
+          "url": "/products/fully-booked-sweater-maxi-shirt-dress-olive-combo",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "dressy",
+            "versatile",
+            "elegant",
+            "boho",
+            "affordable"
+          ]
         },
         {
           "id": "prostretch-25-v-seam-high-rise-legging-black",
           "name": "ProStretch 25″ High Rise Legging - Black",
           "price": "$44.00",
           "category": "Leggings",
-          "url": "/products/prostretch-25-v-seam-high-rise-legging-black"
+          "url": "/products/prostretch-25-v-seam-high-rise-legging-black",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "sporty",
+            "comfortable",
+            "stretchy",
+            "flattering",
+            "versatile",
+            "affordable"
+          ]
         },
         {
           "id": "seamlesslift-32-flare-jumpsuit-black",
           "name": "SeamlessLift 32″ Flare Jumpsuit - Black",
           "price": "$64.00",
           "category": "Jumpsuits",
-          "url": "/products/seamlesslift-32-flare-jumpsuit-black"
+          "url": "/products/seamlesslift-32-flare-jumpsuit-black",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "sporty",
+            "smooth",
+            "comfortable",
+            "versatile",
+            "elegant",
+            "affordable"
+          ]
         },
         {
           "id": "blakely-cut-out-backless-maxi-dress-black",
           "name": "Blakely Cut Out Backless Maxi Dress - Black",
           "price": "$34.99",
           "category": "Dresses",
-          "url": "/products/blakely-cut-out-backless-maxi-dress-black"
+          "url": "/products/blakely-cut-out-backless-maxi-dress-black",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "dressy",
+            "versatile",
+            "elegant",
+            "boho",
+            "affordable"
+          ]
         },
         {
           "id": "merida-denim-strapless-pant-set-dark-denim",
           "name": "Merida Denim Strapless Pant Set - Dark Denim",
           "price": "$34.99",
           "category": "Sets",
-          "url": "/products/merida-denim-strapless-pant-set-dark-denim"
+          "url": "/products/merida-denim-strapless-pant-set-dark-denim",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "casual",
+            "classic",
+            "versatile",
+            "affordable"
+          ]
         },
         {
           "id": "still-going-strong-ripped-baggy-wide-leg-jeans",
           "name": "Still Going Strong Ripped Baggy Wide Leg Jeans",
           "price": "$35.99",
           "category": "Jeans",
-          "url": "/products/still-going-strong-ripped-baggy-wide-leg-jeans-medium-wash"
+          "url": "/products/still-going-strong-ripped-baggy-wide-leg-jeans-medium-wash",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "casual",
+            "classic",
+            "versatile",
+            "relaxed",
+            "streetwear",
+            "retro",
+            "affordable"
+          ]
         },
         {
           "id": "toy-story-woody-and-jessie-tee-white",
           "name": "Toy Story Woody And Jessie Tee - White",
           "price": "$17.99",
           "category": "T-Shirts",
-          "url": "/products/toy-story-woody-and-jessie-tee-white"
+          "url": "/products/toy-story-woody-and-jessie-tee-white",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "casual",
+            "basic",
+            "comfortable",
+            "affordable"
+          ]
         },
         {
           "id": "kayla-sleeveless-bandage-mini-dress-black",
           "name": "Kayla Sleeveless Bandage Mini Dress - Black",
           "price": "$27.99",
           "category": "Dresses",
-          "url": "/products/kayla-sleeveless-bandage-mini-dress-black"
+          "url": "/products/kayla-sleeveless-bandage-mini-dress-black",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "dressy",
+            "versatile",
+            "fitted",
+            "youthful",
+            "affordable"
+          ]
         },
         {
           "id": "envy-me-lace-up-satin-corset-cream",
           "name": "Envy Me Lace Up Satin Corset - Cream",
           "price": "$23.99",
           "category": "Tops",
-          "url": "/products/envy-me-lace-up-satin-corset-cream"
+          "url": "/products/envy-me-lace-up-satin-corset-cream",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "versatile",
+            "layering",
+            "elegant",
+            "romantic",
+            "affordable"
+          ]
         },
         {
           "id": "cloudform-short-sleeve-full-zip-jacket-black",
           "name": "CloudForm Short Sleeve Full Zip Jacket - Black",
           "price": "$48.00",
           "category": "Jackets",
-          "url": "/products/cloudform-short-sleeve-full-zip-jacket-black"
+          "url": "/products/cloudform-short-sleeve-full-zip-jacket-black",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "layering",
+            "structured",
+            "outerwear",
+            "casual",
+            "summer",
+            "comfortable",
+            "affordable"
+          ]
         },
         {
           "id": "caillat-bead-embellished-flats-beige",
           "name": "Caillat Bead Embellished Flats - Beige",
           "price": "$31.99",
           "category": "Shoes",
-          "url": "/products/caillat-bead-embellished-flats-beige"
+          "url": "/products/caillat-bead-embellished-flats-beige",
+          "style_tags": [
+            "trendy",
+            "night-out",
+            "sexy",
+            "feminine",
+            "bold",
+            "practical",
+            "everyday",
+            "affordable"
+          ]
         }
       ]
     },
@@ -474,140 +1139,320 @@
           "name": "Women's Dasher NZ - Light Burnt Olive",
           "price": "$140.00",
           "category": "Running Shoes",
-          "url": "/products/womens-dasher-nz"
+          "url": "/products/womens-dasher-nz",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "sporty",
+            "performance",
+            "affordable"
+          ]
         },
         {
           "id": "mens-tree-runner-nz-spice",
           "name": "Men's Tree Runner NZ - Spice",
           "price": "$110.00",
           "category": "Casual Shoes",
-          "url": "/products/mens-tree-runner-nz-spice"
+          "url": "/products/mens-tree-runner-nz-spice",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "everyday",
+            "affordable"
+          ]
         },
         {
           "id": "mens-cruiser-terralux-anthracite",
           "name": "Men's Cruiser Terralux - Anthracite",
           "price": "$135.00",
           "category": "Casual Shoes",
-          "url": "/products/mens-cruiser-terralux-anthracite"
+          "url": "/products/mens-cruiser-terralux-anthracite",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "everyday",
+            "affordable"
+          ]
         },
         {
           "id": "womens-breezer-point-warm-white",
           "name": "Women's Breezer Point - Warm White",
           "price": "$125.00",
           "category": "Flats",
-          "url": "/products/womens-breezer-point-warm-white"
+          "url": "/products/womens-breezer-point-warm-white",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "feminine",
+            "professional",
+            "affordable"
+          ]
         },
         {
           "id": "mens-dasher-nz-relay-ochre",
           "name": "Men's Dasher NZ Relay - Ochre",
           "price": "$150.00",
           "category": "Running Shoes",
-          "url": "/products/mens-dasher-nz-relay-ochre"
+          "url": "/products/mens-dasher-nz-relay-ochre",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "sporty",
+            "performance",
+            "premium"
+          ]
         },
         {
           "id": "mens-cruiser-slip-on-canvas-auburn",
           "name": "Men's Cruiser Slip On Canvas - Auburn",
           "price": "$95.00",
           "category": "Casual Shoes",
-          "url": "/products/mens-cruiser-slip-on-canvas-auburn"
+          "url": "/products/mens-cruiser-slip-on-canvas-auburn",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "everyday",
+            "elegant",
+            "feminine",
+            "luxe",
+            "affordable"
+          ]
         },
         {
           "id": "mens-varsity-terralux-toasted-coconut",
           "name": "Men's Varsity Terralux - Toasted Coconut",
           "price": "$145.00",
           "category": "Casual Shoes",
-          "url": "/products/mens-varsity-terralux-toasted-coconut"
+          "url": "/products/mens-varsity-terralux-toasted-coconut",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "everyday",
+            "affordable"
+          ]
         },
         {
           "id": "mens-cruiser-canvas-warm-white",
           "name": "Men's Cruiser Canvas - Warm White",
           "price": "$110.00",
           "category": "Casual Shoes",
-          "url": "/products/mens-cruiser-canvas-warm-white"
+          "url": "/products/mens-cruiser-canvas-warm-white",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "everyday",
+            "affordable"
+          ]
         },
         {
           "id": "womens-varsity-cruiser",
           "name": "Women's Varsity Cruiser - Light Burnt Olive",
           "price": "$120.00",
           "category": "Casual Shoes",
-          "url": "/products/womens-varsity-cruiser"
+          "url": "/products/womens-varsity-cruiser",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "everyday",
+            "affordable"
+          ]
         },
         {
           "id": "mens-varsity-parchment",
           "name": "Men's Varsity - Parchment",
           "price": "$120.00",
           "category": "Casual Shoes",
-          "url": "/products/mens-varsity"
+          "url": "/products/mens-varsity",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "everyday",
+            "affordable"
+          ]
         },
         {
           "id": "womens-breezer-point-natural-black",
           "name": "Women's Breezer Point - Natural Black",
           "price": "$125.00",
           "category": "Flats",
-          "url": "/products/womens-breezer-point"
+          "url": "/products/womens-breezer-point",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "feminine",
+            "professional",
+            "affordable"
+          ]
         },
         {
           "id": "womens-varsity-light-burnt-olive",
           "name": "Women's Varsity - Light Burnt Olive",
           "price": "$120.00",
           "category": "Casual Shoes",
-          "url": "/products/womens-varsity-light-burnt-olive"
+          "url": "/products/womens-varsity-light-burnt-olive",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "everyday",
+            "affordable"
+          ]
         },
         {
           "id": "mens-runner-nz-terralux-light-grey",
           "name": "Men's Runner NZ Terralux - Light Grey",
           "price": "$135.00",
           "category": "Running Shoes",
-          "url": "/products/mens-runner-nz-terralux-light-grey"
+          "url": "/products/mens-runner-nz-terralux-light-grey",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "sporty",
+            "performance",
+            "affordable"
+          ]
         },
         {
           "id": "womens-tree-breezer-spice",
           "name": "Women's Tree Breezer - Spice",
           "price": "$105.00",
           "category": "Flats",
-          "url": "/products/womens-tree-breezer-spice"
+          "url": "/products/womens-tree-breezer-spice",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "feminine",
+            "professional",
+            "affordable"
+          ]
         },
         {
           "id": "mens-allbirds-flip-flop-mid-yellow",
           "name": "Men's Allbirds Flip Flop - Mid Yellow",
           "price": "$50.00",
           "category": "Sandals",
-          "url": "/products/mens-allbirds-flip-flop-mid-yellow"
+          "url": "/products/mens-allbirds-flip-flop-mid-yellow",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "summer",
+            "affordable"
+          ]
         },
         {
           "id": "womens-dasher-nz-mid-yellow",
           "name": "Women's Dasher NZ - Mid-Yellow/Seagrass",
           "price": "$140.00",
           "category": "Running Shoes",
-          "url": "/products/womens-dasher-nz-mid-yellow-auburn"
+          "url": "/products/womens-dasher-nz-mid-yellow-auburn",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "sporty",
+            "performance",
+            "affordable"
+          ]
         },
         {
           "id": "sl45451000",
           "name": "Kith for Salomon XT-Voyager 2 - Black",
           "price": "$235.00",
           "category": "Shoes",
-          "url": "/products/sl45451000"
+          "url": "/products/sl45451000",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "practical",
+            "everyday",
+            "premium"
+          ]
         },
         {
           "id": "mp5150618",
           "name": "Kith for Mephisto Match Sneaker - Orange",
           "price": "$490.00",
           "category": "Shoes",
-          "url": "/products/mp5150618"
+          "url": "/products/mp5150618",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "practical",
+            "everyday",
+            "luxe"
+          ]
         },
         {
           "id": "khm120031-001",
           "name": "Kith Moto Racer Sunglasses - Black",
           "price": "$260.00",
           "category": "Accessories",
-          "url": "/products/khm120031-001"
+          "url": "/products/khm120031-001",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "styling",
+            "finishing-touch",
+            "stylish",
+            "summer",
+            "essential",
+            "premium"
+          ]
         },
         {
           "id": "khm10117-001",
           "name": "Kith Silk Bandana - Black",
           "price": "$64.00",
           "category": "Accessories",
-          "url": "/products/khm10117-001"
+          "url": "/products/khm10117-001",
+          "style_tags": [
+            "sustainable",
+            "casual",
+            "comfortable",
+            "minimalist",
+            "styling",
+            "finishing-touch",
+            "luxe",
+            "elegant",
+            "professional",
+            "affordable"
+          ]
         }
       ]
     },
@@ -622,133 +1467,338 @@
           "name": "Striped Boatneck Sweater in Everyday Cotton",
           "price": "€110.70",
           "category": "Sweaters",
-          "url": "/products/womens-striped-boatneck-sweater-cotton-true-navy-bone"
+          "url": "/products/womens-striped-boatneck-sweater-cotton-true-navy-bone",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "cozy",
+            "warm",
+            "layering",
+            "affordable"
+          ]
         },
         {
           "id": "womens-cashmere-slim-crew-sweater-hunter-green",
           "name": "Cashmere Slim Crew Sweater",
           "price": "€153.94",
           "category": "Sweaters",
-          "url": "/products/womens-cashmere-slim-crew-sweater-hunter-green"
+          "url": "/products/womens-cashmere-slim-crew-sweater-hunter-green",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "cozy",
+            "warm",
+            "layering",
+            "luxe",
+            "premium"
+          ]
         },
         {
           "id": "womens-drapey-twill-trench-coat-khaki",
           "name": "Drapey Twill Trench",
           "price": "€257.71",
           "category": "Outerwear",
-          "url": "/products/womens-drapey-twill-trench-coat-khaki"
+          "url": "/products/womens-drapey-twill-trench-coat-khaki",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "layering",
+            "structured",
+            "timeless",
+            "premium"
+          ]
         },
         {
           "id": "womens-shrunken-top-in-washable-silk-hunter-green",
           "name": "Shrunken Top in Washable Silk",
           "price": "€145.29",
           "category": "Tops",
-          "url": "/products/womens-shrunken-top-in-washable-silk-hunter-green"
+          "url": "/products/womens-shrunken-top-in-washable-silk-hunter-green",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "versatile",
+            "feminine",
+            "layering",
+            "luxe",
+            "elegant",
+            "premium"
+          ]
         },
         {
           "id": "womens-way-high-a-line-denim-short-bright-white",
           "name": "Way-High A-Line Denim Short",
           "price": "€84.75",
           "category": "Shorts",
-          "url": "/products/womens-way-high-a-line-denim-short-bright-white"
+          "url": "/products/womens-way-high-a-line-denim-short-bright-white",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "casual",
+            "summer",
+            "comfortable",
+            "versatile",
+            "affordable"
+          ]
         },
         {
           "id": "womens-italian-leather-ballet-flat-juniper",
           "name": "Made in Italy Ballet Flat",
           "price": "€249.06",
           "category": "Shoes",
-          "url": "/products/womens-italian-leather-ballet-flat-juniper"
+          "url": "/products/womens-italian-leather-ballet-flat-juniper",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "practical",
+            "everyday",
+            "premium"
+          ]
         },
         {
           "id": "womens-double-knit-crew-in-cotton-merino",
           "name": "Double Knit Crew in Cotton Merino",
           "price": "€110.70",
           "category": "Sweaters",
-          "url": "/products/womens-double-knit-crew-in-cotton-merino-bone-cream-sand-light-camel"
+          "url": "/products/womens-double-knit-crew-in-cotton-merino-bone-cream-sand-light-camel",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "cozy",
+            "warm",
+            "layering",
+            "affordable"
+          ]
         },
         {
           "id": "womens-ribbed-v-neck-vest-cotton-hunter-green",
           "name": "Ribbed V-Neck Vest in Everyday Cotton",
           "price": "€84.75",
           "category": "Tops",
-          "url": "/products/womens-ribbed-v-neck-vest-cotton-hunter-green"
+          "url": "/products/womens-ribbed-v-neck-vest-cotton-hunter-green",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "versatile",
+            "feminine",
+            "layering",
+            "trendy",
+            "textured",
+            "casual",
+            "affordable"
+          ]
         },
         {
           "id": "womens-seamed-balloon-pant-olive-night",
           "name": "Seamed Balloon Pant",
           "price": "€127.99",
           "category": "Pants",
-          "url": "/products/womens-seamed-balloon-pant-olive-night"
+          "url": "/products/womens-seamed-balloon-pant-olive-night",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "bottoms",
+            "structured",
+            "affordable"
+          ]
         },
         {
           "id": "womens-short-anorak-imperial-blue",
           "name": "The Short Anorak",
           "price": "€153.94",
           "category": "Outerwear",
-          "url": "/products/womens-short-anorak-imperial-blue"
+          "url": "/products/womens-short-anorak-imperial-blue",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "layering",
+            "structured",
+            "casual",
+            "summer",
+            "comfortable",
+            "premium"
+          ]
         },
         {
           "id": "womens-halter-dress-in-ultrasoft-cotton-birch",
           "name": "Halter Dress in Ultrasoft Cotton",
           "price": "€127.99",
           "category": "Dresses",
-          "url": "/products/womens-halter-dress-in-ultrasoft-cotton-birch"
+          "url": "/products/womens-halter-dress-in-ultrasoft-cotton-birch",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "feminine",
+            "dressy",
+            "versatile",
+            "affordable"
+          ]
         },
         {
           "id": "womens-field-jacket-oak-brown",
           "name": "Field Jacket",
           "price": "€171.23",
           "category": "Outerwear",
-          "url": "/products/womens-field-jacket-oak-brown"
+          "url": "/products/womens-field-jacket-oak-brown",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "layering",
+            "structured",
+            "premium"
+          ]
         },
         {
           "id": "womens-way-high-jean-2-medium-indigo",
           "name": "The Way-High Jean 2.0",
           "price": "€89.94",
           "category": "Jeans",
-          "url": "/products/womens-way-high-jean-2-medium-indigo"
+          "url": "/products/womens-way-high-jean-2-medium-indigo",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "casual",
+            "versatile",
+            "affordable"
+          ]
         },
         {
           "id": "womens-pique-boxy-polo",
           "name": "Pique Boxy Polo",
           "price": "€67.46",
           "category": "Tops",
-          "url": "/products/womens-pique-boxy-polo-pomegranate-rose-blue"
+          "url": "/products/womens-pique-boxy-polo-pomegranate-rose-blue",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "versatile",
+            "feminine",
+            "layering",
+            "preppy",
+            "smart-casual",
+            "affordable"
+          ]
         },
         {
           "id": "womens-cashmere-boxy-crew-sweater-lilac-crush",
           "name": "The Boxy Crew in Cashmere",
           "price": "€197.17",
           "category": "Sweaters",
-          "url": "/products/womens-cashmere-boxy-crew-sweater-lilac-crush"
+          "url": "/products/womens-cashmere-boxy-crew-sweater-lilac-crush",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "cozy",
+            "warm",
+            "layering",
+            "luxe",
+            "premium"
+          ]
         },
         {
           "id": "womens-balloon-sleeve-top-in-cotton-silk-black",
           "name": "Balloon Sleeve Top in Cotton Silk",
           "price": "€119.34",
           "category": "Tops",
-          "url": "/products/womens-balloon-sleeve-top-in-cotton-silk-black"
+          "url": "/products/womens-balloon-sleeve-top-in-cotton-silk-black",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "versatile",
+            "feminine",
+            "layering",
+            "luxe",
+            "elegant",
+            "affordable"
+          ]
         },
         {
           "id": "womens-cropped-boxy-denim-shirt-light-indigo",
           "name": "Cropped Boxy Denim Shirt",
           "price": "€84.75",
           "category": "Tops",
-          "url": "/products/womens-cropped-boxy-denim-shirt-light-indigo"
+          "url": "/products/womens-cropped-boxy-denim-shirt-light-indigo",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "versatile",
+            "feminine",
+            "layering",
+            "casual",
+            "trendy",
+            "youthful",
+            "affordable"
+          ]
         },
         {
           "id": "womens-organic-cotton-crew-sweater-skywriting",
           "name": "The Boxy Sweater in Everyday Cotton",
           "price": "€93.40",
           "category": "Sweaters",
-          "url": "/products/womens-organic-cotton-crew-sweater-skywriting"
+          "url": "/products/womens-organic-cotton-crew-sweater-skywriting",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "cozy",
+            "warm",
+            "layering",
+            "affordable"
+          ]
         },
         {
           "id": "womens-everyday-shirt-in-silky-cotton",
           "name": "Everyday Shirt in Silky Cotton",
           "price": "€84.75",
           "category": "Tops",
-          "url": "/products/womens-everyday-shirt-in-silky-cotton-estateblue-openair-white"
+          "url": "/products/womens-everyday-shirt-in-silky-cotton-estateblue-openair-white",
+          "style_tags": [
+            "minimalist",
+            "sustainable",
+            "professional",
+            "classic",
+            "versatile",
+            "feminine",
+            "layering",
+            "luxe",
+            "elegant",
+            "affordable"
+          ]
         }
       ]
     },
@@ -763,7 +1813,14 @@
           "name": "SolarCool Camp Collar",
           "price": "$78.00",
           "category": "Bottoms",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/ODV00422.jpg?v=1762269504"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/ODV00422.jpg?v=1762269504",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "affordable"
+          ]
         },
         {
           "id": "U600878-ACC-JGY_FrostedBeanie_",
@@ -771,49 +1828,117 @@
           "price": "$24.95",
           "category": "Accessories",
           "material": "that is irresistible to touch",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/U600878-ACC-JGY_FrostedBeanie_JoggyGreen_000_a7e0740d-dd03-4de4-8471-acee9a6a889b.jpg?v=1759259330"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/U600878-ACC-JGY_FrostedBeanie_JoggyGreen_000_a7e0740d-dd03-4de4-8471-acee9a6a889b.jpg?v=1759259330",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "styling",
+            "finishing-touch",
+            "cozy",
+            "winter",
+            "streetwear",
+            "affordable"
+          ]
         },
         {
           "id": "W302060-HLM-DKY_CloudKnitCami_",
           "name": "CloudKnit Cami",
           "price": "$34.00",
           "category": "Tops",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W302060-HLM-DKY_CloudKnitCami_DarkBay_001162740019.jpg?v=1770413079"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W302060-HLM-DKY_CloudKnitCami_DarkBay_001162740019.jpg?v=1770413079",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "versatile",
+            "feminine",
+            "layering",
+            "affordable"
+          ]
         },
         {
           "id": "W302060-HLM-GRS_CloudKnitCami_",
           "name": "CloudKnit Cami",
           "price": "$34.00",
           "category": "Tops",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W302060-HLM-GRS_CloudKnitCami_Grass_001162760031.jpg?v=1767741199"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W302060-HLM-GRS_CloudKnitCami_Grass_001162760031.jpg?v=1767741199",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "versatile",
+            "feminine",
+            "layering",
+            "affordable"
+          ]
         },
         {
           "id": "W701354-HMJ-DBA_CloudKnitWideL",
           "name": "CloudKnit Wide Leg Pant",
           "price": "$88.00",
           "category": "Bottoms",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W701354-HMJ-DBA_CloudKnitWideLegPant_DarkBay_001162750009.jpg?v=1767741389"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W701354-HMJ-DBA_CloudKnitWideLegPant_DarkBay_001162750009.jpg?v=1767741389",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "trendy",
+            "relaxed",
+            "retro",
+            "affordable"
+          ]
         },
         {
           "id": "W701354-HMJ-GRS_CloudKnitWideL",
           "name": "CloudKnit Wide Leg Pant",
           "price": "$88.00",
           "category": "Bottoms",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W701354-HMJ-GRS_CloudKnitWideLegPant_Grass_001162750033.jpg?v=1767741536"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W701354-HMJ-GRS_CloudKnitWideLegPant_Grass_001162750033.jpg?v=1767741536",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "trendy",
+            "relaxed",
+            "retro",
+            "affordable"
+          ]
         },
         {
           "id": "W702061-HLM-GRS_CloudKnit3.5in",
           "name": "CloudKnit 3.5\" Short",
           "price": "$48.00",
           "category": "Bottoms",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W702061-HLM-GRS_CloudKnit3.5inShort_Grass_001162760030.jpg?v=1767740860"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W702061-HLM-GRS_CloudKnit3.5inShort_Grass_001162760030.jpg?v=1767740860",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "summer",
+            "affordable"
+          ]
         },
         {
           "id": "W702061-HLM-DKY_CloudKnit3.5in",
           "name": "CloudKnit 3.5\" Short",
           "price": "$48.00",
           "category": "Bottoms",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W702061-HLM-DKY_CloudKnit3.5inShort_DarkBay_001162740025.jpg?v=1767740690"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W702061-HLM-DKY_CloudKnit3.5inShort_DarkBay_001162740025.jpg?v=1767740690",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "summer",
+            "affordable"
+          ]
         },
         {
           "id": "W302064-HLM-GRS_CloudKnitBoxyS",
@@ -821,7 +1946,15 @@
           "price": "$58.00",
           "category": "Bottoms",
           "material": "with a subtle stretch",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W302064-HLM-GRS_CloudKnitBoxyShortsleeve_Grass_001162750026.jpg?v=1767740237"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W302064-HLM-GRS_CloudKnitBoxyShortsleeve_Grass_001162750026.jpg?v=1767740237",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "summer",
+            "affordable"
+          ]
         },
         {
           "id": "W302064-HLM-DKY_CloudKnitBoxyS",
@@ -829,7 +1962,15 @@
           "price": "$58.00",
           "category": "Bottoms",
           "material": "with a subtle stretch",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W302064-HLM-DKY_CloudKnitBoxyShortsleeve_DarkBay_001162750016.jpg?v=1767740410"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W302064-HLM-DKY_CloudKnitBoxyShortsleeve_DarkBay_001162750016.jpg?v=1767740410",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "summer",
+            "affordable"
+          ]
         },
         {
           "id": "M300066-HLM-GRS_CloudKnitShort",
@@ -837,7 +1978,15 @@
           "price": "$58.00",
           "category": "Bottoms",
           "material": "with a subtle stretch for low-sweat recreation",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/M300066-HLM-GRS_CloudKnitShortsleeve_Grass_Front.jpg?v=1769538257"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/M300066-HLM-GRS_CloudKnitShortsleeve_Grass_Front.jpg?v=1769538257",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "summer",
+            "affordable"
+          ]
         },
         {
           "id": "M300066-HLM-DKY_CloudKnitShort",
@@ -845,7 +1994,15 @@
           "price": "$58.00",
           "category": "Bottoms",
           "material": "with a subtle stretch for low-sweat recreation",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/M300066-HLM-DKY_CloudKnitShortsleeve_DarkBay_Front.jpg?v=1769538136"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/M300066-HLM-DKY_CloudKnitShortsleeve_DarkBay_Front.jpg?v=1769538136",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "summer",
+            "affordable"
+          ]
         },
         {
           "id": "M701566-HMJ-GRS_CloudKnit7inSh",
@@ -853,7 +2010,15 @@
           "price": "$58.00",
           "category": "Bottoms",
           "material": "is back with this relaxed fit unlined 7\" short with a comfort fit adjustable wai",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/M701566-HMJ-GRS_CloudKnit7inShort_Grass.jpg?v=1769538334"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/M701566-HMJ-GRS_CloudKnit7inShort_Grass.jpg?v=1769538334",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "summer",
+            "affordable"
+          ]
         },
         {
           "id": "M701566-HMJ-DKY_CloudKnit7inSh",
@@ -861,49 +2026,113 @@
           "price": "$58.00",
           "category": "Bottoms",
           "material": "is back with this relaxed fit unlined 7\" short with a comfort fit adjustable wai",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/M701566-HMJ-DKY_CloudKnit7inShort_DarkBay.jpg?v=1769538313"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/M701566-HMJ-DKY_CloudKnit7inShort_DarkBay.jpg?v=1769538313",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "summer",
+            "affordable"
+          ]
         },
         {
           "id": "CloudKnitCami-Charcoal",
           "name": "CloudKnit Cami",
           "price": "$34.00",
           "category": "Tops",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/CloudKnitCami-Charcoal.jpg?v=1757814551"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/CloudKnitCami-Charcoal.jpg?v=1757814551",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "versatile",
+            "feminine",
+            "layering",
+            "affordable"
+          ]
         },
         {
           "id": "W702044-TDN-SAL_DesertPant_Sal",
           "name": "Desert Pant",
           "price": "$98.00",
           "category": "Bottoms",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W702044-TDN-SAL_DesertPant_Salt_000.jpg?v=1757707245"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W702044-TDN-SAL_DesertPant_Salt_000.jpg?v=1757707245",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "affordable"
+          ]
         },
         {
           "id": "W702390-WTS-JCF_LightSpeedMini",
           "name": "LightSpeed Minimal 3\" Skort",
           "price": "$78.00",
           "category": "Bottoms",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W702390-WTS-JCF_LightSpeedMinimal3inSkort_JuicyFruit_001162780009.jpg?v=1767739872"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W702390-WTS-JCF_LightSpeedMinimal3inSkort_JuicyFruit_001162780009.jpg?v=1767739872",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "sexy",
+            "trendy",
+            "night-out",
+            "youthful",
+            "affordable"
+          ]
         },
         {
           "id": "W401433-WTS-JCF_ExerciseDress_",
           "name": "The Exercise Dress",
           "price": "$100.00",
           "category": "Dresses",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W401433-WTS-JCF_ExerciseDress_JuicyFruit_001162770001.jpg?v=1767739517"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W401433-WTS-JCF_ExerciseDress_JuicyFruit_001162770001.jpg?v=1767739517",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "feminine",
+            "dressy",
+            "versatile",
+            "affordable"
+          ]
         },
         {
           "id": "U602082-PCN-CRI_OVRecAnkleSock",
           "name": "OV Rec Ankle Sock",
           "price": "$12.00",
           "category": "Accessories",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/U602082-PCN-CRI_OVRecAnkleSock_Caribbean_000.jpg?v=1758748284"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/U602082-PCN-CRI_OVRecAnkleSock_Caribbean_000.jpg?v=1758748284",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "styling",
+            "finishing-touch",
+            "affordable"
+          ]
         },
         {
           "id": "U602082-PCN-CNS_OVRecAnkleSock",
           "name": "OV Rec Ankle Sock",
           "price": "$12.00",
           "category": "Accessories",
-          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/U602082-PCN-CNS_OVRecAnkleSock_ConchShell_000.jpg?v=1758748079"
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/U602082-PCN-CNS_OVRecAnkleSock_ConchShell_000.jpg?v=1758748079",
+          "style_tags": [
+            "sporty",
+            "casual",
+            "comfortable",
+            "active",
+            "styling",
+            "finishing-touch",
+            "affordable"
+          ]
         }
       ]
     },
@@ -918,35 +2147,81 @@
           "name": "The Hot Chocolates 5.5\" (Textured Swim)",
           "price": "$40.00",
           "category": "Underwear",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Hot_Chocolates_5.5__Textured_Swim__141251-03_OF_d5c906da-c5b6-4cbd-9497-f212f1f81162.webp?v=1759279929"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Hot_Chocolates_5.5__Textured_Swim__141251-03_OF_d5c906da-c5b6-4cbd-9497-f212f1f81162.webp?v=1759279929",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "intimate",
+            "comfortable",
+            "basic",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_Misty_Breezes_5.5__Texture",
           "name": "The Misty Breezes 5.5\" (Textured Swim)",
           "price": "$40.00",
           "category": "Bottoms",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Misty_Breezes_5.5__Textured_Swim__141251-01_OF_0c372b2d-bcc2-4754-aabd-54842adfafd1.webp?v=1759279923"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Misty_Breezes_5.5__Textured_Swim__141251-01_OF_0c372b2d-bcc2-4754-aabd-54842adfafd1.webp?v=1759279923",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_Secret_Agents_5.5__Texture",
           "name": "The Secret Agents 5.5\" (Textured Lined Swim)",
           "price": "$84.50",
           "category": "Bottoms",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Secret_Agents_5.5__Textured_Lined_Swim__142251-11_OF_3231fc0a-500f-4cba-a7c2-6ed0490288c0.webp?v=1768024646"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Secret_Agents_5.5__Textured_Lined_Swim__142251-11_OF_3231fc0a-500f-4cba-a7c2-6ed0490288c0.webp?v=1768024646",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_Secret_Agents_5.5__Texture",
           "name": "The Secret Agents 5.5\" (Textured Swim)",
           "price": "$40.00",
           "category": "Underwear",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Secret_Agents_5.5__Textured_Swim__141251-00_OF_cd0e375b-e019-4248-98ba-799e03c034b0.webp?v=1759279929"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Secret_Agents_5.5__Textured_Swim__141251-00_OF_cd0e375b-e019-4248-98ba-799e03c034b0.webp?v=1759279929",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "intimate",
+            "comfortable",
+            "basic",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_Misty_Breezes_5.5__Texture",
           "name": "The Misty Breezes 5.5\" (Textured Lined Swim)",
           "price": "$40.00",
           "category": "Bottoms",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Misty_Breezes_5.5__Textured_Lined_Swim__142251-12_OF_7aab986f-b0f5-4d25-9bd8-5801428e179a.webp?v=1762273264"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Misty_Breezes_5.5__Textured_Lined_Swim__142251-12_OF_7aab986f-b0f5-4d25-9bd8-5801428e179a.webp?v=1762273264",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "affordable"
+          ]
         },
         {
           "id": "Wild_20Flower_20Wonder_20_28Pe",
@@ -954,7 +2229,18 @@
           "price": "$30.00",
           "category": "Bottoms",
           "material": "a lightweight, performance-enhancing fabric that’s anti-bacterial, moisture wick",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Wild_20Flower_20Wonder_20_28Performance_20Polo_202.0_29_582241-61_OF.webp?v=1771454442"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Wild_20Flower_20Wonder_20_28Performance_20Polo_202.0_29_582241-61_OF.webp?v=1771454442",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "preppy",
+            "classic",
+            "smart-casual",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_Even_Keel_Quilted_Quarter-",
@@ -962,7 +2248,21 @@
           "price": "$27.00",
           "category": "Outerwear",
           "material": "60% Cotton / 40% Polyester",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Even_Keel_Quilted_Quarter-Zip__615243-09_OF.webp?v=1762272505"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Even_Keel_Quilted_Quarter-Zip__615243-09_OF.webp?v=1762272505",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "layering",
+            "structured",
+            "professional",
+            "cozy",
+            "classic",
+            "texture",
+            "affordable"
+          ]
         },
         {
           "id": "Cherry_Blossoms_8.0__Everywear",
@@ -970,7 +2270,15 @@
           "price": "$38.00",
           "category": "Bottoms",
           "material": "89% Polyester/11% Spandex",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Cherry_Blossoms_8.0__Everywear__076232-02_OF.webp?v=1762271511"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Cherry_Blossoms_8.0__Everywear__076232-02_OF.webp?v=1762271511",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_malibusunrise",
@@ -978,7 +2286,21 @@
           "price": "$79.50",
           "category": "Outerwear",
           "material": ", this hoodie has a fleece-like feel that is naturally soft and only gets better",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_malibusunrise.webp?v=1759953355"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_malibusunrise.webp?v=1759953355",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "layering",
+            "structured",
+            "professional",
+            "streetwear",
+            "cozy",
+            "comfortable",
+            "affordable"
+          ]
         },
         {
           "id": "BeachBum_T-Shirt__OB_502222-10",
@@ -986,14 +2308,37 @@
           "price": "$17.00",
           "category": "Bottoms",
           "material": "60% cotton/40% polyester",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/products/BeachBum_T-Shirt__OB_502222-100462.webp?v=1762270560"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/products/BeachBum_T-Shirt__OB_502222-100462.webp?v=1762270560",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "affordable"
+          ]
         },
         {
           "id": "Ice_Cap_High-Pile_Hoodie__5452",
           "name": "The Ice Cap (High-Pile Hoodie)",
           "price": "$40.00",
           "category": "Tops",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Ice_Cap_High-Pile_Hoodie__545233-02_OF.webp?v=1759274476"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Ice_Cap_High-Pile_Hoodie__545233-02_OF.webp?v=1759274476",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "versatile",
+            "feminine",
+            "layering",
+            "streetwear",
+            "cozy",
+            "comfortable",
+            "sporty",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_Lil_Sittin_Under_Sea_Toddl",
@@ -1001,14 +2346,39 @@
           "price": "$20.00",
           "category": "Tops",
           "material": "a lightweight, ultra-stretchy fabric that’s anti-bacterial, moisture wicking, an",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Lil_Sittin_Under_Sea_Toddler_Performance_Polo__420251-35_OF.webp?v=1762272668"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Lil_Sittin_Under_Sea_Toddler_Performance_Polo__420251-35_OF.webp?v=1762272668",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "versatile",
+            "feminine",
+            "layering",
+            "preppy",
+            "classic",
+            "smart-casual",
+            "affordable"
+          ]
         },
         {
           "id": "Squad_Goal_Low-Pile_Quarter-Zi",
           "name": "The Squad Goal (Low-Pile Quarter-Zip)",
           "price": "$40.00",
           "category": "Outerwear",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Squad_Goal_Low-Pile_Quarter-Zip__499233-02_OF.webp?v=1759274482"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Squad_Goal_Low-Pile_Quarter-Zip__499233-02_OF.webp?v=1759274482",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "layering",
+            "structured",
+            "professional",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_Havana_Night_Non_Pocket_T-",
@@ -1016,7 +2386,15 @@
           "price": "$17.00",
           "category": "Bottoms",
           "material": "60% Cotton / 40% Polyester",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Havana_Night_Non_Pocket_T-Shirt_-_Blue_505243-05_OF.webp?v=1762272584"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Havana_Night_Non_Pocket_T-Shirt_-_Blue_505243-05_OF.webp?v=1762272584",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_Bahamians_4__Classic_Swim_",
@@ -1024,7 +2402,18 @@
           "price": "$34.00",
           "category": "Underwear",
           "material": "92% Polyester/8% Spandex",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Bahamians_4__Classic_Swim_Trunk__115251-17_OF.webp?v=1759280163"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Bahamians_4__Classic_Swim_Trunk__115251-17_OF.webp?v=1759280163",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "intimate",
+            "comfortable",
+            "basic",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_The_Hidden_Golds_Tearaway_",
@@ -1032,7 +2421,17 @@
           "price": "$38.00",
           "category": "Swimwear",
           "material": "92% Polyester / 8% Spandex",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_The_Hidden_Golds_Tearaway_Trunk__114252-00_OF.webp?v=1762273377"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_The_Hidden_Golds_Tearaway_Trunk__114252-00_OF.webp?v=1762273377",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "beach",
+            "sexy",
+            "affordable"
+          ]
         },
         {
           "id": "517223-02_Northwesterner_4798",
@@ -1040,14 +2439,35 @@
           "price": "$22.00",
           "category": "Outerwear",
           "material": "for a fuzzier, lived-in softness",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/products/517223-02_Northwesterner_4798.webp?v=1762271018"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/products/517223-02_Northwesterner_4798.webp?v=1762271018",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "layering",
+            "structured",
+            "professional",
+            "classic",
+            "unique",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_Floral_Estate_Resort_Weave",
           "name": "The Floral Estate (Resort Weave Friday Shirt)",
           "price": "$32.00",
           "category": "Bottoms",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Floral_Estate_Resort_Weave_Friday_Shirt__603251-00_OF_bf9e91d4-597d-4455-aa18-b485ef2ba9d3.webp?v=1759279582"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Floral_Estate_Resort_Weave_Friday_Shirt__603251-00_OF_bf9e91d4-597d-4455-aa18-b485ef2ba9d3.webp?v=1759279582",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_Bahamians_7__Classic_Lined",
@@ -1055,7 +2475,18 @@
           "price": "$27.00",
           "category": "Underwear",
           "material": "92% Polyester/8% Spandex",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Bahamians_7__Classic_Lined_Swim_Trunk__129251-18_OF.webp?v=1762273130"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Bahamians_7__Classic_Lined_Swim_Trunk__129251-18_OF.webp?v=1762273130",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "intimate",
+            "comfortable",
+            "basic",
+            "affordable"
+          ]
         },
         {
           "id": "PDP_Navy_Swimmer_Trucker_Hat__",
@@ -1063,7 +2494,17 @@
           "price": "$10.00",
           "category": "Swimwear",
           "material": "Polyester Crown Height: Medium (4\") Best For: Everyday Wear",
-          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Navy_Swimmer_Trucker_Hat__977251-03_OF.webp?v=1762273219"
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Navy_Swimmer_Trucker_Hat__977251-03_OF.webp?v=1762273219",
+          "style_tags": [
+            "casual",
+            "fun",
+            "bold",
+            "summer",
+            "retro",
+            "beach",
+            "sexy",
+            "affordable"
+          ]
         }
       ]
     },
@@ -1079,14 +2520,34 @@
           "price": "$200.00",
           "category": "Tops",
           "material": "our supersoft cotton blend that gives just a hint of stretch and makes sure you",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Black_Rainbow_xequals_9in_1.jpg?v=1668536006"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Black_Rainbow_xequals_9in_1.jpg?v=1668536006",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "premium"
+          ]
         },
         {
           "id": "Black_Rainbow_xequals_No_Fly_6",
           "name": "6\" No Fly Boxer Briefs - Black X= Rainbow",
           "price": "$175.00",
           "category": "Tops",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Black_Rainbow_xequals_No_Fly_6in_1.jpg?v=1668535838"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Black_Rainbow_xequals_No_Fly_6in_1.jpg?v=1668535838",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "premium"
+          ]
         },
         {
           "id": "Black_Rainbow_xequals_4.5_1",
@@ -1094,7 +2555,17 @@
           "price": "$175.00",
           "category": "Tops",
           "material": "supersoft cotton blend that gives just a hint of stretch and makes sure you stay",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Black_Rainbow_xequals_4.5_1.jpg?v=1668535787"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Black_Rainbow_xequals_4.5_1.jpg?v=1668535787",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "premium"
+          ]
         },
         {
           "id": "Rainbow_Logo_9in_Boxer",
@@ -1102,28 +2573,68 @@
           "price": "$200.00",
           "category": "Tops",
           "material": "our supersoft cotton blend that gives just a hint of stretch and makes sure you",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_9in_Boxer.jpg?v=1760387484"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_9in_Boxer.jpg?v=1760387484",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "premium"
+          ]
         },
         {
           "id": "Rainbow_Logo_6in_Packing_1",
           "name": "6\" Fly Packing Boxer Briefs - Black Rainbow Logo",
           "price": "$210.00",
           "category": "Tops",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_6in_Packing_1.jpg?v=1713821243"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_6in_Packing_1.jpg?v=1713821243",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "premium"
+          ]
         },
         {
           "id": "Rainbow_Logo_No_Fly_6in",
           "name": "6\" No Fly Boxer Briefs - Black Rainbow Logo",
           "price": "$175.00",
           "category": "Tops",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_No_Fly_6in.jpg?v=1713998512"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_No_Fly_6in.jpg?v=1713998512",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "premium"
+          ]
         },
         {
           "id": "Rainbow_Logo_6in_Fly_1",
           "name": "6\" Fly Boxer Briefs - Black Rainbow Logo",
           "price": "$185.00",
           "category": "Tops",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_6in_Fly_1.webp?v=1714583027"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_6in_Fly_1.webp?v=1714583027",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "premium"
+          ]
         },
         {
           "id": "Rainbow_Logo_4.5in_Boxer",
@@ -1131,7 +2642,17 @@
           "price": "$175.00",
           "category": "Tops",
           "material": "supersoft cotton blend that gives just a hint of stretch and makes sure you stay",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_4.5in_Boxer.jpg?v=1713998415"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_4.5in_Boxer.jpg?v=1713998415",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "premium"
+          ]
         },
         {
           "id": "Scoop_Soft_Bra_1",
@@ -1139,14 +2660,37 @@
           "price": "$220.00",
           "category": "Tops",
           "material": "the same quality supersoft cotton as our famous underwear",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Scoop_Soft_Bra_1.jpg?v=1771458513"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Scoop_Soft_Bra_1.jpg?v=1771458513",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "intimate",
+            "sporty",
+            "premium"
+          ]
         },
         {
           "id": "Royal_Swim_6in_Racerback_Unisu",
           "name": "Swim 6\" Racerback Unisuit - Royal",
           "price": "$115.00",
           "category": "Swimwear",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Royal_Swim_6in_Racerback_Unisuit_1.jpg?v=1760387331"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Royal_Swim_6in_Racerback_Unisuit_1.jpg?v=1760387331",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "summer",
+            "beach",
+            "sexy",
+            "bold",
+            "affordable"
+          ]
         },
         {
           "id": "Head_Over_Eels_Swim_7in_Board_",
@@ -1154,7 +2698,15 @@
           "price": "$115.00",
           "category": "Bottoms",
           "material": "OEKO-Tex certified fabric and fit tested for all body types, we think our board",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Head_Over_Eels_Swim_7in_Board_Short_1.jpg?v=1760387368"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Head_Over_Eels_Swim_7in_Board_Short_1.jpg?v=1760387368",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "summer",
+            "affordable"
+          ]
         },
         {
           "id": "Head_Over_Eels_Swim_Tank_1",
@@ -1162,7 +2714,19 @@
           "price": "$105.00",
           "category": "Tops",
           "material": "recycled Bahia, so it’s super durable and moisture wicking, as well as a sun pro",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Head_Over_Eels_Swim_Tank_1.jpg?v=1760387341"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Head_Over_Eels_Swim_Tank_1.jpg?v=1760387341",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "summer",
+            "basic",
+            "affordable"
+          ]
         },
         {
           "id": "Royal_Swim_Sport_Top_1",
@@ -1170,7 +2734,17 @@
           "price": "$105.00",
           "category": "Tops",
           "material": "including power mesh, our Swim Sport Top can support you on land or sea- or couc",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Royal_Swim_Sport_Top_1.jpg?v=1676484761"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Royal_Swim_Sport_Top_1.jpg?v=1676484761",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "affordable"
+          ]
         },
         {
           "id": "Black_Swim_High_Waisted_Hipste",
@@ -1178,14 +2752,32 @@
           "price": "$105.00",
           "category": "Bottoms",
           "material": "Covered elastic at leg openings Snug fit Hand wash cold, line dry This style run",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Black_Swim_High_Waisted_Hipster_1.jpg?v=1760387394"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Black_Swim_High_Waisted_Hipster_1.jpg?v=1760387394",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "affordable"
+          ]
         },
         {
           "id": "Under_The_Surface_Swim_6in_Rac",
           "name": "Swim 6\" Racerback Unisuit - Under the Surface",
           "price": "$115.00",
           "category": "Swimwear",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Under_The_Surface_Swim_6in_Racerback_Unisuit_1.jpg?v=1760387405"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Under_The_Surface_Swim_6in_Racerback_Unisuit_1.jpg?v=1760387405",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "summer",
+            "beach",
+            "sexy",
+            "bold",
+            "affordable"
+          ]
         },
         {
           "id": "Black_x__Shine_Tucking_Hipster",
@@ -1193,7 +2785,16 @@
           "price": "$58.00",
           "category": "Underwear",
           "material": "84% Nylon, 16% spandex",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Black_x__Shine_Tucking_Hipster_1.jpg?v=1698081438"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Black_x__Shine_Tucking_Hipster_1.jpg?v=1698081438",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "intimate",
+            "basic",
+            "affordable"
+          ]
         },
         {
           "id": "Misty_Blue_Straight_Up_Soft_Br",
@@ -1201,7 +2802,19 @@
           "price": "$58.00",
           "category": "Tops",
           "material": "the same quality supersoft cotton as our famous underwear",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Misty_Blue_Straight_Up_Soft_Bra_1_4e75279c-e44c-4a1a-8337-9000a4cce0a6.jpg?v=1697574666"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Misty_Blue_Straight_Up_Soft_Bra_1_4e75279c-e44c-4a1a-8337-9000a4cce0a6.jpg?v=1697574666",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "intimate",
+            "sporty",
+            "affordable"
+          ]
         },
         {
           "id": "Misty_Blue_Longline_Scoop_Bra_",
@@ -1209,7 +2822,19 @@
           "price": "$58.00",
           "category": "Tops",
           "material": "band gives the Longline Scoop a playful vibe",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Misty_Blue_Longline_Scoop_Bra_1_a0eceb0f-09bb-413b-8c51-518b2915ea54.jpg?v=1697574582"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Misty_Blue_Longline_Scoop_Bra_1_a0eceb0f-09bb-413b-8c51-518b2915ea54.jpg?v=1697574582",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "versatile",
+            "feminine",
+            "layering",
+            "intimate",
+            "sporty",
+            "affordable"
+          ]
         },
         {
           "id": "2337380021_Swim_Tropadelic_6in",
@@ -1217,7 +2842,18 @@
           "price": "$115.00",
           "category": "Swimwear",
           "material": "88% polyester, 12% spandex",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/2337380021_Swim_Tropadelic_6in_Unisuit_1.jpg?v=1760394360"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/2337380021_Swim_Tropadelic_6in_Unisuit_1.jpg?v=1760394360",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "summer",
+            "beach",
+            "sexy",
+            "bold",
+            "affordable"
+          ]
         },
         {
           "id": "2337300001_Swim_Black_Novelty_",
@@ -1225,7 +2861,15 @@
           "price": "$115.00",
           "category": "Bottoms",
           "material": "UV 50 UPF Sun Protection 92% Recycled Polyester, 8% Spandex, OEKO-TEX®-certified",
-          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/2337300001_Swim_Black_Novelty_3.5in_Board_Short_On_Fig_1.jpg?v=1742490504"
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/2337300001_Swim_Black_Novelty_3.5in_Board_Short_On_Fig_1.jpg?v=1742490504",
+          "style_tags": [
+            "gender-neutral",
+            "casual",
+            "comfortable",
+            "inclusive",
+            "summer",
+            "affordable"
+          ]
         }
       ]
     },
@@ -1241,7 +2885,17 @@
           "price": "$98",
           "category": "Tops",
           "material": "98% Organic Cotton, 2% Spandex",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/elowen-top/white/1319627WHT_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/elowen-top/white/1319627WHT_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "versatile",
+            "layering",
+            "affordable"
+          ]
         },
         {
           "id": "1310507MBL_0",
@@ -1249,7 +2903,16 @@
           "price": "$168",
           "category": "Bottoms",
           "material": "99% Cotton, 1% Elastane",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/mid-blue/1310507MBL_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/mid-blue/1310507MBL_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "flattering",
+            "premium"
+          ]
         },
         {
           "id": "1310507PMBL_0",
@@ -1257,7 +2920,16 @@
           "price": "$168",
           "category": "Bottoms",
           "material": "99% Cotton, 1% Elastane",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/mid-blue/1310507PMBL_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/mid-blue/1310507PMBL_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "flattering",
+            "premium"
+          ]
         },
         {
           "id": "1310507VBK_0",
@@ -1265,7 +2937,16 @@
           "price": "$168",
           "category": "Bottoms",
           "material": "99% Cotton, 1% Elastane",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/vintage-black/1310507VBK_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/vintage-black/1310507VBK_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "flattering",
+            "premium"
+          ]
         },
         {
           "id": "1310507PVBK_0",
@@ -1273,7 +2954,16 @@
           "price": "$168",
           "category": "Bottoms",
           "material": "99% Cotton, 1% Elastane",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/vintage-black/1310507PVBK_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/vintage-black/1310507PVBK_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "flattering",
+            "premium"
+          ]
         },
         {
           "id": "1310507LBL_0",
@@ -1281,7 +2971,16 @@
           "price": "$168",
           "category": "Bottoms",
           "material": "99% Cotton, 1% Elastane",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/light-blue/1310507LBL_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/light-blue/1310507LBL_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "flattering",
+            "premium"
+          ]
         },
         {
           "id": "1310507PLBL_0",
@@ -1289,7 +2988,16 @@
           "price": "$168",
           "category": "Bottoms",
           "material": "99% Cotton, 1% Elastane",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/light-blue/1310507PLBL_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/light-blue/1310507PLBL_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "flattering",
+            "premium"
+          ]
         },
         {
           "id": "1310507DBL_0",
@@ -1297,7 +3005,16 @@
           "price": "$168",
           "category": "Bottoms",
           "material": "99% Cotton, 1% Elastane",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/dark-blue/1310507DBL_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/dark-blue/1310507DBL_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "flattering",
+            "premium"
+          ]
         },
         {
           "id": "1310507PDBL_0",
@@ -1305,7 +3022,16 @@
           "price": "$168",
           "category": "Bottoms",
           "material": "99% Cotton, 1% Elastane",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/dark-blue/1310507PDBL_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/dark-blue/1310507PDBL_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "flattering",
+            "premium"
+          ]
         },
         {
           "id": "1310507BLK_0",
@@ -1313,7 +3039,16 @@
           "price": "$168",
           "category": "Bottoms",
           "material": "99% Cotton, 1% Elastane",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/black/1310507BLK_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/black/1310507BLK_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "flattering",
+            "premium"
+          ]
         },
         {
           "id": "1310507PBLK_0",
@@ -1321,7 +3056,16 @@
           "price": "$168",
           "category": "Bottoms",
           "material": "99% Cotton, 1% Elastane",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/black/1310507PBLK_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/black/1310507PBLK_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "flattering",
+            "premium"
+          ]
         },
         {
           "id": "1310507ABK_0",
@@ -1329,7 +3073,16 @@
           "price": "$168",
           "category": "Bottoms",
           "material": "99% Cotton, 1% Elastane",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/aged-black/1310507ABK_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/aged-black/1310507ABK_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "flattering",
+            "premium"
+          ]
         },
         {
           "id": "1310507PABK_0",
@@ -1337,7 +3090,16 @@
           "price": "$168",
           "category": "Bottoms",
           "material": "99% Cotton, 1% Elastane",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/aged-black/1310507PABK_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/aged-black/1310507PABK_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "flattering",
+            "premium"
+          ]
         },
         {
           "id": "1319631WHT_0",
@@ -1345,7 +3107,20 @@
           "price": "$58",
           "category": "Tops",
           "material": "100% Linen",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/white/1319631WHT_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/white/1319631WHT_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "versatile",
+            "layering",
+            "minimalist",
+            "summer",
+            "breezy",
+            "affordable"
+          ]
         },
         {
           "id": "1319631BLK_0",
@@ -1353,7 +3128,20 @@
           "price": "$58",
           "category": "Tops",
           "material": "100% Linen",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/black/1319631BLK_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/black/1319631BLK_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "versatile",
+            "layering",
+            "minimalist",
+            "summer",
+            "breezy",
+            "affordable"
+          ]
         },
         {
           "id": "1319631NVY_0",
@@ -1361,7 +3149,20 @@
           "price": "$58",
           "category": "Tops",
           "material": "100% Linen",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/navy/1319631NVY_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/navy/1319631NVY_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "versatile",
+            "layering",
+            "minimalist",
+            "summer",
+            "breezy",
+            "affordable"
+          ]
         },
         {
           "id": "1319631OLV_0",
@@ -1369,7 +3170,20 @@
           "price": "$58",
           "category": "Tops",
           "material": "100% Linen",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/olive/1319631OLV_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/olive/1319631OLV_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "versatile",
+            "layering",
+            "minimalist",
+            "summer",
+            "breezy",
+            "affordable"
+          ]
         },
         {
           "id": "1319631GRY_0",
@@ -1377,7 +3191,20 @@
           "price": "$58",
           "category": "Tops",
           "material": "100% Linen",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/grey/1319631GRY_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/grey/1319631GRY_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "versatile",
+            "layering",
+            "minimalist",
+            "summer",
+            "breezy",
+            "affordable"
+          ]
         },
         {
           "id": "1319631BRN_0",
@@ -1385,7 +3212,20 @@
           "price": "$58",
           "category": "Tops",
           "material": "100% Linen",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/brown/1319631BRN_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/brown/1319631BRN_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "versatile",
+            "layering",
+            "minimalist",
+            "summer",
+            "breezy",
+            "affordable"
+          ]
         },
         {
           "id": "1319631BLU_0",
@@ -1393,7 +3233,20 @@
           "price": "$58",
           "category": "Tops",
           "material": "100% Linen",
-          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/blue/1319631BLU_0.jpg"
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/blue/1319631BLU_0.jpg",
+          "style_tags": [
+            "sustainable",
+            "feminine",
+            "trendy",
+            "chic",
+            "romantic",
+            "versatile",
+            "layering",
+            "minimalist",
+            "summer",
+            "breezy",
+            "affordable"
+          ]
         }
       ]
     },
@@ -1409,7 +3262,18 @@
           "price": "$138",
           "category": "Outerwear",
           "material": "86% Polyester, 14% Spandex",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w4526r-clubhouse-jacket-black.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w4526r-clubhouse-jacket-black.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "layering",
+            "structured",
+            "professional",
+            "affordable"
+          ]
         },
         {
           "id": "w51432r-suit-up-trouser-black",
@@ -1417,7 +3281,15 @@
           "price": "$148",
           "category": "Bottoms",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w51432r-suit-up-trouser-black.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w51432r-suit-up-trouser-black.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "affordable"
+          ]
         },
         {
           "id": "w3893r-pinstripe-daylight-butt",
@@ -1425,7 +3297,18 @@
           "price": "$138",
           "category": "Tops",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w3893r-pinstripe-daylight-button-down.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w3893r-pinstripe-daylight-button-down.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "versatile",
+            "feminine",
+            "layering",
+            "affordable"
+          ]
         },
         {
           "id": "w6453r-pinstripe-daylight-boxe",
@@ -1433,7 +3316,18 @@
           "price": "$88",
           "category": "Bottoms",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w6453r-pinstripe-daylight-boxer-short.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w6453r-pinstripe-daylight-boxer-short.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "casual",
+            "summer",
+            "comfortable",
+            "affordable"
+          ]
         },
         {
           "id": "w9680r-airbrush-heart-throb-br",
@@ -1441,7 +3335,19 @@
           "price": "$88",
           "category": "Tops",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w9680r-airbrush-heart-throb-bra.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w9680r-airbrush-heart-throb-bra.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "versatile",
+            "feminine",
+            "layering",
+            "intimate",
+            "affordable"
+          ]
         },
         {
           "id": "w51298r-airbrush-high-waist-he",
@@ -1449,7 +3355,17 @@
           "price": "$134",
           "category": "Bottoms",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w51298r-airbrush-high-waist-heart-throb-legging.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w51298r-airbrush-high-waist-heart-throb-legging.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "comfortable",
+            "versatile",
+            "affordable"
+          ]
         },
         {
           "id": "u3041rg-accolade-full-zip-hood",
@@ -1457,7 +3373,22 @@
           "price": "$148",
           "category": "Tops",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/u3041rg-accolade-full-zip-hoodie.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/u3041rg-accolade-full-zip-hoodie.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "versatile",
+            "feminine",
+            "layering",
+            "casual",
+            "streetwear",
+            "cozy",
+            "comfortable",
+            "affordable"
+          ]
         },
         {
           "id": "u5012rg-accolade-straight-leg-",
@@ -1465,7 +3396,19 @@
           "price": "$138",
           "category": "Bottoms",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/u5012rg-accolade-straight-leg-sweatpant.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/u5012rg-accolade-straight-leg-sweatpant.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "casual",
+            "cozy",
+            "comfortable",
+            "loungewear",
+            "affordable"
+          ]
         },
         {
           "id": "w9918r-airbrush-better-togethe",
@@ -1473,7 +3416,19 @@
           "price": "$88",
           "category": "Tops",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w9918r-airbrush-better-together-bra.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w9918r-airbrush-better-together-bra.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "versatile",
+            "feminine",
+            "layering",
+            "intimate",
+            "affordable"
+          ]
         },
         {
           "id": "w54309r-airbrush-high-waist-be",
@@ -1481,7 +3436,17 @@
           "price": "$134",
           "category": "Bottoms",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w54309r-airbrush-high-waist-better-together-legging.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w54309r-airbrush-high-waist-better-together-legging.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "comfortable",
+            "versatile",
+            "affordable"
+          ]
         },
         {
           "id": "w3937r-cropped-sway-crew-neck-",
@@ -1489,7 +3454,21 @@
           "price": "$118",
           "category": "Tops",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w3937r-cropped-sway-crew-neck-pullover.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w3937r-cropped-sway-crew-neck-pullover.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "versatile",
+            "feminine",
+            "layering",
+            "trendy",
+            "youthful",
+            "casual",
+            "affordable"
+          ]
         },
         {
           "id": "w51304r-sway-bootcut-sweatpant",
@@ -1497,7 +3476,19 @@
           "price": "$128",
           "category": "Bottoms",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w51304r-sway-bootcut-sweatpant.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w51304r-sway-bootcut-sweatpant.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "casual",
+            "cozy",
+            "comfortable",
+            "loungewear",
+            "affordable"
+          ]
         },
         {
           "id": "w4708r-fast-lane-puffer-vest",
@@ -1505,7 +3496,21 @@
           "price": "$188",
           "category": "Outerwear",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w4708r-fast-lane-puffer-vest.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w4708r-fast-lane-puffer-vest.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "layering",
+            "structured",
+            "professional",
+            "warm",
+            "casual",
+            "winter",
+            "trendy"
+          ]
         },
         {
           "id": "w5766r-airlift-legging",
@@ -1513,7 +3518,17 @@
           "price": "$134",
           "category": "Bottoms",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w5766r-airlift-legging.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w5766r-airlift-legging.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "comfortable",
+            "versatile",
+            "affordable"
+          ]
         },
         {
           "id": "w9884r-alosoft-sincere-bra",
@@ -1521,7 +3536,19 @@
           "price": "$68",
           "category": "Tops",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w9884r-alosoft-sincere-bra.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w9884r-alosoft-sincere-bra.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "versatile",
+            "feminine",
+            "layering",
+            "intimate",
+            "affordable"
+          ]
         },
         {
           "id": "double-take-short-sleeve",
@@ -1529,7 +3556,21 @@
           "price": "$88",
           "category": "Tops",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/double-take-short-sleeve.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/double-take-short-sleeve.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "versatile",
+            "feminine",
+            "layering",
+            "casual",
+            "summer",
+            "comfortable",
+            "affordable"
+          ]
         },
         {
           "id": "double-take-short",
@@ -1537,7 +3578,18 @@
           "price": "$88",
           "category": "Bottoms",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/double-take-short.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/double-take-short.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "casual",
+            "summer",
+            "comfortable",
+            "affordable"
+          ]
         },
         {
           "id": "takeaway-track-pullover",
@@ -1545,7 +3597,18 @@
           "price": "$148",
           "category": "Tops",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/takeaway-track-pullover.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/takeaway-track-pullover.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "versatile",
+            "feminine",
+            "layering",
+            "affordable"
+          ]
         },
         {
           "id": "repetition-pant",
@@ -1553,7 +3616,15 @@
           "price": "$128",
           "category": "Bottoms",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/repetition-pant.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/repetition-pant.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "affordable"
+          ]
         },
         {
           "id": "conquer-reform-long-sleeve",
@@ -1561,7 +3632,18 @@
           "price": "$108",
           "category": "Tops",
           "material": "N/A",
-          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/conquer-reform-long-sleeve.jpg"
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/conquer-reform-long-sleeve.jpg",
+          "style_tags": [
+            "sporty",
+            "luxe",
+            "minimalist",
+            "yoga",
+            "premium",
+            "versatile",
+            "feminine",
+            "layering",
+            "affordable"
+          ]
         }
       ]
     },
@@ -1577,7 +3659,14 @@
           "price": "$98-$118",
           "category": "Bottoms",
           "material": "81% Nylon, 19% Lycra Elastane",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5CUWS_072757"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5CUWS_072757",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "luxe"
+          ]
         },
         {
           "id": "LW5DQES_072760",
@@ -1585,7 +3674,14 @@
           "price": "$118",
           "category": "Bottoms",
           "material": "PowerLu Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQES_072760"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQES_072760",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQMS_076023",
@@ -1593,7 +3689,14 @@
           "price": "$118",
           "category": "Bottoms",
           "material": "Everlux Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQMS_076023"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQMS_076023",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQDS_074028",
@@ -1601,7 +3704,14 @@
           "price": "$108",
           "category": "Bottoms",
           "material": "Nulu Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQDS_074028"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQDS_074028",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQGS_072761",
@@ -1609,7 +3719,14 @@
           "price": "$108",
           "category": "Bottoms",
           "material": "Nulu Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQGS_072761"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQGS_072761",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQHS_072756",
@@ -1617,7 +3734,14 @@
           "price": "$118",
           "category": "Bottoms",
           "material": "Everlux Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQHS_072756"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQHS_072756",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQIS_045797",
@@ -1625,7 +3749,14 @@
           "price": "$108-$118",
           "category": "Bottoms",
           "material": "Everlux Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQIS_045797"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQIS_045797",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "luxe"
+          ]
         },
         {
           "id": "LW5CUXS_072757",
@@ -1633,7 +3764,14 @@
           "price": "$98",
           "category": "Bottoms",
           "material": "Everlux Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5CUXS_072757"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5CUXS_072757",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQKS_072756",
@@ -1641,7 +3779,14 @@
           "price": "$148",
           "category": "Bottoms",
           "material": "Nulux Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQKS_072756"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQKS_072756",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQLS_072757",
@@ -1649,7 +3794,14 @@
           "price": "$128",
           "category": "Bottoms",
           "material": "Nulu Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQLS_072757"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQLS_072757",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQNS_072761",
@@ -1657,7 +3809,14 @@
           "price": "$118",
           "category": "Bottoms",
           "material": "Ultralu Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQNS_072761"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQNS_072761",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW4AWGS_0001",
@@ -1665,7 +3824,17 @@
           "price": "$128",
           "category": "Outerwear",
           "material": "Nulu Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW4AWGS_0001"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW4AWGS_0001",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "layering",
+            "structured",
+            "professional",
+            "affordable"
+          ]
         },
         {
           "id": "LW4AWHS_0001",
@@ -1673,7 +3842,20 @@
           "price": "$128",
           "category": "Outerwear",
           "material": "Nulu Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW4AWHS_0001"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW4AWHS_0001",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "layering",
+            "structured",
+            "professional",
+            "trendy",
+            "youthful",
+            "casual",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQPS_0001",
@@ -1681,7 +3863,14 @@
           "price": "$108",
           "category": "Bottoms",
           "material": "SmoothCover Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQPS_0001"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQPS_0001",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQQS_0001",
@@ -1689,7 +3878,14 @@
           "price": "$98-$108",
           "category": "Bottoms",
           "material": "SmoothCover Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQQS_0001"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQQS_0001",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "luxe"
+          ]
         },
         {
           "id": "LW5DQRS_0001",
@@ -1697,7 +3893,14 @@
           "price": "$118",
           "category": "Bottoms",
           "material": "Nulu Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQRS_0001"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQRS_0001",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQSS_072757",
@@ -1705,7 +3908,14 @@
           "price": "$88",
           "category": "Bottoms",
           "material": "Nulu Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQSS_072757"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQSS_072757",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQTS_074857",
@@ -1713,7 +3923,14 @@
           "price": "$118",
           "category": "Bottoms",
           "material": "Nulux Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQTS_074857"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQTS_074857",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQUS_072761",
@@ -1721,7 +3938,14 @@
           "price": "$108",
           "category": "Bottoms",
           "material": "Thermal Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQUS_072761"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQUS_072761",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic",
+            "affordable"
+          ]
         },
         {
           "id": "LW5DQVS_0001",
@@ -1729,7 +3953,13 @@
           "price": "$198",
           "category": "Bottoms",
           "material": "Cold Weather Fabric",
-          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQVS_0001"
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQVS_0001",
+          "style_tags": [
+            "sporty",
+            "premium",
+            "performance",
+            "classic"
+          ]
         }
       ]
     }
