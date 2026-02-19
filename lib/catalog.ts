@@ -1,48 +1,18 @@
 import { Product, Brand, FeedbackModel } from '@/types';
 
-// Popular brands across ALL price ranges
+// Shopify-first brand list
 export const POPULAR_BRANDS: Brand[] = [
-  // Budget ($-$$)
-  { id: 'uniqlo', name: 'Uniqlo', priceRange: '$', aesthetic: 'basics' },
-  { id: 'zara', name: 'Zara', priceRange: '$$', aesthetic: 'trendy' },
-  { id: 'hm', name: 'H&M', priceRange: '$', aesthetic: 'fast-fashion' },
-  { id: 'muji', name: 'Muji', priceRange: '$$', aesthetic: 'minimalist' },
-  { id: 'target', name: 'Target', priceRange: '$', aesthetic: 'casual' },
-  
-  // Mid-Range ($$)
   { id: 'everlane', name: 'Everlane', priceRange: '$$', aesthetic: 'transparent' },
-  { id: 'cos', name: 'COS', priceRange: '$$', aesthetic: 'minimalist' },
-  { id: 'aritzia', name: 'Aritzia', priceRange: '$$', aesthetic: 'contemporary' },
   { id: 'reformation', name: 'Reformation', priceRange: '$$$', aesthetic: 'sustainable' },
-  { id: 'madewell', name: 'Madewell', priceRange: '$$', aesthetic: 'casual' },
-  { id: 'jcrew', name: 'J.Crew', priceRange: '$$', aesthetic: 'preppy' },
-  { id: 'banana-republic', name: 'Banana Republic', priceRange: '$$', aesthetic: 'business' },
-  
-  // Premium ($$$)
-  { id: 'nordstrom', name: 'Nordstrom', priceRange: '$$-$$$', aesthetic: 'department' },
-  { id: 'bloomingdales', name: 'Bloomingdale\'s', priceRange: '$$-$$$', aesthetic: 'department' },
-  { id: 'shopbop', name: 'Shopbop', priceRange: '$$-$$$', aesthetic: 'curated' },
-  { id: 'ssense', name: 'SSENSE', priceRange: '$$-$$$$', aesthetic: 'designer' },
-  
-  // Luxury ($$$$)
-  { id: 'net-a-porter', name: 'Net-a-Porter', priceRange: '$$$$', aesthetic: 'luxury' },
-  { id: 'matches', name: 'Matches Fashion', priceRange: '$$$$', aesthetic: 'luxury' },
-  { id: 'farfetch', name: 'Farfetch', priceRange: '$$-$$$$', aesthetic: 'boutique' },
-  { id: 'mr-porter', name: 'Mr Porter', priceRange: '$$$$', aesthetic: 'mens-luxury' },
-  { id: 'mytheresa', name: 'Mytheresa', priceRange: '$$$$', aesthetic: 'luxury' },
-  
-  // Athletic/Street
-  { id: 'nike', name: 'Nike', priceRange: '$$', aesthetic: 'athletic' },
-  { id: 'adidas', name: 'Adidas', priceRange: '$$', aesthetic: 'athletic' },
+  { id: 'kith', name: 'Kith', priceRange: '$$$', aesthetic: 'streetwear' },
+  { id: 'gymshark', name: 'Gymshark', priceRange: '$$', aesthetic: 'athletic' },
+  { id: 'fashionnova', name: 'Fashion Nova', priceRange: '$$', aesthetic: 'trendy' },
+  { id: 'allbirds', name: 'Allbirds', priceRange: '$$', aesthetic: 'sustainable' },
+  { id: 'outdoorvoices', name: 'Outdoor Voices', priceRange: '$$', aesthetic: 'athleisure' },
+  { id: 'chubbies', name: 'Chubbies', priceRange: '$$', aesthetic: 'casual' },
+  { id: 'tomboyx', name: 'TomboyX', priceRange: '$$', aesthetic: 'inclusive' },
+  { id: 'aloyoga', name: 'Alo Yoga', priceRange: '$$$', aesthetic: 'athleisure' },
   { id: 'lululemon', name: 'Lululemon', priceRange: '$$$', aesthetic: 'athleisure' },
-  { id: 'alo', name: 'Alo Yoga', priceRange: '$$$', aesthetic: 'athleisure' },
-  { id: 'outdoor-voices', name: 'Outdoor Voices', priceRange: '$$', aesthetic: 'active' },
-  
-  // Sustainable/Ethical
-  { id: 'patagonia', name: 'Patagonia', priceRange: '$$$', aesthetic: 'outdoor' },
-  { id: 'eileen-fisher', name: 'Eileen Fisher', priceRange: '$$$', aesthetic: 'sustainable' },
-  { id: 'kotn', name: 'Kotn', priceRange: '$$', aesthetic: 'ethical' },
-  { id: 'pact', name: 'Pact', priceRange: '$$', aesthetic: 'organic' },
 ];
 
 // Expanded style options
@@ -60,22 +30,33 @@ export const STYLE_OPTIONS = [
 type RawProduct = Omit<Product, 'store' | 'metadata'>;
 
 const STORE_PROFILE_BY_BRAND: Record<string, Product['store']> = {
-  uniqlo: { id: 'uniqlo', name: 'Uniqlo', capability: 'add_to_cart' },
-  zara: { id: 'zara', name: 'Zara', capability: 'add_to_cart' },
-  hm: { id: 'hm', name: 'H&M', capability: 'add_to_cart' },
   everlane: { id: 'everlane', name: 'Everlane', capability: 'prefill' },
-  cos: { id: 'cos', name: 'COS', capability: 'add_to_cart' },
-  aritzia: { id: 'aritzia', name: 'Aritzia', capability: 'add_to_cart' },
   reformation: { id: 'reformation', name: 'Reformation', capability: 'deep_link' },
+  kith: { id: 'kith', name: 'Kith', capability: 'deep_link' },
+  gymshark: { id: 'gymshark', name: 'Gymshark', capability: 'deep_link' },
+  fashionnova: { id: 'fashionnova', name: 'Fashion Nova', capability: 'deep_link' },
+  allbirds: { id: 'allbirds', name: 'Allbirds', capability: 'deep_link' },
+  outdoorvoices: { id: 'outdoorvoices', name: 'Outdoor Voices', capability: 'deep_link' },
+  chubbies: { id: 'chubbies', name: 'Chubbies', capability: 'deep_link' },
+  tomboyx: { id: 'tomboyx', name: 'TomboyX', capability: 'deep_link' },
+  aloyoga: { id: 'aloyoga', name: 'Alo Yoga', capability: 'deep_link' },
   lululemon: { id: 'lululemon', name: 'Lululemon', capability: 'add_to_cart' },
-  vince: { id: 'vince', name: 'Vince', capability: 'deep_link' },
-  toteme: { id: 'toteme', name: 'Toteme', capability: 'deep_link' },
-  'the-row': { id: 'the-row', name: 'The Row', capability: 'deep_link' },
-  agolde: { id: 'agolde', name: 'Agolde', capability: 'deep_link' },
-  nike: { id: 'nike', name: 'Nike', capability: 'add_to_cart' },
-  patagonia: { id: 'patagonia', name: 'Patagonia', capability: 'add_to_cart' },
   default: { id: 'multi-brand', name: 'Retail Partner', capability: 'deep_link' }
 };
+
+const SHOPIFY_STORE_IDS = new Set([
+  'kith',
+  'gymshark',
+  'fashionnova',
+  'allbirds',
+  'everlane',
+  'outdoorvoices',
+  'chubbies',
+  'tomboyx',
+  'reformation',
+  'aloyoga',
+  'lululemon'
+]);
 
 const BRIGHT_COLOR_KEYWORDS = ['neon', 'lime', 'yellow', 'orange', 'hot pink', 'red', 'bright', 'fuchsia', 'electric'];
 const SYNTHETIC_MATERIALS = ['polyester', 'nylon', 'acrylic'];
@@ -454,7 +435,9 @@ const RAW_CURATED_PRODUCTS: RawProduct[] = [
   },
 ];
 
-export const CURATED_PRODUCTS: Product[] = RAW_CURATED_PRODUCTS.map(enrichProduct);
+export const CURATED_PRODUCTS: Product[] = RAW_CURATED_PRODUCTS
+  .map(enrichProduct)
+  .filter(product => SHOPIFY_STORE_IDS.has(product.store.id));
 
 // FIXED matching algorithm
 export function matchProducts(

@@ -93,7 +93,7 @@ const INSPIRATION_BOARDS = [
     image: 'https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&h=500&fit=crop',
     styles: ['minimalist', 'classic'],
     categories: ['tops', 'bottoms', 'outerwear', 'shoes'],
-    brands: ['cos', 'everlane'],
+    brands: ['everlane', 'reformation'],
     budget: 220,
     gender: 'womens' as const,
     occasion: 'everyday' as Occasion
@@ -105,7 +105,7 @@ const INSPIRATION_BOARDS = [
     image: 'https://images.unsplash.com/photo-1483721310020-03333e577078?w=800&h=500&fit=crop',
     styles: ['athleisure', 'casual'],
     categories: ['tops', 'bottoms', 'shoes', 'outerwear'],
-    brands: ['nike', 'lululemon'],
+    brands: ['lululemon', 'aloyoga'],
     budget: 180,
     gender: 'unisex' as const,
     occasion: 'workout' as Occasion
@@ -117,7 +117,7 @@ const INSPIRATION_BOARDS = [
     image: 'https://images.unsplash.com/photo-1464863979621-258859e62245?w=800&h=500&fit=crop',
     styles: ['romantic', 'trendy'],
     categories: ['dresses', 'shoes', 'accessories', 'outerwear'],
-    brands: ['reformation', 'shopbop'],
+    brands: ['reformation', 'everlane'],
     budget: 260,
     gender: 'womens' as const,
     occasion: 'date-night' as Occasion
@@ -425,23 +425,6 @@ export default function Home() {
     }
   };
 
-  const runStarterCart = () => {
-    const starter: UserPreferences = {
-      ...preferences,
-      gender: 'womens',
-      categories: ['tops', 'bottoms', 'shoes', 'outerwear'],
-      styles: ['minimalist', 'casual'],
-      brands: [],
-      budget: 200,
-      strictBrands: false,
-      mode: 'pure',
-      occasion: 'everyday',
-      sizes: {}
-    };
-    setPreferences(starter);
-    handleGenerate(starter);
-  };
-
   const openMemberPrecurated = () => {
     if (!memberPreset) return;
     setPreferences(memberPreset);
@@ -599,12 +582,6 @@ export default function Home() {
                       Start Guided Matching
                       <ArrowRight className="w-5 h-5" />
                     </motion.button>
-                    <button
-                      onClick={runStarterCart}
-                      className="px-6 py-4 rounded-full border border-surface-hover hover:border-accent/40 transition-colors"
-                    >
-                      Quick Demo Cart
-                    </button>
                   </div>
                 </div>
 
@@ -685,36 +662,6 @@ export default function Home() {
                   </div>
                 </section>
 
-                <section className="glass-panel p-6 md:p-8">
-                  <div className="flex items-center justify-between mb-5 gap-4 flex-wrap">
-                    <div>
-                      <h3 className="text-xl font-semibold">Starter Cart Preview</h3>
-                      <p className="text-sm text-muted">A pre-curated set you can generate instantly.</p>
-                    </div>
-                    <button onClick={runStarterCart} className="luxury-button px-5 py-3 text-sm">
-                      Try This Cart
-                    </button>
-                  </div>
-                  <div className="grid md:grid-cols-4 gap-4">
-                    {demoProducts.map(product => (
-                      <div key={product.id} className="rounded-xl overflow-hidden border border-surface-hover bg-surface/50">
-                        <img
-                          src={product.image}
-                          alt={product.name}
-                          className="w-full h-36 object-cover"
-                          onError={e => {
-                            const target = e.currentTarget;
-                            if (target.src !== FALLBACK_IMAGE) target.src = FALLBACK_IMAGE;
-                          }}
-                        />
-                        <div className="p-3">
-                          <p className="text-xs text-accent uppercase tracking-wider">{product.brand}</p>
-                          <p className="text-sm truncate">{product.name}</p>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </section>
               </motion.div>
             )}
 
