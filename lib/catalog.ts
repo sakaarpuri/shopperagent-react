@@ -385,8 +385,19 @@ export function matchProducts(
     gender: string;
     categories: string[];
     strictBrands: boolean;
+    occasion?: string;
+    sizes?: Record<string, string>;
   }
 ): Product[] {
+  const occasionStyleBoost: Record<string, string[]> = {
+    everyday: ['casual', 'minimalist', 'classic'],
+    work: ['business', 'classic', 'minimalist'],
+    'date-night': ['romantic', 'trendy'],
+    event: ['trendy', 'romantic', 'classic'],
+    travel: ['casual', 'athleisure', 'minimalist'],
+    workout: ['athleisure', 'casual']
+  };
+
   // Filter by category AND gender first
   let filtered = products.filter(product => {
     // Gender filter
@@ -414,54 +425,79 @@ export function matchProducts(
   
   // Score remaining products
   let scored = filtered.map(product => {
-    let score = 50; // Base score
+    let score = 35;
     
-    // Style matching (0-40 points)
+    // Style matching (0-35 points)
     if (preferences.styles.length > 0) {
       const styleScores = preferences.styles.map(style => 
         product.scores[style as keyof typeof product.scores] || 0
       );
       const avgStyleScore = styleScores.reduce((a, b) => a + b, 0) / styleScores.length;
-      score += (avgStyleScore / 100) * 40;
+      score += (avgStyleScore / 100) * 35;
     }
-    
+
+    // Occasion-aware boost (0-15 points)
+    if (preferences.occasion && occasionStyleBoost[preferences.occasion]) {
+      const occasionStyles = occasionStyleBoost[preferences.occasion];
+      const occasionScores = occasionStyles.map(style => product.scores[style as keyof typeof product.scores] || 0);
+      const avgOccasionScore = occasionScores.reduce((a, b) => a + b, 0) / occasionScores.length;
+      score += (avgOccasionScore / 100) * 15;
+    }
+
     // Budget matching (0-30 points)
-    // Prefer items within budget, but don't penalize too harshly
     if (product.price <= preferences.budget) {
-      score += 30; // Full points for within budget
+      const ratio = product.price / Math.max(preferences.budget, 1);
+      score += 18 + ratio * 12; // Reward close-to-budget matches.
     } else if (product.price <= preferences.budget * 1.2) {
-      score += 15; // Half points for slightly over
+      score += 10;
+    } else if (product.price <= preferences.budget * 1.5) {
+      score += 4;
+    } else {
+      score -= 15;
     }
-    
-    // Brand preference bonus (0-20 points) - NOT a filter, just bonus
+
+    // Brand preference bonus (0-15 points) - NOT a filter, just bonus
     if (preferences.brands.length > 0 && !preferences.strictBrands) {
       const brandMatch = preferences.brands.some(b => 
         product.brand.toLowerCase().replace(/\s+/g, '-') === b
       );
       if (brandMatch) {
-        score += 20;
+        score += 15;
       }
     }
-    
-    // Price-to-budget ratio bonus (prefer items that use budget well)
-    if (product.price <= preferences.budget) {
-      const ratio = product.price / preferences.budget;
-      score += ratio * 10; // Up to 10 bonus points for good value
-    }
-    
+
     return { ...product, matchScore: Math.round(score) };
   });
   
   // Sort by score descending
   scored.sort((a, b) => (b as any).matchScore - (a as any).matchScore);
-  
-  // Return top matches (minimum threshold of 40)
-  return scored.filter((p: any) => p.matchScore >= 40) as Product[];
+
+  // Preserve category coverage first, then fill with best remaining matches.
+  const highConfidence = scored.filter((p: any) => p.matchScore >= 40) as Product[];
+  const diversified: Product[] = [];
+  const used = new Set<string>();
+
+  preferences.categories.forEach(category => {
+    const firstInCategory = highConfidence.find(product => product.category === category && !used.has(product.id));
+    if (firstInCategory) {
+      diversified.push(firstInCategory);
+      used.add(firstInCategory.id);
+    }
+  });
+
+  highConfidence.forEach(product => {
+    if (!used.has(product.id)) {
+      diversified.push(product);
+      used.add(product.id);
+    }
+  });
+
+  return diversified;
 }
 
 export function generateMatchExplanation(
   product: Product,
-  preferences: { styles: string[]; brands: string[] }
+  preferences: { styles: string[]; brands: string[]; occasion?: string }
 ): string {
   const reasons: string[] = [];
   
@@ -493,6 +529,10 @@ export function generateMatchExplanation(
   
   // Category
   reasons.push(`${product.category} category match`);
+  
+  if (preferences.occasion) {
+    reasons.push(`Curated for ${preferences.occasion.replace('-', ' ')} wear`);
+  }
   
   return reasons[0] || 'Matches your preferences';
 }

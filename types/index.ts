@@ -26,4 +26,6 @@ export interface UserPreferences {
   budget: number;
   strictBrands: boolean;
   mode: 'pure' | 'mix';
+  occasion?: 'everyday' | 'work' | 'date-night' | 'event' | 'travel' | 'workout' | '';
+  sizes?: Record<string, string>;
 }
