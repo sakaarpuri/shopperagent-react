@@ -1,0 +1,1737 @@
+{
+  "catalog_metadata": {
+    "created_at": "2025-02-18",
+    "stores": 11,
+    "total_products": 219,
+    "stores_list": [
+      "Kith",
+      "Gymshark",
+      "Fashion Nova",
+      "Allbirds",
+      "Everlane",
+      "Outdoor Voices",
+      "Chubbies",
+      "TomboyX",
+      "Reformation",
+      "Alo Yoga",
+      "Lululemon"
+    ],
+    "updated_at": "2026-02-19"
+  },
+  "stores": [
+    {
+      "store_id": "kith",
+      "store_name": "Kith",
+      "store_url": "https://kith.com",
+      "category": "Streetwear / Luxury Fashion",
+      "products": [
+        {
+          "id": "gm003762uc001",
+          "name": "Giorgio Armani & Kith &Kin Milano Crepe Collarless Jacket - Black",
+          "price": "€3,700.00",
+          "category": "Jackets",
+          "url": "/products/gm003762uc001"
+        },
+        {
+          "id": "gm003802uc001",
+          "name": "Giorgio Armani & Kith &Kin Milano Crepe Flat Front Trouser - Black",
+          "price": "€1,500.00",
+          "category": "Pants",
+          "url": "/products/gm003802uc001"
+        },
+        {
+          "id": "gm003293uc001",
+          "name": "Giorgio Armani & Kith &Kin Milano Crepe Entrepreneur Shirt - Black",
+          "price": "€2,200.00",
+          "category": "Shirts",
+          "url": "/products/gm003293uc001"
+        },
+        {
+          "id": "khm011179-260",
+          "name": "&Kin Combo Leather Avari Moto Jacket - Hickory",
+          "price": "€2,300.00",
+          "category": "Jackets",
+          "url": "/products/khm011179-260"
+        },
+        {
+          "id": "khm011166-301",
+          "name": "Kith Washed Suede Rossi Moto Jacket - Flagstaff",
+          "price": "€1,750.00",
+          "category": "Jackets",
+          "url": "/products/khm011166-301"
+        },
+        {
+          "id": "khm011163-302",
+          "name": "Kith Pebbled Leather Jett Blouson Jacket - Stadium",
+          "price": "€1,450.00",
+          "category": "Jackets",
+          "url": "/products/khm011163-302"
+        },
+        {
+          "id": "khm011148-416",
+          "name": "Kith Gabriel Denim Jacket - Dark Indigo",
+          "price": "€455.00",
+          "category": "Jackets",
+          "url": "/products/khm011148-416"
+        },
+        {
+          "id": "khm034733-001",
+          "name": "Kith Pegasus Vintage Tee - Black",
+          "price": "€81.00",
+          "category": "T-Shirts",
+          "url": "/products/khm034733-001"
+        },
+        {
+          "id": "khm034534-001",
+          "name": "Kith Quinn Tee - Black",
+          "price": "€90.00",
+          "category": "T-Shirts",
+          "url": "/products/khm034534-001"
+        },
+        {
+          "id": "khm034932-001",
+          "name": "Kith Signature Rose Jones Tee - Black",
+          "price": "€81.00",
+          "category": "T-Shirts",
+          "url": "/products/khm034932-001"
+        },
+        {
+          "id": "khm034518-302",
+          "name": "Kith Nelson Crewneck - Stadium",
+          "price": "€215.00",
+          "category": "Sweatshirts",
+          "url": "/products/khm034518-302"
+        },
+        {
+          "id": "khm034516-001",
+          "name": "Kith Rib Neck Cropped Camden Hoodie - Black",
+          "price": "€255.00",
+          "category": "Hoodies",
+          "url": "/products/khm034516-001"
+        },
+        {
+          "id": "khm061203-001",
+          "name": "Kith Parker Sweatpant - Black",
+          "price": "€200.00",
+          "category": "Pants",
+          "url": "/products/khm061203-001"
+        },
+        {
+          "id": "khm061200-001",
+          "name": "Kith Curtis Short - Black",
+          "price": "€175.00",
+          "category": "Shorts",
+          "url": "/products/khm061200-001"
+        },
+        {
+          "id": "khm040268-001",
+          "name": "Kith Monogram Leather Explorer Traveler K40 Duffle Bag - Black",
+          "price": "€685.00",
+          "category": "Accessories",
+          "url": "/products/khm040268-001"
+        },
+        {
+          "id": "khm051519-5114",
+          "name": "&Kin Wool Denim Dawson Bucket Hat - Blue Navy",
+          "price": "€180.00",
+          "category": "Accessories",
+          "url": "/products/khm051519-5114"
+        },
+        {
+          "id": "khm051522-5114",
+          "name": "&Kin & '47 for NY Yankees Wool Denim Franchise LS Cap",
+          "price": "€145.00",
+          "category": "Accessories",
+          "url": "/products/khm051522-5114"
+        },
+        {
+          "id": "sl45451000",
+          "name": "Kith for Salomon XT-Voyager 2 - Black",
+          "price": "€235.00",
+          "category": "Shoes",
+          "url": "/products/sl45451000"
+        },
+        {
+          "id": "mp5150618",
+          "name": "Kith for Mephisto Match Sneaker - Orange",
+          "price": "€490.00",
+          "category": "Shoes",
+          "url": "/products/mp5150618"
+        },
+        {
+          "id": "khm120031-001",
+          "name": "Kith Moto Racer Sunglasses - Black",
+          "price": "€260.00",
+          "category": "Accessories",
+          "url": "/products/khm120031-001"
+        }
+      ]
+    },
+    {
+      "store_id": "gymshark",
+      "store_name": "Gymshark",
+      "store_url": "https://www.gymshark.com",
+      "category": "Activewear / Fitness",
+      "products": [
+        {
+          "id": "gymshark-everyday-seamless-washed-legging-red-ss26",
+          "name": "Everyday Seamless Washed Legging 2.0 - Red Wash",
+          "price": "$40.00",
+          "category": "Leggings",
+          "url": "/products/gymshark-everyday-seamless-washed-legging-leggings-red-ss26"
+        },
+        {
+          "id": "gymshark-everyday-seamless-washed-sports-bra-red-ss26",
+          "name": "Everyday Seamless Washed Sports Bra - Red Wash",
+          "price": "$28.00",
+          "category": "Sports Bras",
+          "url": "/products/gymshark-everyday-seamless-washed-sports-bra-sports-bras-red-ss26"
+        },
+        {
+          "id": "gymshark-lift-seamless-leggings-red-ss26",
+          "name": "Lift Seamless Leggings - Carmine Red",
+          "price": "$60.00",
+          "category": "Leggings",
+          "url": "/products/gymshark-lift-seamless-leggings-leggings-red-ss26"
+        },
+        {
+          "id": "gymshark-lift-seamless-shorts-red-ss26",
+          "name": "Lift Seamless Shorts - Carmine Red",
+          "price": "$46.00",
+          "category": "Shorts",
+          "url": "/products/gymshark-lift-seamless-shorts-shorts-red-ss26"
+        },
+        {
+          "id": "gymshark-power-t-shirt-black-aw25-3",
+          "name": "Power T-Shirt - Black/Conditioning Red",
+          "price": "$36.00",
+          "category": "T-Shirts",
+          "url": "/products/gymshark-power-t-shirt-ss-tops-black-aw25-3"
+        },
+        {
+          "id": "gymshark-power-cut-off-tank-black-aw25",
+          "name": "Power Cut Off Tank - Black/Conditioning Red",
+          "price": "$30.00",
+          "category": "Tanks",
+          "url": "/products/gymshark-power-cut-off-tank-sleeveless-tops-black-aw25-1"
+        },
+        {
+          "id": "gymshark-straight-leg-pumper-pants-black",
+          "name": "Straight Leg Pumper Pants - Black/Onyx Grey",
+          "price": "$66.00",
+          "category": "Pants",
+          "url": "/products/gymshark-straight-leg-pumper-pants-pants-black-ss26"
+        },
+        {
+          "id": "gymshark-element-baselayer-t-shirt",
+          "name": "Element Baselayer T-Shirt - Black/Brand Blue",
+          "price": "$28.00",
+          "category": "Baselayer",
+          "url": "/products/gymshark-element-baselayer-t-shirt-ss-tops"
+        },
+        {
+          "id": "gymshark-power-straight-leg-pant-grey",
+          "name": "Power Straight Leg Pants - Charcoal Core Marl/Sets Red",
+          "price": "$52.00",
+          "category": "Pants",
+          "url": "/products/gymshark-power-straight-leg-pant-pants-grey-ss26"
+        },
+        {
+          "id": "gymshark-everyday-seamless-washed-shorts-red",
+          "name": "Everyday Seamless Washed Shorts 2.0 - Red Wash",
+          "price": "$30.00",
+          "category": "Shorts",
+          "url": "/products/gymshark-everyday-seamless-washed-shorts-shorts-red-ss26"
+        },
+        {
+          "id": "gymshark-lift-seamless-tank-shelf-red",
+          "name": "Lift Seamless Tank with Shelf - Carmine Red",
+          "price": "$44.00",
+          "category": "Tanks",
+          "url": "/products/gymshark-lift-seamless-tank-with-shelf-sleeveless-tops-red-ss26"
+        },
+        {
+          "id": "gymshark-power-t-shirt-red-ss26",
+          "name": "Power T-Shirt - GS Impact Burgundy",
+          "price": "$36.00",
+          "category": "T-Shirts",
+          "url": "/products/gymshark-power-t-shirt-ss-tops-red-ss26"
+        },
+        {
+          "id": "gymshark-indigo-loopback-cargo-nelson",
+          "name": "Indigo Loopback Cargo Nelson Sweatpant - Dark Indigo",
+          "price": "$255.00",
+          "category": "Pants",
+          "url": "/products/khm061193-416"
+        },
+        {
+          "id": "gymshark-denim-huron-jacket",
+          "name": "Denim Huron Jacket - Light Indigo",
+          "price": "$285.00",
+          "category": "Jackets",
+          "url": "/products/khm011171-5110"
+        },
+        {
+          "id": "gymshark-rib-neck-cropped-camden",
+          "name": "Rib Neck Cropped Camden Hoodie - Light Heather Grey",
+          "price": "$255.00",
+          "category": "Hoodies",
+          "url": "/products/khm034516-002"
+        },
+        {
+          "id": "gymshark-quinn-crewneck-sandrift",
+          "name": "Kith Quinn Crewneck - Sandrift",
+          "price": "$180.00",
+          "category": "Sweatshirts",
+          "url": "/products/khm034526-104"
+        },
+        {
+          "id": "gymshark-lucero-knit-hoodie",
+          "name": "Kith Lucero Knit Hoodie - Sandrift",
+          "price": "$265.00",
+          "category": "Hoodies",
+          "url": "/products/khm034465-104"
+        },
+        {
+          "id": "gymshark-wagner-soccer-sweater",
+          "name": "Kith Wagner Long Sleeve Soccer Sweater - Current",
+          "price": "$255.00",
+          "category": "Sweaters",
+          "url": "/products/khm034464-412"
+        },
+        {
+          "id": "gymshaw-knit-moto-jacket",
+          "name": "Kith Knit Moto Full Zip Jacket - Current",
+          "price": "$320.00",
+          "category": "Jackets",
+          "url": "/products/khm034462-412"
+        },
+        {
+          "id": "gymshark-terry-polo",
+          "name": "Kith Lightweight Terry Polo Sweatshirt - Vintage Heather Grey",
+          "price": "$93.40",
+          "category": "Sweatshirts",
+          "url": "/products/khm034929-002"
+        }
+      ]
+    },
+    {
+      "store_id": "fashionnova",
+      "store_name": "Fashion Nova",
+      "store_url": "https://www.fashionnova.com",
+      "category": "Fast Fashion / Trendy",
+      "products": [
+        {
+          "id": "kacey-deep-v-neck-capri-jumpsuit-olive",
+          "name": "Kacey Deep V-Neck Capri Jumpsuit - Olive",
+          "price": "$35.99",
+          "category": "Jumpsuits",
+          "url": "/products/kacey-deep-v-neck-capri-jumpsuit-olive"
+        },
+        {
+          "id": "cloudform-21-capri-jumpsuit-black",
+          "name": "CloudForm 21″ Capri Jumpsuit - Black",
+          "price": "$54.00",
+          "category": "Jumpsuits",
+          "url": "/products/cloudform-21-capri-jumpsuit-black"
+        },
+        {
+          "id": "after-hours-low-rise-baggy-jeans-dark-wash",
+          "name": "After Hours Low Rise Baggy Jeans - Dark Wash",
+          "price": "$24.00",
+          "category": "Jeans",
+          "url": "/products/after-hours-low-rise-baggy-jeans-dark-wash"
+        },
+        {
+          "id": "bohemian-goddess-chiffon-tiered-ruffle-maxi-ivory",
+          "name": "Bohemian Goddess Chiffon Tiered Ruffle Maxi - Ivory",
+          "price": "$23.99",
+          "category": "Dresses",
+          "url": "/products/bohemian-goddess-chiffon-tiered-ruffle-maxi-40-ivory"
+        },
+        {
+          "id": "spring-fantasy-mesh-bodysuit-multi-color",
+          "name": "Spring Fantasy Mesh Bodysuit - Multi Color",
+          "price": "$21.99",
+          "category": "Bodysuits",
+          "url": "/products/spring-fantasy-mesh-bodysuit-multi-color"
+        },
+        {
+          "id": "olivia-printed-one-shoulder-pant-set-olive",
+          "name": "Olivia Printed One Shoulder Pant Set - Olive/combo",
+          "price": "$47.99",
+          "category": "Sets",
+          "url": "/products/olivia-printed-one-shoulder-pant-set-olive-combo"
+        },
+        {
+          "id": "kenna-bandage-midi-dress-blush",
+          "name": "Kenna Bandage Midi Dress - Blush",
+          "price": "$34.99",
+          "category": "Dresses",
+          "url": "/products/kenna-bandage-midi-dress-blush"
+        },
+        {
+          "id": "running-the-game-zip-front-short-set-charcoal",
+          "name": "Running The Game Zip Front Short Set - Charcoal",
+          "price": "$31.99",
+          "category": "Sets",
+          "url": "/products/running-the-game-zip-front-short-set-charcoal"
+        },
+        {
+          "id": "nova-cotton-tshirt-bra-leopard",
+          "name": "Nova Cotton TShirt Bra - Leopard",
+          "price": "$9.00",
+          "category": "Lingerie",
+          "url": "/products/nova-cotton-tshirt-bra-leopard"
+        },
+        {
+          "id": "fully-booked-sweater-maxi-shirt-dress-olive",
+          "name": "Fully Booked Sweater Maxi Shirt Dress - Olive/combo",
+          "price": "$41.99",
+          "category": "Dresses",
+          "url": "/products/fully-booked-sweater-maxi-shirt-dress-olive-combo"
+        },
+        {
+          "id": "prostretch-25-v-seam-high-rise-legging-black",
+          "name": "ProStretch 25″ High Rise Legging - Black",
+          "price": "$44.00",
+          "category": "Leggings",
+          "url": "/products/prostretch-25-v-seam-high-rise-legging-black"
+        },
+        {
+          "id": "seamlesslift-32-flare-jumpsuit-black",
+          "name": "SeamlessLift 32″ Flare Jumpsuit - Black",
+          "price": "$64.00",
+          "category": "Jumpsuits",
+          "url": "/products/seamlesslift-32-flare-jumpsuit-black"
+        },
+        {
+          "id": "blakely-cut-out-backless-maxi-dress-black",
+          "name": "Blakely Cut Out Backless Maxi Dress - Black",
+          "price": "$34.99",
+          "category": "Dresses",
+          "url": "/products/blakely-cut-out-backless-maxi-dress-black"
+        },
+        {
+          "id": "merida-denim-strapless-pant-set-dark-denim",
+          "name": "Merida Denim Strapless Pant Set - Dark Denim",
+          "price": "$34.99",
+          "category": "Sets",
+          "url": "/products/merida-denim-strapless-pant-set-dark-denim"
+        },
+        {
+          "id": "still-going-strong-ripped-baggy-wide-leg-jeans",
+          "name": "Still Going Strong Ripped Baggy Wide Leg Jeans",
+          "price": "$35.99",
+          "category": "Jeans",
+          "url": "/products/still-going-strong-ripped-baggy-wide-leg-jeans-medium-wash"
+        },
+        {
+          "id": "toy-story-woody-and-jessie-tee-white",
+          "name": "Toy Story Woody And Jessie Tee - White",
+          "price": "$17.99",
+          "category": "T-Shirts",
+          "url": "/products/toy-story-woody-and-jessie-tee-white"
+        },
+        {
+          "id": "kayla-sleeveless-bandage-mini-dress-black",
+          "name": "Kayla Sleeveless Bandage Mini Dress - Black",
+          "price": "$27.99",
+          "category": "Dresses",
+          "url": "/products/kayla-sleeveless-bandage-mini-dress-black"
+        },
+        {
+          "id": "envy-me-lace-up-satin-corset-cream",
+          "name": "Envy Me Lace Up Satin Corset - Cream",
+          "price": "$23.99",
+          "category": "Tops",
+          "url": "/products/envy-me-lace-up-satin-corset-cream"
+        },
+        {
+          "id": "cloudform-short-sleeve-full-zip-jacket-black",
+          "name": "CloudForm Short Sleeve Full Zip Jacket - Black",
+          "price": "$48.00",
+          "category": "Jackets",
+          "url": "/products/cloudform-short-sleeve-full-zip-jacket-black"
+        },
+        {
+          "id": "caillat-bead-embellished-flats-beige",
+          "name": "Caillat Bead Embellished Flats - Beige",
+          "price": "$31.99",
+          "category": "Shoes",
+          "url": "/products/caillat-bead-embellished-flats-beige"
+        }
+      ]
+    },
+    {
+      "store_id": "allbirds",
+      "store_name": "Allbirds",
+      "store_url": "https://www.allbirds.com",
+      "category": "Sustainable Footwear / Apparel",
+      "products": [
+        {
+          "id": "womens-dasher-nz",
+          "name": "Women's Dasher NZ - Light Burnt Olive",
+          "price": "$140.00",
+          "category": "Running Shoes",
+          "url": "/products/womens-dasher-nz"
+        },
+        {
+          "id": "mens-tree-runner-nz-spice",
+          "name": "Men's Tree Runner NZ - Spice",
+          "price": "$110.00",
+          "category": "Casual Shoes",
+          "url": "/products/mens-tree-runner-nz-spice"
+        },
+        {
+          "id": "mens-cruiser-terralux-anthracite",
+          "name": "Men's Cruiser Terralux - Anthracite",
+          "price": "$135.00",
+          "category": "Casual Shoes",
+          "url": "/products/mens-cruiser-terralux-anthracite"
+        },
+        {
+          "id": "womens-breezer-point-warm-white",
+          "name": "Women's Breezer Point - Warm White",
+          "price": "$125.00",
+          "category": "Flats",
+          "url": "/products/womens-breezer-point-warm-white"
+        },
+        {
+          "id": "mens-dasher-nz-relay-ochre",
+          "name": "Men's Dasher NZ Relay - Ochre",
+          "price": "$150.00",
+          "category": "Running Shoes",
+          "url": "/products/mens-dasher-nz-relay-ochre"
+        },
+        {
+          "id": "mens-cruiser-slip-on-canvas-auburn",
+          "name": "Men's Cruiser Slip On Canvas - Auburn",
+          "price": "$95.00",
+          "category": "Casual Shoes",
+          "url": "/products/mens-cruiser-slip-on-canvas-auburn"
+        },
+        {
+          "id": "mens-varsity-terralux-toasted-coconut",
+          "name": "Men's Varsity Terralux - Toasted Coconut",
+          "price": "$145.00",
+          "category": "Casual Shoes",
+          "url": "/products/mens-varsity-terralux-toasted-coconut"
+        },
+        {
+          "id": "mens-cruiser-canvas-warm-white",
+          "name": "Men's Cruiser Canvas - Warm White",
+          "price": "$110.00",
+          "category": "Casual Shoes",
+          "url": "/products/mens-cruiser-canvas-warm-white"
+        },
+        {
+          "id": "womens-varsity-cruiser",
+          "name": "Women's Varsity Cruiser - Light Burnt Olive",
+          "price": "$120.00",
+          "category": "Casual Shoes",
+          "url": "/products/womens-varsity-cruiser"
+        },
+        {
+          "id": "mens-varsity-parchment",
+          "name": "Men's Varsity - Parchment",
+          "price": "$120.00",
+          "category": "Casual Shoes",
+          "url": "/products/mens-varsity"
+        },
+        {
+          "id": "womens-breezer-point-natural-black",
+          "name": "Women's Breezer Point - Natural Black",
+          "price": "$125.00",
+          "category": "Flats",
+          "url": "/products/womens-breezer-point"
+        },
+        {
+          "id": "womens-varsity-light-burnt-olive",
+          "name": "Women's Varsity - Light Burnt Olive",
+          "price": "$120.00",
+          "category": "Casual Shoes",
+          "url": "/products/womens-varsity-light-burnt-olive"
+        },
+        {
+          "id": "mens-runner-nz-terralux-light-grey",
+          "name": "Men's Runner NZ Terralux - Light Grey",
+          "price": "$135.00",
+          "category": "Running Shoes",
+          "url": "/products/mens-runner-nz-terralux-light-grey"
+        },
+        {
+          "id": "womens-tree-breezer-spice",
+          "name": "Women's Tree Breezer - Spice",
+          "price": "$105.00",
+          "category": "Flats",
+          "url": "/products/womens-tree-breezer-spice"
+        },
+        {
+          "id": "mens-allbirds-flip-flop-mid-yellow",
+          "name": "Men's Allbirds Flip Flop - Mid Yellow",
+          "price": "$50.00",
+          "category": "Sandals",
+          "url": "/products/mens-allbirds-flip-flop-mid-yellow"
+        },
+        {
+          "id": "womens-dasher-nz-mid-yellow",
+          "name": "Women's Dasher NZ - Mid-Yellow/Seagrass",
+          "price": "$140.00",
+          "category": "Running Shoes",
+          "url": "/products/womens-dasher-nz-mid-yellow-auburn"
+        },
+        {
+          "id": "sl45451000",
+          "name": "Kith for Salomon XT-Voyager 2 - Black",
+          "price": "$235.00",
+          "category": "Shoes",
+          "url": "/products/sl45451000"
+        },
+        {
+          "id": "mp5150618",
+          "name": "Kith for Mephisto Match Sneaker - Orange",
+          "price": "$490.00",
+          "category": "Shoes",
+          "url": "/products/mp5150618"
+        },
+        {
+          "id": "khm120031-001",
+          "name": "Kith Moto Racer Sunglasses - Black",
+          "price": "$260.00",
+          "category": "Accessories",
+          "url": "/products/khm120031-001"
+        },
+        {
+          "id": "khm10117-001",
+          "name": "Kith Silk Bandana - Black",
+          "price": "$64.00",
+          "category": "Accessories",
+          "url": "/products/khm10117-001"
+        }
+      ]
+    },
+    {
+      "store_id": "everlane",
+      "store_name": "Everlane",
+      "store_url": "https://www.everlane.com",
+      "category": "Sustainable Basics / Minimalist",
+      "products": [
+        {
+          "id": "womens-striped-boatneck-sweater-cotton-true-navy-bone",
+          "name": "Striped Boatneck Sweater in Everyday Cotton",
+          "price": "€110.70",
+          "category": "Sweaters",
+          "url": "/products/womens-striped-boatneck-sweater-cotton-true-navy-bone"
+        },
+        {
+          "id": "womens-cashmere-slim-crew-sweater-hunter-green",
+          "name": "Cashmere Slim Crew Sweater",
+          "price": "€153.94",
+          "category": "Sweaters",
+          "url": "/products/womens-cashmere-slim-crew-sweater-hunter-green"
+        },
+        {
+          "id": "womens-drapey-twill-trench-coat-khaki",
+          "name": "Drapey Twill Trench",
+          "price": "€257.71",
+          "category": "Outerwear",
+          "url": "/products/womens-drapey-twill-trench-coat-khaki"
+        },
+        {
+          "id": "womens-shrunken-top-in-washable-silk-hunter-green",
+          "name": "Shrunken Top in Washable Silk",
+          "price": "€145.29",
+          "category": "Tops",
+          "url": "/products/womens-shrunken-top-in-washable-silk-hunter-green"
+        },
+        {
+          "id": "womens-way-high-a-line-denim-short-bright-white",
+          "name": "Way-High A-Line Denim Short",
+          "price": "€84.75",
+          "category": "Shorts",
+          "url": "/products/womens-way-high-a-line-denim-short-bright-white"
+        },
+        {
+          "id": "womens-italian-leather-ballet-flat-juniper",
+          "name": "Made in Italy Ballet Flat",
+          "price": "€249.06",
+          "category": "Shoes",
+          "url": "/products/womens-italian-leather-ballet-flat-juniper"
+        },
+        {
+          "id": "womens-double-knit-crew-in-cotton-merino",
+          "name": "Double Knit Crew in Cotton Merino",
+          "price": "€110.70",
+          "category": "Sweaters",
+          "url": "/products/womens-double-knit-crew-in-cotton-merino-bone-cream-sand-light-camel"
+        },
+        {
+          "id": "womens-ribbed-v-neck-vest-cotton-hunter-green",
+          "name": "Ribbed V-Neck Vest in Everyday Cotton",
+          "price": "€84.75",
+          "category": "Tops",
+          "url": "/products/womens-ribbed-v-neck-vest-cotton-hunter-green"
+        },
+        {
+          "id": "womens-seamed-balloon-pant-olive-night",
+          "name": "Seamed Balloon Pant",
+          "price": "€127.99",
+          "category": "Pants",
+          "url": "/products/womens-seamed-balloon-pant-olive-night"
+        },
+        {
+          "id": "womens-short-anorak-imperial-blue",
+          "name": "The Short Anorak",
+          "price": "€153.94",
+          "category": "Outerwear",
+          "url": "/products/womens-short-anorak-imperial-blue"
+        },
+        {
+          "id": "womens-halter-dress-in-ultrasoft-cotton-birch",
+          "name": "Halter Dress in Ultrasoft Cotton",
+          "price": "€127.99",
+          "category": "Dresses",
+          "url": "/products/womens-halter-dress-in-ultrasoft-cotton-birch"
+        },
+        {
+          "id": "womens-field-jacket-oak-brown",
+          "name": "Field Jacket",
+          "price": "€171.23",
+          "category": "Outerwear",
+          "url": "/products/womens-field-jacket-oak-brown"
+        },
+        {
+          "id": "womens-way-high-jean-2-medium-indigo",
+          "name": "The Way-High Jean 2.0",
+          "price": "€89.94",
+          "category": "Jeans",
+          "url": "/products/womens-way-high-jean-2-medium-indigo"
+        },
+        {
+          "id": "womens-pique-boxy-polo",
+          "name": "Pique Boxy Polo",
+          "price": "€67.46",
+          "category": "Tops",
+          "url": "/products/womens-pique-boxy-polo-pomegranate-rose-blue"
+        },
+        {
+          "id": "womens-cashmere-boxy-crew-sweater-lilac-crush",
+          "name": "The Boxy Crew in Cashmere",
+          "price": "€197.17",
+          "category": "Sweaters",
+          "url": "/products/womens-cashmere-boxy-crew-sweater-lilac-crush"
+        },
+        {
+          "id": "womens-balloon-sleeve-top-in-cotton-silk-black",
+          "name": "Balloon Sleeve Top in Cotton Silk",
+          "price": "€119.34",
+          "category": "Tops",
+          "url": "/products/womens-balloon-sleeve-top-in-cotton-silk-black"
+        },
+        {
+          "id": "womens-cropped-boxy-denim-shirt-light-indigo",
+          "name": "Cropped Boxy Denim Shirt",
+          "price": "€84.75",
+          "category": "Tops",
+          "url": "/products/womens-cropped-boxy-denim-shirt-light-indigo"
+        },
+        {
+          "id": "womens-organic-cotton-crew-sweater-skywriting",
+          "name": "The Boxy Sweater in Everyday Cotton",
+          "price": "€93.40",
+          "category": "Sweaters",
+          "url": "/products/womens-organic-cotton-crew-sweater-skywriting"
+        },
+        {
+          "id": "womens-everyday-shirt-in-silky-cotton",
+          "name": "Everyday Shirt in Silky Cotton",
+          "price": "€84.75",
+          "category": "Tops",
+          "url": "/products/womens-everyday-shirt-in-silky-cotton-estateblue-openair-white"
+        }
+      ]
+    },
+    {
+      "store_id": "outdoor-voices",
+      "store_name": "Outdoor Voices",
+      "store_url": "https://www.outdoorvoices.com",
+      "category": "Activewear / Athleisure",
+      "products": [
+        {
+          "id": "ODV00422",
+          "name": "SolarCool Camp Collar",
+          "price": "$78.00",
+          "category": "Bottoms",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/ODV00422.jpg?v=1762269504"
+        },
+        {
+          "id": "U600878-ACC-JGY_FrostedBeanie_",
+          "name": "Frosted Beanie",
+          "price": "$24.95",
+          "category": "Accessories",
+          "material": "that is irresistible to touch",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/U600878-ACC-JGY_FrostedBeanie_JoggyGreen_000_a7e0740d-dd03-4de4-8471-acee9a6a889b.jpg?v=1759259330"
+        },
+        {
+          "id": "W302060-HLM-DKY_CloudKnitCami_",
+          "name": "CloudKnit Cami",
+          "price": "$34.00",
+          "category": "Tops",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W302060-HLM-DKY_CloudKnitCami_DarkBay_001162740019.jpg?v=1770413079"
+        },
+        {
+          "id": "W302060-HLM-GRS_CloudKnitCami_",
+          "name": "CloudKnit Cami",
+          "price": "$34.00",
+          "category": "Tops",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W302060-HLM-GRS_CloudKnitCami_Grass_001162760031.jpg?v=1767741199"
+        },
+        {
+          "id": "W701354-HMJ-DBA_CloudKnitWideL",
+          "name": "CloudKnit Wide Leg Pant",
+          "price": "$88.00",
+          "category": "Bottoms",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W701354-HMJ-DBA_CloudKnitWideLegPant_DarkBay_001162750009.jpg?v=1767741389"
+        },
+        {
+          "id": "W701354-HMJ-GRS_CloudKnitWideL",
+          "name": "CloudKnit Wide Leg Pant",
+          "price": "$88.00",
+          "category": "Bottoms",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W701354-HMJ-GRS_CloudKnitWideLegPant_Grass_001162750033.jpg?v=1767741536"
+        },
+        {
+          "id": "W702061-HLM-GRS_CloudKnit3.5in",
+          "name": "CloudKnit 3.5\" Short",
+          "price": "$48.00",
+          "category": "Bottoms",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W702061-HLM-GRS_CloudKnit3.5inShort_Grass_001162760030.jpg?v=1767740860"
+        },
+        {
+          "id": "W702061-HLM-DKY_CloudKnit3.5in",
+          "name": "CloudKnit 3.5\" Short",
+          "price": "$48.00",
+          "category": "Bottoms",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W702061-HLM-DKY_CloudKnit3.5inShort_DarkBay_001162740025.jpg?v=1767740690"
+        },
+        {
+          "id": "W302064-HLM-GRS_CloudKnitBoxyS",
+          "name": "CloudKnit Boxy Shortsleeve",
+          "price": "$58.00",
+          "category": "Bottoms",
+          "material": "with a subtle stretch",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W302064-HLM-GRS_CloudKnitBoxyShortsleeve_Grass_001162750026.jpg?v=1767740237"
+        },
+        {
+          "id": "W302064-HLM-DKY_CloudKnitBoxyS",
+          "name": "CloudKnit Boxy Shortsleeve",
+          "price": "$58.00",
+          "category": "Bottoms",
+          "material": "with a subtle stretch",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W302064-HLM-DKY_CloudKnitBoxyShortsleeve_DarkBay_001162750016.jpg?v=1767740410"
+        },
+        {
+          "id": "M300066-HLM-GRS_CloudKnitShort",
+          "name": "CloudKnit Shortsleeve",
+          "price": "$58.00",
+          "category": "Bottoms",
+          "material": "with a subtle stretch for low-sweat recreation",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/M300066-HLM-GRS_CloudKnitShortsleeve_Grass_Front.jpg?v=1769538257"
+        },
+        {
+          "id": "M300066-HLM-DKY_CloudKnitShort",
+          "name": "CloudKnit Shortsleeve",
+          "price": "$58.00",
+          "category": "Bottoms",
+          "material": "with a subtle stretch for low-sweat recreation",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/M300066-HLM-DKY_CloudKnitShortsleeve_DarkBay_Front.jpg?v=1769538136"
+        },
+        {
+          "id": "M701566-HMJ-GRS_CloudKnit7inSh",
+          "name": "CloudKnit 7\" Short",
+          "price": "$58.00",
+          "category": "Bottoms",
+          "material": "is back with this relaxed fit unlined 7\" short with a comfort fit adjustable wai",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/M701566-HMJ-GRS_CloudKnit7inShort_Grass.jpg?v=1769538334"
+        },
+        {
+          "id": "M701566-HMJ-DKY_CloudKnit7inSh",
+          "name": "CloudKnit 7\" Short",
+          "price": "$58.00",
+          "category": "Bottoms",
+          "material": "is back with this relaxed fit unlined 7\" short with a comfort fit adjustable wai",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/M701566-HMJ-DKY_CloudKnit7inShort_DarkBay.jpg?v=1769538313"
+        },
+        {
+          "id": "CloudKnitCami-Charcoal",
+          "name": "CloudKnit Cami",
+          "price": "$34.00",
+          "category": "Tops",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/CloudKnitCami-Charcoal.jpg?v=1757814551"
+        },
+        {
+          "id": "W702044-TDN-SAL_DesertPant_Sal",
+          "name": "Desert Pant",
+          "price": "$98.00",
+          "category": "Bottoms",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W702044-TDN-SAL_DesertPant_Salt_000.jpg?v=1757707245"
+        },
+        {
+          "id": "W702390-WTS-JCF_LightSpeedMini",
+          "name": "LightSpeed Minimal 3\" Skort",
+          "price": "$78.00",
+          "category": "Bottoms",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W702390-WTS-JCF_LightSpeedMinimal3inSkort_JuicyFruit_001162780009.jpg?v=1767739872"
+        },
+        {
+          "id": "W401433-WTS-JCF_ExerciseDress_",
+          "name": "The Exercise Dress",
+          "price": "$100.00",
+          "category": "Dresses",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/W401433-WTS-JCF_ExerciseDress_JuicyFruit_001162770001.jpg?v=1767739517"
+        },
+        {
+          "id": "U602082-PCN-CRI_OVRecAnkleSock",
+          "name": "OV Rec Ankle Sock",
+          "price": "$12.00",
+          "category": "Accessories",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/U602082-PCN-CRI_OVRecAnkleSock_Caribbean_000.jpg?v=1758748284"
+        },
+        {
+          "id": "U602082-PCN-CNS_OVRecAnkleSock",
+          "name": "OV Rec Ankle Sock",
+          "price": "$12.00",
+          "category": "Accessories",
+          "url": "https://cdn.shopify.com/s/files/1/0190/1390/files/U602082-PCN-CNS_OVRecAnkleSock_ConchShell_000.jpg?v=1758748079"
+        }
+      ]
+    },
+    {
+      "store_id": "chubbies",
+      "store_name": "Chubbies",
+      "store_url": "https://www.chubbies.com",
+      "category": "Men's Shorts / Casual",
+      "products": [
+        {
+          "id": "PDP_Hot_Chocolates_5.5__Textur",
+          "name": "The Hot Chocolates 5.5\" (Textured Swim)",
+          "price": "$40.00",
+          "category": "Underwear",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Hot_Chocolates_5.5__Textured_Swim__141251-03_OF_d5c906da-c5b6-4cbd-9497-f212f1f81162.webp?v=1759279929"
+        },
+        {
+          "id": "PDP_Misty_Breezes_5.5__Texture",
+          "name": "The Misty Breezes 5.5\" (Textured Swim)",
+          "price": "$40.00",
+          "category": "Bottoms",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Misty_Breezes_5.5__Textured_Swim__141251-01_OF_0c372b2d-bcc2-4754-aabd-54842adfafd1.webp?v=1759279923"
+        },
+        {
+          "id": "PDP_Secret_Agents_5.5__Texture",
+          "name": "The Secret Agents 5.5\" (Textured Lined Swim)",
+          "price": "$84.50",
+          "category": "Bottoms",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Secret_Agents_5.5__Textured_Lined_Swim__142251-11_OF_3231fc0a-500f-4cba-a7c2-6ed0490288c0.webp?v=1768024646"
+        },
+        {
+          "id": "PDP_Secret_Agents_5.5__Texture",
+          "name": "The Secret Agents 5.5\" (Textured Swim)",
+          "price": "$40.00",
+          "category": "Underwear",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Secret_Agents_5.5__Textured_Swim__141251-00_OF_cd0e375b-e019-4248-98ba-799e03c034b0.webp?v=1759279929"
+        },
+        {
+          "id": "PDP_Misty_Breezes_5.5__Texture",
+          "name": "The Misty Breezes 5.5\" (Textured Lined Swim)",
+          "price": "$40.00",
+          "category": "Bottoms",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Misty_Breezes_5.5__Textured_Lined_Swim__142251-12_OF_7aab986f-b0f5-4d25-9bd8-5801428e179a.webp?v=1762273264"
+        },
+        {
+          "id": "Wild_20Flower_20Wonder_20_28Pe",
+          "name": "The Wild Flower Wonder (Performance Polo )",
+          "price": "$30.00",
+          "category": "Bottoms",
+          "material": "a lightweight, performance-enhancing fabric that’s anti-bacterial, moisture wick",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Wild_20Flower_20Wonder_20_28Performance_20Polo_202.0_29_582241-61_OF.webp?v=1771454442"
+        },
+        {
+          "id": "PDP_Even_Keel_Quilted_Quarter-",
+          "name": "The Even Keel (Quilted Quarter-Zip)",
+          "price": "$27.00",
+          "category": "Outerwear",
+          "material": "60% Cotton / 40% Polyester",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Even_Keel_Quilted_Quarter-Zip__615243-09_OF.webp?v=1762272505"
+        },
+        {
+          "id": "Cherry_Blossoms_8.0__Everywear",
+          "name": "The Cherry Blossoms 8\" (Everywear)",
+          "price": "$38.00",
+          "category": "Bottoms",
+          "material": "89% Polyester/11% Spandex",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Cherry_Blossoms_8.0__Everywear__076232-02_OF.webp?v=1762271511"
+        },
+        {
+          "id": "PDP_malibusunrise",
+          "name": "The Malibu Sunrise (Cloud 10 Hoodie)",
+          "price": "$79.50",
+          "category": "Outerwear",
+          "material": ", this hoodie has a fleece-like feel that is naturally soft and only gets better",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_malibusunrise.webp?v=1759953355"
+        },
+        {
+          "id": "BeachBum_T-Shirt__OB_502222-10",
+          "name": "T-Shirt (Beach Bum)",
+          "price": "$17.00",
+          "category": "Bottoms",
+          "material": "60% cotton/40% polyester",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/products/BeachBum_T-Shirt__OB_502222-100462.webp?v=1762270560"
+        },
+        {
+          "id": "Ice_Cap_High-Pile_Hoodie__5452",
+          "name": "The Ice Cap (High-Pile Hoodie)",
+          "price": "$40.00",
+          "category": "Tops",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Ice_Cap_High-Pile_Hoodie__545233-02_OF.webp?v=1759274476"
+        },
+        {
+          "id": "PDP_Lil_Sittin_Under_Sea_Toddl",
+          "name": "The Lil Sittin' Under The Sea (Toddler Performance Polo)",
+          "price": "$20.00",
+          "category": "Tops",
+          "material": "a lightweight, ultra-stretchy fabric that’s anti-bacterial, moisture wicking, an",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Lil_Sittin_Under_Sea_Toddler_Performance_Polo__420251-35_OF.webp?v=1762272668"
+        },
+        {
+          "id": "Squad_Goal_Low-Pile_Quarter-Zi",
+          "name": "The Squad Goal (Low-Pile Quarter-Zip)",
+          "price": "$40.00",
+          "category": "Outerwear",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/Squad_Goal_Low-Pile_Quarter-Zip__499233-02_OF.webp?v=1759274482"
+        },
+        {
+          "id": "PDP_Havana_Night_Non_Pocket_T-",
+          "name": "The Havana Night (Non Pocket T-Shirt) - Blue",
+          "price": "$17.00",
+          "category": "Bottoms",
+          "material": "60% Cotton / 40% Polyester",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Havana_Night_Non_Pocket_T-Shirt_-_Blue_505243-05_OF.webp?v=1762272584"
+        },
+        {
+          "id": "PDP_Bahamians_4__Classic_Swim_",
+          "name": "The Bahamians 4\" (Classic Swim Trunk)",
+          "price": "$34.00",
+          "category": "Underwear",
+          "material": "92% Polyester/8% Spandex",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Bahamians_4__Classic_Swim_Trunk__115251-17_OF.webp?v=1759280163"
+        },
+        {
+          "id": "PDP_The_Hidden_Golds_Tearaway_",
+          "name": "The Hidden Golds (Tearaway Trunk)",
+          "price": "$38.00",
+          "category": "Swimwear",
+          "material": "92% Polyester / 8% Spandex",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_The_Hidden_Golds_Tearaway_Trunk__114252-00_OF.webp?v=1762273377"
+        },
+        {
+          "id": "517223-02_Northwesterner_4798",
+          "name": "Vintage Flannel (Northwesterner)",
+          "price": "$22.00",
+          "category": "Outerwear",
+          "material": "for a fuzzier, lived-in softness",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/products/517223-02_Northwesterner_4798.webp?v=1762271018"
+        },
+        {
+          "id": "PDP_Floral_Estate_Resort_Weave",
+          "name": "The Floral Estate (Resort Weave Friday Shirt)",
+          "price": "$32.00",
+          "category": "Bottoms",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Floral_Estate_Resort_Weave_Friday_Shirt__603251-00_OF_bf9e91d4-597d-4455-aa18-b485ef2ba9d3.webp?v=1759279582"
+        },
+        {
+          "id": "PDP_Bahamians_7__Classic_Lined",
+          "name": "The Bahamians 7\" (Classic Lined Swim Trunk)",
+          "price": "$27.00",
+          "category": "Underwear",
+          "material": "92% Polyester/8% Spandex",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Bahamians_7__Classic_Lined_Swim_Trunk__129251-18_OF.webp?v=1762273130"
+        },
+        {
+          "id": "PDP_Navy_Swimmer_Trucker_Hat__",
+          "name": "The Navy Swimmer (Trucker Hat)",
+          "price": "$10.00",
+          "category": "Swimwear",
+          "material": "Polyester Crown Height: Medium (4\") Best For: Everyday Wear",
+          "url": "https://cdn.shopify.com/s/files/1/0077/0432/files/PDP_Navy_Swimmer_Trucker_Hat__977251-03_OF.webp?v=1762273219"
+        }
+      ]
+    },
+    {
+      "store_id": "tomboyx",
+      "store_name": "TomboyX",
+      "store_url": "https://www.tomboyx.com",
+      "category": "Gender-neutral Underwear / Swim",
+      "products": [
+        {
+          "id": "Black_Rainbow_xequals_9in_1",
+          "name": "9\" Boxer Briefs - Black X= Rainbow",
+          "price": "$200.00",
+          "category": "Tops",
+          "material": "our supersoft cotton blend that gives just a hint of stretch and makes sure you",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Black_Rainbow_xequals_9in_1.jpg?v=1668536006"
+        },
+        {
+          "id": "Black_Rainbow_xequals_No_Fly_6",
+          "name": "6\" No Fly Boxer Briefs - Black X= Rainbow",
+          "price": "$175.00",
+          "category": "Tops",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Black_Rainbow_xequals_No_Fly_6in_1.jpg?v=1668535838"
+        },
+        {
+          "id": "Black_Rainbow_xequals_4.5_1",
+          "name": "4.5\" Trunks - Black X= Rainbow",
+          "price": "$175.00",
+          "category": "Tops",
+          "material": "supersoft cotton blend that gives just a hint of stretch and makes sure you stay",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Black_Rainbow_xequals_4.5_1.jpg?v=1668535787"
+        },
+        {
+          "id": "Rainbow_Logo_9in_Boxer",
+          "name": "9\" Boxer Briefs - Black Rainbow Logo",
+          "price": "$200.00",
+          "category": "Tops",
+          "material": "our supersoft cotton blend that gives just a hint of stretch and makes sure you",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_9in_Boxer.jpg?v=1760387484"
+        },
+        {
+          "id": "Rainbow_Logo_6in_Packing_1",
+          "name": "6\" Fly Packing Boxer Briefs - Black Rainbow Logo",
+          "price": "$210.00",
+          "category": "Tops",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_6in_Packing_1.jpg?v=1713821243"
+        },
+        {
+          "id": "Rainbow_Logo_No_Fly_6in",
+          "name": "6\" No Fly Boxer Briefs - Black Rainbow Logo",
+          "price": "$175.00",
+          "category": "Tops",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_No_Fly_6in.jpg?v=1713998512"
+        },
+        {
+          "id": "Rainbow_Logo_6in_Fly_1",
+          "name": "6\" Fly Boxer Briefs - Black Rainbow Logo",
+          "price": "$185.00",
+          "category": "Tops",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_6in_Fly_1.webp?v=1714583027"
+        },
+        {
+          "id": "Rainbow_Logo_4.5in_Boxer",
+          "name": "4.5\" Trunks - Black Rainbow Logo",
+          "price": "$175.00",
+          "category": "Tops",
+          "material": "supersoft cotton blend that gives just a hint of stretch and makes sure you stay",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Rainbow_Logo_4.5in_Boxer.jpg?v=1713998415"
+        },
+        {
+          "id": "Scoop_Soft_Bra_1",
+          "name": "Scoop Soft Bra - X= Black",
+          "price": "$220.00",
+          "category": "Tops",
+          "material": "the same quality supersoft cotton as our famous underwear",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Scoop_Soft_Bra_1.jpg?v=1771458513"
+        },
+        {
+          "id": "Royal_Swim_6in_Racerback_Unisu",
+          "name": "Swim 6\" Racerback Unisuit - Royal",
+          "price": "$115.00",
+          "category": "Swimwear",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Royal_Swim_6in_Racerback_Unisuit_1.jpg?v=1760387331"
+        },
+        {
+          "id": "Head_Over_Eels_Swim_7in_Board_",
+          "name": "Swim 7\" Heritage Board Short - Head Over Eels",
+          "price": "$115.00",
+          "category": "Bottoms",
+          "material": "OEKO-Tex certified fabric and fit tested for all body types, we think our board",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Head_Over_Eels_Swim_7in_Board_Short_1.jpg?v=1760387368"
+        },
+        {
+          "id": "Head_Over_Eels_Swim_Tank_1",
+          "name": "Swim Tank - Head Over Eels",
+          "price": "$105.00",
+          "category": "Tops",
+          "material": "recycled Bahia, so it’s super durable and moisture wicking, as well as a sun pro",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Head_Over_Eels_Swim_Tank_1.jpg?v=1760387341"
+        },
+        {
+          "id": "Royal_Swim_Sport_Top_1",
+          "name": "Swim Sport Top - Royal",
+          "price": "$105.00",
+          "category": "Tops",
+          "material": "including power mesh, our Swim Sport Top can support you on land or sea- or couc",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Royal_Swim_Sport_Top_1.jpg?v=1676484761"
+        },
+        {
+          "id": "Black_Swim_High_Waisted_Hipste",
+          "name": "Swim High Waisted Hipster - Black",
+          "price": "$105.00",
+          "category": "Bottoms",
+          "material": "Covered elastic at leg openings Snug fit Hand wash cold, line dry This style run",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Black_Swim_High_Waisted_Hipster_1.jpg?v=1760387394"
+        },
+        {
+          "id": "Under_The_Surface_Swim_6in_Rac",
+          "name": "Swim 6\" Racerback Unisuit - Under the Surface",
+          "price": "$115.00",
+          "category": "Swimwear",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/products/Under_The_Surface_Swim_6in_Racerback_Unisuit_1.jpg?v=1760387405"
+        },
+        {
+          "id": "Black_x__Shine_Tucking_Hipster",
+          "name": "Tucking Hipster - Black X= Shine",
+          "price": "$58.00",
+          "category": "Underwear",
+          "material": "84% Nylon, 16% spandex",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Black_x__Shine_Tucking_Hipster_1.jpg?v=1698081438"
+        },
+        {
+          "id": "Misty_Blue_Straight_Up_Soft_Br",
+          "name": "Straight Up Soft Bra - Misty Blue X= Shine",
+          "price": "$58.00",
+          "category": "Tops",
+          "material": "the same quality supersoft cotton as our famous underwear",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Misty_Blue_Straight_Up_Soft_Bra_1_4e75279c-e44c-4a1a-8337-9000a4cce0a6.jpg?v=1697574666"
+        },
+        {
+          "id": "Misty_Blue_Longline_Scoop_Bra_",
+          "name": "Longline Scoop Bra LC - Misty Blue X= Shine",
+          "price": "$58.00",
+          "category": "Tops",
+          "material": "band gives the Longline Scoop a playful vibe",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/Misty_Blue_Longline_Scoop_Bra_1_a0eceb0f-09bb-413b-8c51-518b2915ea54.jpg?v=1697574582"
+        },
+        {
+          "id": "2337380021_Swim_Tropadelic_6in",
+          "name": "Swim 6\" Unisuit - Tropadelic",
+          "price": "$115.00",
+          "category": "Swimwear",
+          "material": "88% polyester, 12% spandex",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/2337380021_Swim_Tropadelic_6in_Unisuit_1.jpg?v=1760394360"
+        },
+        {
+          "id": "2337300001_Swim_Black_Novelty_",
+          "name": "Swim 2.5\" High Waisted Board Shortie - Black Novelty",
+          "price": "$115.00",
+          "category": "Bottoms",
+          "material": "UV 50 UPF Sun Protection 92% Recycled Polyester, 8% Spandex, OEKO-TEX®-certified",
+          "url": "https://cdn.shopify.com/s/files/1/0204/2302/files/2337300001_Swim_Black_Novelty_3.5in_Board_Short_On_Fig_1.jpg?v=1742490504"
+        }
+      ]
+    },
+    {
+      "store_id": "reformation",
+      "store_name": "Reformation",
+      "store_url": "https://www.thereformation.com",
+      "category": "Sustainable Fashion",
+      "products": [
+        {
+          "id": "1319627WHT_0",
+          "name": "Elowen Top",
+          "price": "$98",
+          "category": "Tops",
+          "material": "98% Organic Cotton, 2% Spandex",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/elowen-top/white/1319627WHT_0.jpg"
+        },
+        {
+          "id": "1310507MBL_0",
+          "name": "Cary High Rise Straight Jean",
+          "price": "$168",
+          "category": "Bottoms",
+          "material": "99% Cotton, 1% Elastane",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/mid-blue/1310507MBL_0.jpg"
+        },
+        {
+          "id": "1310507PMBL_0",
+          "name": "Petites Cary High Rise Straight Jean",
+          "price": "$168",
+          "category": "Bottoms",
+          "material": "99% Cotton, 1% Elastane",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/mid-blue/1310507PMBL_0.jpg"
+        },
+        {
+          "id": "1310507VBK_0",
+          "name": "Cary High Rise Straight Jean",
+          "price": "$168",
+          "category": "Bottoms",
+          "material": "99% Cotton, 1% Elastane",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/vintage-black/1310507VBK_0.jpg"
+        },
+        {
+          "id": "1310507PVBK_0",
+          "name": "Petites Cary High Rise Straight Jean",
+          "price": "$168",
+          "category": "Bottoms",
+          "material": "99% Cotton, 1% Elastane",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/vintage-black/1310507PVBK_0.jpg"
+        },
+        {
+          "id": "1310507LBL_0",
+          "name": "Cary High Rise Straight Jean",
+          "price": "$168",
+          "category": "Bottoms",
+          "material": "99% Cotton, 1% Elastane",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/light-blue/1310507LBL_0.jpg"
+        },
+        {
+          "id": "1310507PLBL_0",
+          "name": "Petites Cary High Rise Straight Jean",
+          "price": "$168",
+          "category": "Bottoms",
+          "material": "99% Cotton, 1% Elastane",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/light-blue/1310507PLBL_0.jpg"
+        },
+        {
+          "id": "1310507DBL_0",
+          "name": "Cary High Rise Straight Jean",
+          "price": "$168",
+          "category": "Bottoms",
+          "material": "99% Cotton, 1% Elastane",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/dark-blue/1310507DBL_0.jpg"
+        },
+        {
+          "id": "1310507PDBL_0",
+          "name": "Petites Cary High Rise Straight Jean",
+          "price": "$168",
+          "category": "Bottoms",
+          "material": "99% Cotton, 1% Elastane",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/dark-blue/1310507PDBL_0.jpg"
+        },
+        {
+          "id": "1310507BLK_0",
+          "name": "Cary High Rise Straight Jean",
+          "price": "$168",
+          "category": "Bottoms",
+          "material": "99% Cotton, 1% Elastane",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/black/1310507BLK_0.jpg"
+        },
+        {
+          "id": "1310507PBLK_0",
+          "name": "Petites Cary High Rise Straight Jean",
+          "price": "$168",
+          "category": "Bottoms",
+          "material": "99% Cotton, 1% Elastane",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/black/1310507PBLK_0.jpg"
+        },
+        {
+          "id": "1310507ABK_0",
+          "name": "Cary High Rise Straight Jean",
+          "price": "$168",
+          "category": "Bottoms",
+          "material": "99% Cotton, 1% Elastane",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/cary-high-rise-straight-jean/aged-black/1310507ABK_0.jpg"
+        },
+        {
+          "id": "1310507PABK_0",
+          "name": "Petites Cary High Rise Straight Jean",
+          "price": "$168",
+          "category": "Bottoms",
+          "material": "99% Cotton, 1% Elastane",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/petites-cary-high-rise-straight-jean/aged-black/1310507PABK_0.jpg"
+        },
+        {
+          "id": "1319631WHT_0",
+          "name": "Linen Tee",
+          "price": "$58",
+          "category": "Tops",
+          "material": "100% Linen",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/white/1319631WHT_0.jpg"
+        },
+        {
+          "id": "1319631BLK_0",
+          "name": "Linen Tee",
+          "price": "$58",
+          "category": "Tops",
+          "material": "100% Linen",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/black/1319631BLK_0.jpg"
+        },
+        {
+          "id": "1319631NVY_0",
+          "name": "Linen Tee",
+          "price": "$58",
+          "category": "Tops",
+          "material": "100% Linen",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/navy/1319631NVY_0.jpg"
+        },
+        {
+          "id": "1319631OLV_0",
+          "name": "Linen Tee",
+          "price": "$58",
+          "category": "Tops",
+          "material": "100% Linen",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/olive/1319631OLV_0.jpg"
+        },
+        {
+          "id": "1319631GRY_0",
+          "name": "Linen Tee",
+          "price": "$58",
+          "category": "Tops",
+          "material": "100% Linen",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/grey/1319631GRY_0.jpg"
+        },
+        {
+          "id": "1319631BRN_0",
+          "name": "Linen Tee",
+          "price": "$58",
+          "category": "Tops",
+          "material": "100% Linen",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/brown/1319631BRN_0.jpg"
+        },
+        {
+          "id": "1319631BLU_0",
+          "name": "Linen Tee",
+          "price": "$58",
+          "category": "Tops",
+          "material": "100% Linen",
+          "url": "https://media.thereformation.com/image/upload/q_auto:best,f_auto,fl_lossy,dpr_auto/w_auto/v1/prod/product-images/linen-tee/blue/1319631BLU_0.jpg"
+        }
+      ]
+    },
+    {
+      "store_id": "alo-yoga",
+      "store_name": "Alo Yoga",
+      "store_url": "https://www.aloyoga.com",
+      "category": "Yoga / Activewear",
+      "products": [
+        {
+          "id": "w4526r-clubhouse-jacket-black",
+          "name": "Clubhouse Jacket",
+          "price": "$138",
+          "category": "Outerwear",
+          "material": "86% Polyester, 14% Spandex",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w4526r-clubhouse-jacket-black.jpg"
+        },
+        {
+          "id": "w51432r-suit-up-trouser-black",
+          "name": "Suit Up Trouser (Regular)",
+          "price": "$148",
+          "category": "Bottoms",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w51432r-suit-up-trouser-black.jpg"
+        },
+        {
+          "id": "w3893r-pinstripe-daylight-butt",
+          "name": "Pinstripe Daylight Button Down Long Sleeve",
+          "price": "$138",
+          "category": "Tops",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w3893r-pinstripe-daylight-button-down.jpg"
+        },
+        {
+          "id": "w6453r-pinstripe-daylight-boxe",
+          "name": "Pinstripe Daylight Boxer Short",
+          "price": "$88",
+          "category": "Bottoms",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w6453r-pinstripe-daylight-boxer-short.jpg"
+        },
+        {
+          "id": "w9680r-airbrush-heart-throb-br",
+          "name": "Airbrush Heart Throb Bra",
+          "price": "$88",
+          "category": "Tops",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w9680r-airbrush-heart-throb-bra.jpg"
+        },
+        {
+          "id": "w51298r-airbrush-high-waist-he",
+          "name": "Airbrush High-Waist Heart Throb Legging",
+          "price": "$134",
+          "category": "Bottoms",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w51298r-airbrush-high-waist-heart-throb-legging.jpg"
+        },
+        {
+          "id": "u3041rg-accolade-full-zip-hood",
+          "name": "Accolade Full Zip Hoodie",
+          "price": "$148",
+          "category": "Tops",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/u3041rg-accolade-full-zip-hoodie.jpg"
+        },
+        {
+          "id": "u5012rg-accolade-straight-leg-",
+          "name": "Accolade Straight Leg Sweatpant",
+          "price": "$138",
+          "category": "Bottoms",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/u5012rg-accolade-straight-leg-sweatpant.jpg"
+        },
+        {
+          "id": "w9918r-airbrush-better-togethe",
+          "name": "Airbrush Better Together Bra",
+          "price": "$88",
+          "category": "Tops",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w9918r-airbrush-better-together-bra.jpg"
+        },
+        {
+          "id": "w54309r-airbrush-high-waist-be",
+          "name": "Airbrush High-Waist 7/8 Better Together Legging",
+          "price": "$134",
+          "category": "Bottoms",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w54309r-airbrush-high-waist-better-together-legging.jpg"
+        },
+        {
+          "id": "w3937r-cropped-sway-crew-neck-",
+          "name": "Cropped Sway Crew Neck Pullover",
+          "price": "$118",
+          "category": "Tops",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w3937r-cropped-sway-crew-neck-pullover.jpg"
+        },
+        {
+          "id": "w51304r-sway-bootcut-sweatpant",
+          "name": "Sway Bootcut Sweatpant",
+          "price": "$128",
+          "category": "Bottoms",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w51304r-sway-bootcut-sweatpant.jpg"
+        },
+        {
+          "id": "w4708r-fast-lane-puffer-vest",
+          "name": "Fast Lane Puffer Vest",
+          "price": "$188",
+          "category": "Outerwear",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w4708r-fast-lane-puffer-vest.jpg"
+        },
+        {
+          "id": "w5766r-airlift-legging",
+          "name": "7/8 High-Waist Airlift Legging",
+          "price": "$134",
+          "category": "Bottoms",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w5766r-airlift-legging.jpg"
+        },
+        {
+          "id": "w9884r-alosoft-sincere-bra",
+          "name": "Alosoft Sincere Bra",
+          "price": "$68",
+          "category": "Tops",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/w9884r-alosoft-sincere-bra.jpg"
+        },
+        {
+          "id": "double-take-short-sleeve",
+          "name": "Double Take Short Sleeve",
+          "price": "$88",
+          "category": "Tops",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/double-take-short-sleeve.jpg"
+        },
+        {
+          "id": "double-take-short",
+          "name": "7\" Double Take Short",
+          "price": "$88",
+          "category": "Bottoms",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/double-take-short.jpg"
+        },
+        {
+          "id": "takeaway-track-pullover",
+          "name": "Light Weight Takeaway Track Pullover",
+          "price": "$148",
+          "category": "Tops",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/takeaway-track-pullover.jpg"
+        },
+        {
+          "id": "repetition-pant",
+          "name": "Repetition Pant",
+          "price": "$128",
+          "category": "Bottoms",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/repetition-pant.jpg"
+        },
+        {
+          "id": "conquer-reform-long-sleeve",
+          "name": "Conquer 1/4 Zip Reform Long Sleeve",
+          "price": "$108",
+          "category": "Tops",
+          "material": "N/A",
+          "url": "https://cdn.shopify.com/s/files/1/2185/2813/files/conquer-reform-long-sleeve.jpg"
+        }
+      ]
+    },
+    {
+      "store_id": "lululemon",
+      "store_name": "Lululemon",
+      "store_url": "https://www.lululemon.com",
+      "category": "Athletic / Athleisure",
+      "products": [
+        {
+          "id": "LW5CUWS_072757",
+          "name": "lululemon Align High-Rise Pant 25\"",
+          "price": "$98-$118",
+          "category": "Bottoms",
+          "material": "81% Nylon, 19% Lycra Elastane",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5CUWS_072757"
+        },
+        {
+          "id": "LW5DQES_072760",
+          "name": "Unrestricted Power High-Rise Tight 25\"",
+          "price": "$118",
+          "category": "Bottoms",
+          "material": "PowerLu Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQES_072760"
+        },
+        {
+          "id": "LW5DQMS_076023",
+          "name": "Wunder Train No-Line Piped High-Rise Tight 25\"",
+          "price": "$118",
+          "category": "Bottoms",
+          "material": "Everlux Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQMS_076023"
+        },
+        {
+          "id": "LW5DQDS_074028",
+          "name": "lululemon Align No Line High-Rise Pant 28\"",
+          "price": "$108",
+          "category": "Bottoms",
+          "material": "Nulu Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQDS_074028"
+        },
+        {
+          "id": "LW5DQGS_072761",
+          "name": "Groove Drawcord High-Rise Tight 25\"",
+          "price": "$108",
+          "category": "Bottoms",
+          "material": "Nulu Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQGS_072761"
+        },
+        {
+          "id": "LW5DQHS_072756",
+          "name": "License to Train High-Rise Tight 25\" Logo",
+          "price": "$118",
+          "category": "Bottoms",
+          "material": "Everlux Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQHS_072756"
+        },
+        {
+          "id": "LW5DQIS_045797",
+          "name": "Wunder Train No Line High-Rise Tight 25\"",
+          "price": "$108-$118",
+          "category": "Bottoms",
+          "material": "Everlux Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQIS_045797"
+        },
+        {
+          "id": "LW5CUXS_072757",
+          "name": "Wunder Train High-Rise Tight 25\"",
+          "price": "$98",
+          "category": "Bottoms",
+          "material": "Everlux Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5CUXS_072757"
+        },
+        {
+          "id": "LW5DQKS_072756",
+          "name": "Fast and Free High-Rise Thermal Tight 28\" 5 Pocket",
+          "price": "$148",
+          "category": "Bottoms",
+          "material": "Nulux Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQKS_072756"
+        },
+        {
+          "id": "LW5DQLS_072757",
+          "name": "lululemon Align High-Rise Pant with Pockets 25\"",
+          "price": "$128",
+          "category": "Bottoms",
+          "material": "Nulu Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQLS_072757"
+        },
+        {
+          "id": "LW5DQNS_072761",
+          "name": "lululemon Glow Up Super-High-Rise Tight 25\"",
+          "price": "$118",
+          "category": "Bottoms",
+          "material": "Ultralu Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQNS_072761"
+        },
+        {
+          "id": "LW4AWGS_0001",
+          "name": "Define Jacket Nulu",
+          "price": "$128",
+          "category": "Outerwear",
+          "material": "Nulu Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW4AWGS_0001"
+        },
+        {
+          "id": "LW4AWHS_0001",
+          "name": "Define Cropped Jacket Nulu",
+          "price": "$128",
+          "category": "Outerwear",
+          "material": "Nulu Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW4AWHS_0001"
+        },
+        {
+          "id": "LW5DQPS_0001",
+          "name": "Wunder Under SmoothCover High-Rise Tight 28\"",
+          "price": "$108",
+          "category": "Bottoms",
+          "material": "SmoothCover Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQPS_0001"
+        },
+        {
+          "id": "LW5DQQS_0001",
+          "name": "Wunder Under SmoothCover High-Rise Tight 25\"",
+          "price": "$98-$108",
+          "category": "Bottoms",
+          "material": "SmoothCover Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQQS_0001"
+        },
+        {
+          "id": "LW5DQRS_0001",
+          "name": "Groove Nulu Super-High-Rise Flared Pant Regular",
+          "price": "$118",
+          "category": "Bottoms",
+          "material": "Nulu Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQRS_0001"
+        },
+        {
+          "id": "LW5DQSS_072757",
+          "name": "lululemon Align High-Rise Crop 17\"",
+          "price": "$88",
+          "category": "Bottoms",
+          "material": "Nulu Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQSS_072757"
+        },
+        {
+          "id": "LW5DQTS_074857",
+          "name": "Fast and Free High-Rise Crop 19\" 5 Pocket",
+          "price": "$118",
+          "category": "Bottoms",
+          "material": "Nulux Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQTS_074857"
+        },
+        {
+          "id": "LW5DQUS_072761",
+          "name": "Thermal High-Rise Running Tight 25\"",
+          "price": "$108",
+          "category": "Bottoms",
+          "material": "Thermal Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQUS_072761"
+        },
+        {
+          "id": "LW5DQVS_0001",
+          "name": "Cold Weather High-Rise Running Tight 28\"",
+          "price": "$198",
+          "category": "Bottoms",
+          "material": "Cold Weather Fabric",
+          "url": "https://images.lululemon.com/is/image/lululemon/LW5DQVS_0001"
+        }
+      ]
+    }
+  ]
+}
