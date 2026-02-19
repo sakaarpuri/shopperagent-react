@@ -16,7 +16,7 @@ import {
   Zap,
   Bot,
   GalleryVerticalEnd,
-  LoaderCircle
+  Loader2
 } from 'lucide-react';
 import type { Product, UserPreferences } from '@/types';
 
@@ -909,7 +909,7 @@ export default function Home() {
           >
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-full bg-accent/15 flex items-center justify-center">
-                <LoaderCircle className="w-5 h-5 text-accent animate-spin" />
+                <Loader2 className="w-5 h-5 text-accent animate-spin" />
               </div>
               <div>
                 <p className="text-sm uppercase tracking-wider text-muted">AI Matching In Progress</p>
