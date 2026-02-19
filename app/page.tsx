@@ -558,7 +558,7 @@ export default function Home() {
                     transition={{ delay: 0.2 }}
                     className="text-5xl md:text-6xl font-semibold tracking-tight mb-6"
                   >
-                    AI AGENT that shops clothes for you.
+                    AI agent that <span className="text-accent">SHOPS</span> clothes for you.
                   </motion.h1>
 
                   <motion.p
