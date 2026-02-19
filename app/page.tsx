@@ -20,7 +20,7 @@ import {
 } from 'lucide-react';
 import type { Product, UserPreferences } from '@/types';
 
-type Step = 'landing' | 'gender' | 'categories' | 'style' | 'budget' | 'brands' | 'results';
+type Step = 'landing' | 'preferences' | 'occasion' | 'brands' | 'results';
 
 type CategoryId = 'tops' | 'bottoms' | 'outerwear' | 'shoes' | 'accessories' | 'dresses';
 type SizeCategory = 'tops' | 'bottoms' | 'outerwear' | 'shoes' | 'dresses';
@@ -60,6 +60,12 @@ const SCAN_STAGES = [
   'Filtering by fit, category, and budget',
   'Balancing brand, quality, and versatility',
   'Building your cart'
+];
+
+const BUDGET_PRESETS = [
+  { value: 45, label: 'Under $50' },
+  { value: 100, label: 'Around $100' },
+  { value: 200, label: 'Around $200' }
 ];
 
 const INSPIRATION_BOARDS = [
@@ -230,7 +236,7 @@ export default function Home() {
     if (instantGenerate) {
       handleGenerate(boardPrefs);
     } else {
-      setStep('categories');
+      setStep('preferences');
     }
   };
 
@@ -251,17 +257,31 @@ export default function Home() {
     handleGenerate(starter);
   };
 
+  const budgetSignal = useMemo(() => {
+    if (preferences.budget < 50) {
+      return { label: 'Under $50', hint: 'Fewer options, mostly basics and sale-driven picks.' };
+    }
+    if (preferences.budget <= 100) {
+      return { label: '$50-$100', hint: 'Many options across everyday staples and trend items.' };
+    }
+    if (preferences.budget <= 200) {
+      return { label: '$100-$200', hint: 'Many options with stronger quality and brand variety.' };
+    }
+    return { label: '$200+', hint: 'Curated options, including premium and luxury pieces.' };
+  }, [preferences.budget]);
+
   const canProceed = useMemo(() => {
-    if (step === 'gender') return !!preferences.gender;
-    if (step === 'categories') return preferences.categories.length > 0 && missingSizeCategories.length === 0;
-    if (step === 'style') return preferences.styles.length > 0 && !!preferences.occasion;
+    if (step === 'preferences') {
+      return !!preferences.gender && preferences.categories.length > 0 && missingSizeCategories.length === 0 && preferences.styles.length > 0;
+    }
+    if (step === 'occasion') return !!preferences.occasion;
     return true;
   }, [step, preferences, missingSizeCategories]);
 
   const nextStep = () => {
-    const steps: Step[] = ['landing', 'gender', 'categories', 'style', 'budget', 'brands', 'results'];
+    const steps: Step[] = ['landing', 'preferences', 'occasion', 'brands', 'results'];
     const currentIdx = steps.indexOf(step);
-    if (step === 'budget' && skipBrands) {
+    if (step === 'occasion' && skipBrands) {
       handleGenerate();
     } else if (currentIdx < steps.length - 1) {
       setStep(steps[currentIdx + 1]);
@@ -269,7 +289,7 @@ export default function Home() {
   };
 
   const prevStep = () => {
-    const steps: Step[] = ['landing', 'gender', 'categories', 'style', 'budget', 'brands', 'results'];
+    const steps: Step[] = ['landing', 'preferences', 'occasion', 'brands', 'results'];
     const currentIdx = steps.indexOf(step);
     if (currentIdx > 0) {
       setStep(steps[currentIdx - 1]);
@@ -344,7 +364,7 @@ export default function Home() {
                       initial={{ opacity: 0, y: 30 }}
                       animate={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.35 }}
-                      onClick={() => setStep('gender')}
+                      onClick={() => setStep('preferences')}
                       className="luxury-button flex items-center gap-3 text-lg px-10 py-5"
                     >
                       <Zap className="w-5 h-5" />
@@ -427,87 +447,103 @@ export default function Home() {
               </motion.div>
             )}
 
-            {step === 'gender' && (
+            {step === 'preferences' && (
               <motion.div
-                key="gender"
+                key="preferences"
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -20 }}
-                className="space-y-8 max-w-xl mx-auto"
+                className="space-y-8 max-w-4xl mx-auto"
               >
                 <div className="text-center">
-                  <span className="text-sm text-muted uppercase tracking-wider">Step 1 of 5</span>
-                  <h2 className="text-3xl font-semibold mt-2 mb-3">Who are we shopping for?</h2>
+                  <span className="text-sm text-muted uppercase tracking-wider">Step 1 of 3</span>
+                  <h2 className="text-3xl font-semibold mt-2 mb-3">Set your core preferences</h2>
+                  <p className="text-muted">Gender, product categories, style taste, sizes, and budget in one place.</p>
                 </div>
 
-                <div className="grid grid-cols-3 gap-4">
-                  {(['womens', 'mens', 'unisex'] as const).map(g => (
-                    <button
-                      key={g}
-                      onClick={() => setPreferences(prev => ({ ...prev, gender: g }))}
-                      className={cn(
-                        'p-8 rounded-2xl border text-center transition-all',
-                        preferences.gender === g
-                          ? 'border-accent bg-accent/10'
-                          : 'border-surface-hover hover:border-accent/30 bg-surface/30'
-                      )}
-                    >
-                      <span className="text-4xl mb-3 block">
-                        {g === 'womens' && '👩'}
-                        {g === 'mens' && '👨'}
-                        {g === 'unisex' && '👤'}
-                      </span>
-                      <span className="font-medium capitalize">{g}</span>
-                    </button>
-                  ))}
-                </div>
-
-                <div className="flex justify-end">
-                  <button
-                    onClick={nextStep}
-                    disabled={!canProceed}
-                    className={cn('luxury-button flex items-center gap-2', !canProceed && 'opacity-50 cursor-not-allowed')}
-                  >
-                    Continue
-                    <ArrowRight className="w-4 h-4" />
-                  </button>
-                </div>
-              </motion.div>
-            )}
-
-            {step === 'categories' && (
-              <motion.div
-                key="categories"
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                className="space-y-8 max-w-3xl mx-auto"
-              >
-                <div className="text-center">
-                  <span className="text-sm text-muted uppercase tracking-wider">Step 2 of 5</span>
-                  <h2 className="text-3xl font-semibold mt-2 mb-3">What do you need?</h2>
-                  <p className="text-muted">Choose categories, then set size for each selected category.</p>
-                </div>
-
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-                  {CATEGORIES.map(cat => {
-                    const isSelected = preferences.categories.includes(cat.id);
-                    return (
+                <div className="space-y-4">
+                  <p className="text-sm text-muted">Who are we shopping for?</p>
+                  <div className="grid grid-cols-3 gap-4">
+                    {(['womens', 'mens', 'unisex'] as const).map(g => (
                       <button
-                        key={cat.id}
-                        onClick={() => toggleCategory(cat.id)}
+                        key={g}
+                        onClick={() => setPreferences(prev => ({ ...prev, gender: g }))}
                         className={cn(
-                          'p-6 rounded-xl border text-center transition-all',
-                          isSelected
+                          'p-6 rounded-2xl border text-center transition-all',
+                          preferences.gender === g
                             ? 'border-accent bg-accent/10'
                             : 'border-surface-hover hover:border-accent/30 bg-surface/30'
                         )}
                       >
-                        <span className="text-3xl mb-2 block">{cat.icon}</span>
-                        <span className="font-medium">{cat.label}</span>
+                        <span className="text-3xl mb-2 block">
+                          {g === 'womens' && '👩'}
+                          {g === 'mens' && '👨'}
+                          {g === 'unisex' && '👤'}
+                        </span>
+                        <span className="font-medium capitalize">{g}</span>
                       </button>
-                    );
-                  })}
+                    ))}
+                  </div>
+                </div>
+
+                <div className="space-y-4">
+                  <p className="text-sm text-muted">What do you need?</p>
+                  <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    {CATEGORIES.map(cat => {
+                      const isSelected = preferences.categories.includes(cat.id);
+                      return (
+                        <button
+                          key={cat.id}
+                          onClick={() => toggleCategory(cat.id)}
+                          className={cn(
+                            'p-5 rounded-xl border text-center transition-all',
+                            isSelected
+                              ? 'border-accent bg-accent/10'
+                              : 'border-surface-hover hover:border-accent/30 bg-surface/30'
+                          )}
+                        >
+                          <span className="text-3xl mb-2 block">{cat.icon}</span>
+                          <span className="font-medium">{cat.label}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                <div className="space-y-4">
+                  <p className="text-sm text-muted">Style taste</p>
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    {STYLE_OPTIONS.map(style => {
+                      const isSelected = preferences.styles.includes(style.id);
+                      return (
+                        <button
+                          key={style.id}
+                          onClick={() => {
+                            if (isSelected) {
+                              setPreferences(prev => ({
+                                ...prev,
+                                styles: prev.styles.filter(s => s !== style.id)
+                              }));
+                            } else {
+                              setPreferences(prev => ({
+                                ...prev,
+                                styles: [...prev.styles, style.id]
+                              }));
+                            }
+                          }}
+                          className={cn(
+                            'p-4 rounded-xl border text-left transition-all',
+                            isSelected
+                              ? 'border-accent bg-accent/10'
+                              : 'border-surface-hover hover:border-accent/30 bg-surface/30'
+                          )}
+                        >
+                          <span className="text-2xl mb-2 block">{style.icon}</span>
+                          <h4 className="font-medium text-sm">{style.label}</h4>
+                        </button>
+                      );
+                    })}
+                  </div>
                 </div>
 
                 {sizeRequiredCategories.length > 0 && (
@@ -543,6 +579,53 @@ export default function Home() {
                   </div>
                 )}
 
+                <div className="glass-panel p-6 md:p-8">
+                  <div className="flex items-center justify-between gap-4 flex-wrap">
+                    <div>
+                      <p className="text-sm text-muted">Budget target</p>
+                      <p className="text-4xl font-semibold text-accent">{formatPrice(preferences.budget)}</p>
+                    </div>
+                    <div className="text-sm text-right">
+                      <p className="text-muted">{budgetSignal.label}</p>
+                      <p className="text-accent">{budgetSignal.hint}</p>
+                    </div>
+                  </div>
+
+                  <div className="flex gap-2 mt-5 flex-wrap">
+                    {BUDGET_PRESETS.map(preset => (
+                      <button
+                        key={preset.label}
+                        onClick={() => setPreferences(prev => ({ ...prev, budget: preset.value }))}
+                        className={cn(
+                          'px-3 py-2 rounded-full text-xs border transition-colors',
+                          Math.abs(preferences.budget - preset.value) < 20
+                            ? 'border-accent bg-accent/10'
+                            : 'border-surface-hover hover:border-accent/30'
+                        )}
+                      >
+                        {preset.label}
+                      </button>
+                    ))}
+                  </div>
+
+                  <input
+                    type="range"
+                    min="25"
+                    max="400"
+                    step="5"
+                    value={preferences.budget}
+                    onChange={e => setPreferences(prev => ({ ...prev, budget: parseInt(e.target.value, 10) }))}
+                    className="w-full mt-6 h-2 bg-surface rounded-full appearance-none cursor-pointer accent-accent"
+                  />
+
+                  <div className="flex justify-between mt-3 text-xs text-muted">
+                    <span>Under $50</span>
+                    <span>$100</span>
+                    <span>$200</span>
+                    <span>$200+</span>
+                  </div>
+                </div>
+
                 <div className="flex justify-between">
                   <button onClick={prevStep} className="flex items-center gap-2 text-muted hover:text-foreground">
                     <ArrowLeft className="w-4 h-4" />
@@ -560,127 +643,39 @@ export default function Home() {
               </motion.div>
             )}
 
-            {step === 'style' && (
+            {step === 'occasion' && (
               <motion.div
-                key="style"
+                key="occasion"
                 initial={{ opacity: 0, x: 20 }}
                 animate={{ opacity: 1, x: 0 }}
                 exit={{ opacity: 0, x: -20 }}
                 className="space-y-8 max-w-3xl mx-auto"
               >
                 <div className="text-center">
-                  <span className="text-sm text-muted uppercase tracking-wider">Step 3 of 5</span>
-                  <h2 className="text-3xl font-semibold mt-2 mb-3">Refine taste and context</h2>
-                  <p className="text-muted">Choose the occasion plus one or more style directions.</p>
+                  <span className="text-sm text-muted uppercase tracking-wider">Step 2 of 3</span>
+                  <h2 className="text-3xl font-semibold mt-2 mb-3">Pick your mood or occasion</h2>
+                  <p className="text-muted">This sets context, while your taste was captured in preferences.</p>
                 </div>
 
-                <div className="space-y-3">
-                  <p className="text-sm text-muted">Occasion</p>
-                  <div className="grid md:grid-cols-3 gap-3">
-                    {OCCASIONS.map(item => {
-                      const selected = preferences.occasion === item.id;
-                      return (
-                        <button
-                          key={item.id}
-                          onClick={() => setPreferences(prev => ({ ...prev, occasion: item.id }))}
-                          className={cn(
-                            'p-4 rounded-xl border text-left transition-all',
-                            selected
-                              ? 'border-accent bg-accent/10'
-                              : 'border-surface-hover hover:border-accent/30 bg-surface/30'
-                          )}
-                        >
-                          <p className="font-medium">{item.label}</p>
-                          <p className="text-xs text-muted mt-1">{item.hint}</p>
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                  {STYLE_OPTIONS.map(style => {
-                    const isSelected = preferences.styles.includes(style.id);
+                <div className="grid md:grid-cols-3 gap-3">
+                  {OCCASIONS.map(item => {
+                    const selected = preferences.occasion === item.id;
                     return (
                       <button
-                        key={style.id}
-                        onClick={() => {
-                          if (isSelected) {
-                            setPreferences(prev => ({
-                              ...prev,
-                              styles: prev.styles.filter(s => s !== style.id)
-                            }));
-                          } else {
-                            setPreferences(prev => ({
-                              ...prev,
-                              styles: [...prev.styles, style.id]
-                            }));
-                          }
-                        }}
+                        key={item.id}
+                        onClick={() => setPreferences(prev => ({ ...prev, occasion: item.id }))}
                         className={cn(
-                          'p-5 rounded-xl border text-left transition-all',
-                          isSelected
+                          'p-4 rounded-xl border text-left transition-all',
+                          selected
                             ? 'border-accent bg-accent/10'
                             : 'border-surface-hover hover:border-accent/30 bg-surface/30'
                         )}
                       >
-                        <span className="text-2xl mb-2 block">{style.icon}</span>
-                        <h4 className="font-medium text-sm">{style.label}</h4>
-                        <p className="text-xs text-muted mt-1">{style.description}</p>
+                        <p className="font-medium">{item.label}</p>
+                        <p className="text-xs text-muted mt-1">{item.hint}</p>
                       </button>
                     );
                   })}
-                </div>
-
-                <div className="flex justify-between">
-                  <button onClick={prevStep} className="flex items-center gap-2 text-muted hover:text-foreground">
-                    <ArrowLeft className="w-4 h-4" />
-                    Back
-                  </button>
-                  <button
-                    onClick={nextStep}
-                    disabled={!canProceed}
-                    className={cn('luxury-button flex items-center gap-2', !canProceed && 'opacity-50 cursor-not-allowed')}
-                  >
-                    Continue
-                    <ArrowRight className="w-4 h-4" />
-                  </button>
-                </div>
-              </motion.div>
-            )}
-
-            {step === 'budget' && (
-              <motion.div
-                key="budget"
-                initial={{ opacity: 0, x: 20 }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 0, x: -20 }}
-                className="space-y-8 max-w-xl mx-auto"
-              >
-                <div className="text-center">
-                  <span className="text-sm text-muted uppercase tracking-wider">Step 4 of 5</span>
-                  <h2 className="text-3xl font-semibold mt-2 mb-3">What's your budget?</h2>
-                  <p className="text-muted">Average per item budget target</p>
-                </div>
-
-                <div className="glass-panel p-8 text-center">
-                  <span className="text-5xl font-semibold text-accent">{formatPrice(preferences.budget)}</span>
-                  <p className="text-muted mt-2">per item</p>
-
-                  <input
-                    type="range"
-                    min="50"
-                    max="2000"
-                    step="50"
-                    value={preferences.budget}
-                    onChange={e => setPreferences(prev => ({ ...prev, budget: parseInt(e.target.value, 10) }))}
-                    className="w-full mt-8 h-2 bg-surface rounded-full appearance-none cursor-pointer accent-accent"
-                  />
-
-                  <div className="flex justify-between mt-4 text-sm text-muted">
-                    <span>$50</span>
-                    <span>$2000+</span>
-                  </div>
                 </div>
 
                 <label className="flex items-center gap-3 justify-center text-sm text-muted cursor-pointer">
@@ -698,7 +693,11 @@ export default function Home() {
                     <ArrowLeft className="w-4 h-4" />
                     Back
                   </button>
-                  <button onClick={nextStep} className="luxury-button flex items-center gap-2">
+                  <button
+                    onClick={nextStep}
+                    disabled={!canProceed}
+                    className={cn('luxury-button flex items-center gap-2', !canProceed && 'opacity-50 cursor-not-allowed')}
+                  >
                     {skipBrands ? 'Generate Cart' : 'Continue'}
                     <ArrowRight className="w-4 h-4" />
                   </button>
@@ -715,7 +714,7 @@ export default function Home() {
                 className="space-y-8 max-w-4xl mx-auto"
               >
                 <div className="text-center">
-                  <span className="text-sm text-muted uppercase tracking-wider">Step 5 of 5</span>
+                  <span className="text-sm text-muted uppercase tracking-wider">Step 3 of 3</span>
                   <h2 className="text-3xl font-semibold mt-2 mb-3">Preferred brands (optional)</h2>
                   <p className="text-muted">Leave blank for broader discovery, or choose favorites.</p>
                 </div>
@@ -889,7 +888,7 @@ export default function Home() {
                     </div>
                     <h3 className="text-xl font-semibold mb-3">No matches found</h3>
                     <p className="text-muted mb-6">Try adjusting your budget, occasion, or style preferences.</p>
-                    <button onClick={() => setStep('budget')} className="luxury-button">
+                    <button onClick={() => setStep('preferences')} className="luxury-button">
                       Adjust Preferences
                     </button>
                   </div>
