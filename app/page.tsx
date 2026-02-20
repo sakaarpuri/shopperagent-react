@@ -36,6 +36,21 @@ type RerankCandidate = {
 };
 
 const FALLBACK_IMAGE = 'https://images.unsplash.com/photo-1520975943522-8e2f1d3b9d2f?w=400&h=400&fit=crop';
+const STORE_BASE_URLS: Record<string, string> = {
+  everlane: 'https://www.everlane.com',
+  reformation: 'https://www.thereformation.com',
+  kith: 'https://kith.com',
+  gymshark: 'https://www.gymshark.com',
+  fashionnova: 'https://www.fashionnova.com',
+  allbirds: 'https://www.allbirds.com',
+  outdoorvoices: 'https://www.outdoorvoices.com',
+  'outdoor-voices': 'https://www.outdoorvoices.com',
+  chubbies: 'https://www.chubbies.com',
+  tomboyx: 'https://tomboyx.com',
+  'alo-yoga': 'https://www.aloyoga.com',
+  aloyoga: 'https://www.aloyoga.com',
+  lululemon: 'https://shop.lululemon.com'
+};
 
 const CATEGORIES: Array<{ id: CategoryId; label: string; icon: string }> = [
   { id: 'tops', label: 'Tops', icon: '👕' },
@@ -124,6 +139,53 @@ export default function Home() {
   const [memberPreset, setMemberPreset] = useState<UserPreferences | null>(null);
   const [feedbackModel, setFeedbackModel] = useState<FeedbackModel>({});
   const [storeProgress, setStoreProgress] = useState<Record<string, boolean>>({});
+
+  const resolveRetailerUrl = (product: Product): string | null => {
+    const raw = (product.productUrl || '').trim();
+    if (!raw) return null;
+    if (/^https?:\/\//i.test(raw)) return raw;
+    if (raw.startsWith('//')) return `https:${raw}`;
+    if (!raw.startsWith('/')) return null;
+    const base = STORE_BASE_URLS[product.store.id];
+    if (!base) return null;
+    return `${base}${raw}`;
+  };
+
+  const extractShopifyVariantId = (url: string): string | null => {
+    try {
+      const parsed = new URL(url);
+      const variantParam = parsed.searchParams.get('variant');
+      if (variantParam && /^\d+$/.test(variantParam)) return variantParam;
+      return null;
+    } catch {
+      return null;
+    }
+  };
+
+  const buildShopifyPrefillUrl = (group: { store: Product['store']; items: Product[]; subtotal: number }): string | null => {
+    const base = STORE_BASE_URLS[group.store.id];
+    if (!base) return null;
+
+    const variants: string[] = [];
+    group.items.forEach(item => {
+      const resolved = resolveRetailerUrl(item);
+      if (!resolved) return;
+      const variantId = extractShopifyVariantId(resolved);
+      if (variantId) {
+        variants.push(`${variantId}:1`);
+      }
+    });
+
+    if (variants.length === 0) return null;
+    return `${base}/cart/${variants.join(',')}`;
+  };
+
+  const openRetailerUrl = (url: string) => {
+    const opened = window.open(url, '_blank', 'noopener,noreferrer');
+    if (!opened) {
+      window.location.assign(url);
+    }
+  };
   const [scanStepIndex, setScanStepIndex] = useState(0);
 
   const [preferences, setPreferences] = useState<UserPreferences>({
@@ -467,18 +529,67 @@ export default function Home() {
   }, [results]);
 
   const openStoreHandoff = (group: { store: Product['store']; items: Product[]; subtotal: number }) => {
-    group.items.forEach((item, index) => {
-      window.setTimeout(() => {
-        window.open(item.productUrl, '_blank', 'noopener,noreferrer');
-      }, index * 180);
-      trackInteraction(item, 'handoff-open');
-    });
-    setStoreProgress(prev => ({ ...prev, [group.store.id]: true }));
+    const targetUrl =
+      (group.store.capability === 'prefill' ? buildShopifyPrefillUrl(group) : null) ||
+      group.items.map(resolveRetailerUrl).find((url): url is string => Boolean(url)) ||
+      null;
+
+    if (targetUrl) {
+      openRetailerUrl(targetUrl);
+      setStoreProgress(prev => ({ ...prev, [group.store.id]: true }));
+    }
+
+    group.items.forEach(item => trackInteraction(item, 'handoff-open'));
   };
 
   const openAllStoreHandoffs = () => {
-    checkoutGroups.forEach((group, idx) => {
-      window.setTimeout(() => openStoreHandoff(group), idx * 600);
+    const targets = checkoutGroups
+      .map(group => {
+        const targetUrl =
+          (group.store.capability === 'prefill' ? buildShopifyPrefillUrl(group) : null) ||
+          group.items.map(resolveRetailerUrl).find((url): url is string => Boolean(url)) ||
+          null;
+        if (!targetUrl) return null;
+        return {
+          storeId: group.store.id,
+          storeName: group.store.name,
+          itemCount: group.items.length,
+          url: targetUrl
+        };
+      })
+      .filter((entry): entry is { storeId: string; storeName: string; itemCount: number; url: string } => Boolean(entry));
+
+    if (targets.length === 0) return;
+
+    if (targets.length === 1) {
+      openRetailerUrl(targets[0].url);
+    } else {
+      const handoffWindow = window.open('', '_blank');
+      if (handoffWindow) {
+        const rows = targets
+          .map(
+            target =>
+              `<li><a href="${target.url}" target="_blank" rel="noopener noreferrer">${target.storeName} (${target.itemCount} item${
+                target.itemCount > 1 ? 's' : ''
+              })</a></li>`
+          )
+          .join('');
+        handoffWindow.document.write(
+          `<!doctype html><html><head><title>Retailer Checkout Handoff</title></head><body><h1>Retailer Checkout Handoff</h1><p>Open each store link to complete checkout.</p><ul>${rows}</ul></body></html>`
+        );
+        handoffWindow.opener = null;
+        handoffWindow.document.close();
+      }
+    }
+
+    setStoreProgress(prev => {
+      const next = { ...prev };
+      checkoutGroups.forEach(group => {
+        if (targets.some(target => target.storeId === group.store.id)) {
+          next[group.store.id] = true;
+        }
+      });
+      return next;
     });
   };
 
@@ -1079,10 +1190,16 @@ export default function Home() {
 
                               <div className="mt-4 flex items-center gap-3">
                                 <a
-                                  href={product.productUrl}
+                                  href={resolveRetailerUrl(product) || '#'}
                                   target="_blank"
                                   rel="noopener noreferrer"
-                                  onClick={() => trackInteraction(product, 'view')}
+                                  onClick={e => {
+                                    if (!resolveRetailerUrl(product)) {
+                                      e.preventDefault();
+                                      return;
+                                    }
+                                    trackInteraction(product, 'view');
+                                  }}
                                   className="flex items-center gap-1 text-sm text-accent hover:underline"
                                 >
                                   View Item
